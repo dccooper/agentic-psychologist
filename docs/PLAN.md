@@ -139,6 +139,22 @@ A dedicated section on the Pages site (`site/educators`) and in the README:
 - **Before assigning:** check cost (Free-tier budget, institutional licenses or campus promotions), your institution's AI and data policies, and that students understand the no-real-data rule.
 - **Facilitation tips:** pair nervous learners, budget time for setup, and know the common sticking points (from slice testing notes).
 
+## 8.5 Site page: real concerns about AI
+
+A page on the GitHub Pages site (and referenced from the README) that **takes concerns seriously and offers gentle, evidence-based pushback**. It's honest, not dismissive, and not evangelical.
+
+**Two framings from David (keep these):**
+1. **Environmental impact.** Data-center energy and water use is a real concern. But putting it in proportion helps: working through this course likely uses less water than binge-watching a season of a favorite show. **⚠️ This comparison must be sourced with current, citable figures before publishing (Assumption 11).** If the numbers don't support it, change the claim. Don't stretch it.
+2. **Opting out is legitimate, but staying ignorant isn't safe.** Choosing not to use AI is a real and valid choice. But we can't afford to be ignorant of how these tools work, or we risk having them imposed on us (by employers, insurers, EHR vendors) without the knowledge to push back, set limits, or advocate for clients. **Understanding is what makes the choice yours.**
+
+**Other concerns to consider covering** (suggested, not yet decided):
+- Accuracy and hallucination (ties to the "review before you accept" habit from 1.1)
+- Privacy and confidentiality (ties to Lesson 0.2)
+- Bias in models and outputs
+- Deskilling: does relying on AI erode clinical judgment or research skills?
+- Jobs and the profession's future
+- Cost and access
+
 ## 9. Build approach: vertical slices
 
 Both paths ship in v1. There's no deadline: release when it's done. Build in vertical slices so the whole system works early.
@@ -182,3 +198,4 @@ Later slices fill in content within the proven structure.
 | 8 | **Cursor's BAA status is unknown** and irrelevant while everything is synthetic | The go-live checklist tells learners to check BAA and institutional approval | The course implies real clinical use is fine | Capstone authoring |
 | 9 | **Orca's site claims (e.g., star count) are unverified** | Only cited if verified | Repeated without checking | If Graduation references Orca |
 | 10 | **Cost alternatives (BYO key on Free, etc.) are unverified** | One of them lowers the bar further | None work, and Plus is the floor | Slice 1 |
+| 11 | **"The course uses less water than binge-watching a season" is unsourced** | Current per-query AI water/energy estimates and streaming estimates, from citable sources, support it | The figures don't support it, or estimates vary too widely to say | Before the concerns page is published |
