@@ -93,22 +93,24 @@ Design rules:
 - Learners get the course with **"Download ZIP"** (no git required up front). An optional one-line bootstrap prompt ("Fetch [url] and help me start…") is offered as a convenience.
 
 ### 7.2 Teaching method
-- **Tutor rule** (in Cursor's project rules): the agent acts as a patient guide for psychologists. It moves one step at a time, explains why, **never does the learner's work for them**, and enforces the data guardrail.
-- **Lessons as slash commands** (`/start-1-2`, `/next`, `/stuck`, …), each pointing to a lesson script in `lessons/` that says what to teach, what the learner must do, and how to check it was done.
-- **Progress in files** (`progress.md` in the learner's project folder), updated by the agent, so learners can stop and resume.
+*Verified against Cursor docs 2026-10-21:* project rules are `.cursor/rules/*.mdc` (frontmatter: `description`, `globs`, `alwaysApply`; keep each under 500 lines). Custom commands have been folded into **skills**: `.cursor/skills/<name>/SKILL.md`, invoked as `/<name>`. `AGENTS.md` is also supported.
+
+- **Tutor rule** (`.cursor/rules/tutor.mdc`, `alwaysApply: true`): the agent acts as a patient guide for psychologists. It moves one step at a time, explains why, **never does the learner's work for them**, and enforces the data guardrail.
+- **A few navigation skills, not one skill per lesson:** `/start-course`, `/next-step`, `/im-stuck`, `/my-progress`. Each reads `workspace/progress.md` to find the current lesson, then reads that lesson's script in `lessons/`. Lesson scripts say what to teach, what the learner must do, and how to check it was done. Fewer skills means a cleaner `/` menu for beginners, and lessons stay plain markdown that's easy to edit.
+- **Progress in files** (`workspace/progress.md`), updated by the agent, so learners can stop and resume.
 
 ### 7.3 Open the hood (decision B)
-The course **works out of the box**. Learners don't build the machinery first. In Module 2 a lesson reveals: *"Everything that's been teaching you is made of the same things you're about to build."* The learner opens the tutor rule, reads a lesson command, edits the tutor's tone and watches the change take effect, notices that `progress.md` has been the agent's memory all along, then builds their own first skill from that model.
+The course **works out of the box**. Learners don't build the machinery first. In Module 2 a lesson reveals: *"Everything that's been teaching you is made of the same things you're about to build."* The learner opens the tutor rule, opens the `/next-step` skill that's been driving every lesson, edits the tutor's tone and watches the change take effect, notices that `progress.md` has been the agent's memory all along, then builds their own first skill from that model.
 
-### 7.4 Proposed repo layout (verify against Assumption 1)
+### 7.4 Repo layout
 ```
 /
 ├── README.md                 # what this is, quick start, links to Pages site
 ├── LICENSE-CONTENT           # CC BY-SA 4.0
 ├── LICENSE-CODE              # MIT
 ├── .cursor/
-│   ├── rules/                # tutor rule, data guardrail
-│   └── commands/             # lesson slash commands
+│   ├── rules/                # tutor.mdc (tutor + data guardrail)
+│   └── skills/               # start-course, next-step, im-stuck, my-progress
 ├── lessons/
 │   ├── 0-getting-started/
 │   ├── 1-foundations/
@@ -170,7 +172,7 @@ Later slices fill in content within the proven structure.
 
 | # | Assumption | Holds if… | Breaks if… | Resolve when |
 |---|---|---|---|---|
-| 1 | **Cursor's teaching tools work as planned.** Current names and layout for rules, slash commands and skills are unverified. | Slice 1 shows the tutor rule and lesson commands work as designed | Rules and commands can't carry multi-step lesson scripts | Slice 1 |
+| 1 | **Cursor's teaching tools work as planned.** File layout *verified* 2026-10-21 (rules `.mdc`, commands → skills). Still unverified: whether a skill reliably reads `progress.md` plus a lesson file and runs a multi-turn lesson. | Slice 1 shows the navigation skills drive lessons correctly | Skills can't carry multi-step lesson flows | Slice 1 |
 | 2 | **The agent follows lesson scripts** | The tutor stays on script and doesn't finish exercises for the learner | It skips checkpoints, or a default-model change shifts behavior | Every slice |
 | 3 | **The Free tier (or $8 Plus) is enough.** Free limits are unpublished. | Modules 0–2 fit in Free with margin | Learners hit the limit before their first skill | Slice 1 budget test |
 | 4 | **The data guardrail is a nudge.** The lesson is the real protection. | Learners take in "what never goes in" | Someone relies on the guardrail and pastes real data | Ongoing; watch in testing |
