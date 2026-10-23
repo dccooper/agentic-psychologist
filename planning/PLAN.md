@@ -136,6 +136,8 @@ The course **works out of the box**. Learners don't build the machinery first. I
 
 ## 8. For educators and professors
 
+**Timing (decided):** a **lean guide ships in v1** (where it fits, module-to-session map, how to fork and adapt, checks before assigning, a "tell us you're using it" link). **A fuller guide is a fast follow in v2** (assessment rubrics, facilitation tips from testing notes, early-adopter stories).
+
 A dedicated section in the site's guide (`docs/educators`) and in the README:
 
 - **Where it fits:** practicum or clinical seminar (clinic path), research methods or stats lab (lab path), professional-development series, or first-year orientation (Modules 0–2 only).
