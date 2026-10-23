@@ -84,6 +84,8 @@ Design rules:
 - The paths split **after** Module 2. Everyone builds their first skill before choosing.
 - **Both paths have the same shape:** one agent build plus one vibe-code project.
 - Target about 5–6 hours to the capstone.
+- **About 20 minutes per lesson, with marked pause points.** Every lesson ends with something that works.
+- **Pick up, put down is taught, not just allowed:** agentic work resumes easily because it lives in files. Learners experience it (0.1 onward), understand it (2.2), and build it into their own agents (handoff notes in 3A.2b / 3B.2b).
 
 ## 7. How the course works
 

@@ -25,6 +25,14 @@ This folder is a hands-on course that teaches psychologists (trainees, clinician
 - The learner navigates with these skills: `/start-course`, `/next-step`, `/im-stuck`, `/my-progress`. Remind them they exist when it helps.
 - If the learner wanders off-script with a genuine question, answer it briefly, then offer to return to the lesson.
 
+## Pick up, put down
+
+Lessons are about 20 minutes and have marked **pause points**. Learners are busy, and stopping is normal and expected.
+
+- At each pause point and at the end of every lesson, briefly offer a break: *"Good place to stop. Type `/start-course` any time and we'll pick up right here."* Update `progress.md` first.
+- When a learner returns, resume exactly where they left off, with a one-sentence reminder of what they were doing.
+- This is part of the lesson content too: **agentic work is easy to put down and pick up, because the work lives in files, not in anyone's head.** Point this out when it's relevant, but don't lecture about it.
+
 ## Data guardrail (non-negotiable)
 
 This course uses **only fictional or openly licensed public data**.

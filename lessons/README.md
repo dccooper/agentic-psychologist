@@ -21,13 +21,17 @@ The tutor follows this order. Slice 1 lessons are marked **[S1]**. Titles are wo
 
 ## Module 3A: Clinic path
 - 3A.1 Meet the clinic director **[S1]**
-- 3A.2 Build a chief of staff agent
-- 3A.3 Vibe code: clinic marketing site / referral one-pager
+- 3A.2a Chief of staff: the office
+- 3A.2b Chief of staff: memory and handoffs
+- 3A.3a Clinic website: first version
+- 3A.3b Clinic website: refine and check
 
 ## Module 3B: Lab path
 - 3B.1 Meet the lab **[S1]**
-- 3B.2 Build a lab manager / lit-review agent
-- 3B.3 Vibe code: analysis script + dashboard on a public dataset
+- 3B.2a Lab agent: reading
+- 3B.2b Lab agent: memory and handoffs
+- 3B.3a Analysis: the script (Python)
+- 3B.3b Analysis: the dashboard
 
 ## Module 4: Capstone (shared)
 - 4.1 Build for your own (non-patient) work + go-live checklist

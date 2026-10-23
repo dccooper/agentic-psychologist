@@ -25,6 +25,10 @@ Files from `world/` or `data/` this lesson uses. Anything the tutor should check
    - ✅ **Checkpoint:** how the tutor confirms it's done (a file exists, the learner reports X).
 2. ...
 
+## Pause points
+
+Where the learner can safely stop mid-lesson (e.g., "after step 3"). At each one, the tutor briefly offers a break and updates `progress.md` so `/start-course` resumes exactly here. Every lesson ends at a natural stopping point.
+
 ## Done when
 
 The final checkpoint(s) that complete the lesson.
