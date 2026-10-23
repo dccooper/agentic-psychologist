@@ -78,7 +78,7 @@ Content to create: `world/` docs covering the department, clinic and lab overvie
 | **3A. Clinic path** | Split | **Agent:** chief of staff for the clinic director (planning, project tracking, weekly review, personal-life planning too). **Vibe code:** a clinic marketing site or referral one-pager generator. | 2–3 h |
 | **3B. Lab path** | Split | **Agent:** lab manager or literature-review assistant. **Vibe code:** an analysis script and small dashboard on a public dataset, in **Python** (R on request; rationale: most technical data-science roles use Python). | 2–3 h |
 | **4. Capstone** | Shared | Build one thing for your own real, non-patient work, plus the go-live checklist. | Open-ended |
-| **Graduation** | Optional | **GitHub for version control** (Cursor's built-in git or GitHub Desktop, not command-line git): a first taste of agentic-dev practice. Optional: Vercel publishing (only things built to be public; no API keys in code), terminal agents (Pi / Claude Code), Orca. | Later |
+| **Graduation** | Optional | **GitHub for version control** (Cursor's built-in git or GitHub Desktop, not command-line git): a first taste of agentic-dev practice. Optional: publishing with GitHub Pages (only things built to be public; no API keys in code; Vercel mentioned as the next step), terminal agents (Pi / Claude Code), Orca. | Later |
 
 Design rules:
 - The paths split **after** Module 2. Everyone builds their first skill before choosing.
@@ -153,13 +153,11 @@ A page on the GitHub Pages site (and referenced from the README) that **takes co
 1. **Environmental impact.** Data-center energy and water use is a real concern. But putting it in proportion helps: working through this course likely uses less water than binge-watching a season of a favorite show. **⚠️ This comparison must be sourced with current, citable figures before publishing (Assumption 11).** If the numbers don't support it, change the claim. Don't stretch it.
 2. **Opting out is legitimate, but staying ignorant isn't safe.** Choosing not to use AI is a real and valid choice. But we can't afford to be ignorant of how these tools work, or we risk having them imposed on us (by employers, insurers, EHR vendors) without the knowledge to push back, set limits, or advocate for clients. **Understanding is what makes the choice yours.**
 
-**Other concerns to consider covering** (suggested, not yet decided):
-- Accuracy and hallucination (ties to the "review before you accept" habit from 1.1)
-- Privacy and confidentiality (ties to Lesson 0.2)
-- Bias in models and outputs
-- Deskilling: does relying on AI erode clinical judgment or research skills?
-- Jobs and the profession's future
-- Cost and access
+**Structure (decided):** the page leads with the **top four concerns**, with a **detailed FAQ nested underneath** for the rest. Each concern uses the same four parts: **the concern** (fairly stated, strongest form) → **what's true** → **gentle pushback** → **what this course does about it**.
+
+- **Top four (proposed):** environment, opting out vs. ignorance, privacy (→ Lesson 0.2), accuracy / hallucination (→ 1.1 review-before-accept, 3B.2a citation trap).
+- **FAQ:** bias (→ 3A.3b audience check, 3B.3a WEIRD-sample check), loss of skill (→ the tutor never does your work), jobs and the profession, cost and access (→ free-tier design, open license).
+- **"Open questions" FAQ section:** *What we still don't know about AI, and where to read more.* Honest about unknowns, with pointers for further reading.
 
 ## 9. Build approach: vertical slices
 

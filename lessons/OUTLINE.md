@@ -81,7 +81,7 @@ Drafted: 0.1, 0.2, 1.1 (full scripts).
 - **New artifact:** `world/artifacts/daybreak-old-website.md`
 
 ### 3A.3b Vibe code a clinic website: refine and check (~20 min)
-- **Steps:** loop describe → build → look → refine (screenshots help). Ask the AI to explain the code. **Psychology hook:** a content check against the advertising sections of the APA Ethics Code (e.g., no client testimonials, no claims the clinic can't support), plus a basic accessibility check.
+- **Steps:** loop describe → build → look → refine (screenshots help). Ask the AI to explain the code. **Psychology hook:** a content check against the advertising sections of the APA Ethics Code (e.g., no client testimonials, no claims the clinic can't support), plus a basic accessibility check. **Bias check:** who does this copy assume the clinic serves, and who might read it and feel it isn't for them?
 - **Stretch:** a referral one-pager generator.
 - **Key moment:** you built and checked a working website by describing it. (Publishing it comes in Graduation.)
 
@@ -106,6 +106,7 @@ Drafted: 0.1, 0.2, 1.1 (full scripts).
 
 ### 3B.3a Vibe code an analysis: the script (~20 min)
 - **Steps:** Dr. Bello sets a **question in advance** (in the spirit of preregistration). Install Python with the agent's help (building on 2.4). The AI writes an analysis script on the public dataset, runs it, and explains each step.
+- **Bias check (before analysis):** *who is this data about, and who's missing?* The AI summarizes the sample's demographics. Compare that with who the findings get applied to (psychology's WEIRD-samples problem). Afterward, ask the AI to summarize the results and check whether it **overgeneralizes** beyond the sample.
 - **Psychology hook:** the AI will happily run 20 tests until one is significant. Stick to the stated question, and record what was tried.
 - **Ends with:** a script that runs and answers the question.
 
@@ -157,7 +158,7 @@ Drafted: 0.1, 0.2, 1.1 (full scripts).
 ## Graduation (optional)
 
 - **G.1 Version control with GitHub:** why it helps (unlimited undo, a history of your work, sharing). Use GitHub Desktop or Cursor's source-control panel to commit the capstone to a **private** repo.
-- **G.2 Publishing with Vercel (optional):** publish the clinic website. Only publish things that were built to be public; never put keys in code.
+- **G.2 Publishing with GitHub Pages (optional):** publish the clinic website. No new account, since they already have GitHub from G.1: "you pushed it, now flip one setting and it's live." Only publish things built to be public; never put keys in code. Mention Vercel as the next step for real apps (logins, backends).
 - **G.3 Beyond:** terminal agents (Pi / Claude Code); Orca for running several agents in parallel.
 
 ---

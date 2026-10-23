@@ -18,4 +18,10 @@ On the Lab path you'll:
 
 ### Data
 
-> 🚧 **Dataset TBD.** Needs a CC0 / CC-BY psychology dataset, ideally related to future thinking, mood, or decision-making, that's realistic and a bit messy. See PLAN.md Assumption 5. No data that requires a data use agreement.
+> 🚧 **Dataset TBD.** Requirements:
+> - CC0 / CC-BY license. No data use agreement.
+> - Related to future thinking, mood, or decision-making if possible.
+> - Realistic and a bit messy.
+> - **Includes demographic variables**, needed for the "who's in this sample?" bias check in 3B.3a.
+>
+> See PLAN.md Assumption 5.

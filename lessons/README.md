@@ -40,5 +40,5 @@ The tutor follows this order. Slice 1 lessons are marked **[S1]**. Titles are wo
 
 ## Graduation (optional)
 - G.1 Version control with GitHub
-- G.2 Publishing with Vercel (optional)
+- G.2 Publishing with GitHub Pages (optional)
 - G.3 Terminal agents (Pi / Claude Code) and Orca
