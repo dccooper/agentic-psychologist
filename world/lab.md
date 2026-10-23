@@ -18,7 +18,7 @@ On the Lab path you'll:
 
 ### Data
 
-> 🚧 **Dataset TBD.** Requirements:
+> ✅ **Recommended dataset:** "Development of a Clinical EFT Control" (OSF bfxnv, CC BY 4.0), paired with its PLOS ONE paper (10.1371/journal.pone.0237435). See `planning/research-notes.md`. Original requirements:
 > - CC0 / CC-BY license. No data use agreement.
 > - Related to future thinking, mood, or decision-making if possible.
 > - Realistic and a bit messy.

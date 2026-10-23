@@ -40,4 +40,27 @@ Findings for open research items. Searched 2026-10-23.
 
 **Not yet checked:** data availability and licenses for the other PLOS candidates; OSF cybfu (Morales Valiente et al., 2024); the OSF directory of open psychology datasets.
 
-**Unresolved:** a dataset with an explicit CC0/CC-BY license **and** demographic variables.
+### Other candidates checked (2026-10-23)
+
+| Paper | Data location | License | Notes |
+|---|---|---|---|
+| **pone.0237435** (2020) *Translating EFT manipulations for clinical use* | **OSF [bfxnv](https://doi.org/10.17605/OSF.IO/BFXNV)** | **CC BY 4.0 ✅** | **← Recommended.** See below. |
+| pone.0217224 (2019) | figshare 7072568 | CC BY 4.0 | Raw `.mt` mouse-tracking files; too complex for beginners |
+| pone.0188079 (2017) | PLOS supporting information (S1–S3 .txt) | CC BY (PLOS SI) | Backup option; not inspected |
+| pone.0214397 (2019) | OSF 6nsqb | None set | `.xls` |
+| pone.0289676 (2023) | OSF j3bxs | None set | Small `.sav` |
+| pone.0289478 (2023) | GitHub repo | None set | R project |
+| pone.0270661 (2022) | OSF sdnh7 | None set | Small `.sav` (OSF fallback) |
+
+### ✅ Recommended: OSF bfxnv + PLOS ONE 0237435
+
+*"Development of a Clinical EFT Control: Data Set."* CC BY 4.0. Files: `EFT_Controls.csv` (254 rows × 39 cols), a data dictionary (.docx), and the authors' R Markdown analysis scripts.
+
+**Why it fits the lab path almost perfectly:**
+- **Fits the Foresight Lab:** episodic future thinking and delay discounting.
+- **Three groups:** EFT (77), ERT (90), HIT (87). A clear pre-stated question for Dr. Bello: *does EFT reduce delay discounting (`AUC`) compared with the control conditions?*
+- **Demographics for the bias check:** Age (22–81, mean 36), Sex, Race/ethnicity, Hispanic/Latinx, Income, subjective SES, Education. A quick look shows the race/ethnicity code `6` = 191 of 254 (likely White, to confirm in the data dictionary) and 17/254 Hispanic/Latinx, so the WEIRD-sample check has something real to find.
+- **Realistic mess:** numerically coded race and education (you need the data dictionary), manual exclusions (`Fail.Writing` 52, `Outside.US` 4), attention-check failures (38). A natural teaching moment about **exclusion decisions as forking paths**.
+- **Reproducibility hook:** the authors' own R scripts are included. Python learners can check whether their result matches the published one, and R learners can run the original.
+
+**To do:** read the data dictionary (codes for race, education, groups); confirm the paper's main result; add the data to `data/` with an attribution file (CC BY requires credit).
