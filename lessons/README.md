@@ -34,7 +34,9 @@ The tutor follows this order. Slice 1 lessons are marked **[S1]**. Titles are wo
 - 3B.3b Analysis: the dashboard
 
 ## Module 4: Capstone (shared)
-- 4.1 Build for your own (non-patient) work + go-live checklist
+- 4.1 Make it yours (adapt your path agent + go-live checklist)
+- 4.2 The idea gallery
+- 4.3 Build it
 
 ## Graduation (optional)
 - G.1 Version control with GitHub

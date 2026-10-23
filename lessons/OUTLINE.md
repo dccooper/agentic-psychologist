@@ -72,6 +72,7 @@ Drafted: 0.1, 0.2, 1.1 (full scripts).
 ### 3A.2b Build a chief of staff: memory and handoffs (~20 min)
 - **Steps:** add `/meeting-prep` (a referral-partner lunch) and `/whats-slipping`. Add a **`/wrap-up` skill that writes a handoff note** (what happened, what's next) to the memory files at the end of a session. Close the chat, open a fresh one, and watch the chief of staff pick up where it left off.
 - **Key moment:** an agent isn't magic. It's instructions + tools + memory. **The handoff note is pick up, put down, built into your own agent.**
+- **Teaser:** "In the capstone, you'll make this yours."
 - **New artifact:** referral-partner list
 
 ### 3A.3a Vibe code a clinic website: first version (~20 min)
@@ -101,6 +102,7 @@ Drafted: 0.1, 0.2, 1.1 (full scripts).
 ### 3B.2b Build a lab agent: memory and handoffs (~20 min)
 - **Steps:** add `/weekly-lab-update` and a **`/wrap-up` handoff-note skill**. Close the chat, open a fresh one, and watch it resume.
 - **Key moment:** the AI speeds up reading but doesn't replace checking. **The handoff note is pick up, put down, built into your own agent.**
+- **Teaser:** "In the capstone, you'll make this yours."
 
 ### 3B.3a Vibe code an analysis: the script (~20 min)
 - **Steps:** Dr. Bello sets a **question in advance** (in the spirit of preregistration). Install Python with the agent's help (building on 2.4). The AI writes an analysis script on the public dataset, runs it, and explains each step.
@@ -116,9 +118,39 @@ Drafted: 0.1, 0.2, 1.1 (full scripts).
 
 ## Module 4: Capstone
 
-### 4.1 Build for your own work (open-ended)
-- **Steps:** pick one real problem that doesn't involve patients. Scope it in Plan mode. Build a skill, agent or tool. Run the **go-live checklist**. Show it to a peer.
-- **Go-live checklist:** what data it touches; institutional AI policy; BAA / IRB if it ever touches protected data; review-before-accept habits; who else uses it.
+**Purpose:** take the skills and make them your own. The course has given them the skill. The capstone's job is to **spark their imagination** and then get out of the way.
+
+### 4.1 Make it yours (~20 min)
+- **Steps:** copy their path agent (chief of staff or lab agent) out of the University of Tomorrow and adapt it to their own life, school or research. Change the role instructions, reset the memory files, and run it once for real.
+- **Go-live checklist (first use here):** what data does this touch, and where does it go? Institutional AI policy; BAA / IRB if it ever touches protected data; review-before-accept habits.
+- **Key moment:** University of Tomorrow was practice. This is yours.
+
+### 4.2 The idea gallery (~20 min)
+- **Steps:** browse a gallery of project ideas (below; also published on the site's showcase page). Pick one or invent their own. Scope it in Plan mode into a first 20-minute version.
+- **Key moment:** "I could actually build that."
+
+### 4.3 Build it (open-ended)
+- Build in 20-minute chunks with `/wrap-up` handoff notes. Show it to a peer when it works.
+
+### Idea gallery (draft; no patient data in any of these)
+
+| For | Idea | Builds on |
+|---|---|---|
+| Clinicians | **Psychoeducation handout generator** (topic + reading level → handout) | Skills, templates |
+| Clinicians | **CE credit and license-renewal tracker** | Agent + memory |
+| Clinicians | **Practice website or referral one-pager** | 3A.3 |
+| Clinicians | **Workshop / talk prep agent** | Agent + skills |
+| Clinicians | **Supervision prep agent** (agenda, readings, *no case details*) | Agent + memory |
+| Researchers | **Weekly literature digest** from papers you drop in a folder | 3B.2 |
+| Researchers | **Grant timeline and task agent** | Agent + memory |
+| Researchers | **Codebook / data dictionary builder** for public or approved data | 3B.3 |
+| Researchers | **Lab onboarding guide** for new RAs | Templates, skills |
+| Trainees | **Comps / EPPP study buddy** that quizzes you from your notes | Skills |
+| Trainees | **Internship application tracker** + essay feedback | Agent + memory |
+| Trainees | **Dissertation planner** with handoff notes | Pick up, put down |
+| Anyone | **Personal chief of staff** (from 4.1) | 3A.2 |
+
+⚠️ Watch: some ideas sit near the line (e.g., practicum hour logs often include client initials). The tutor flags these during scoping.
 
 ---
 
@@ -135,4 +167,4 @@ Drafted: 0.1, 0.2, 1.1 (full scripts).
 1. ~~**Lab path language (3B.3)**~~ → **Decided:** Python, R on request.
 2. ~~**Split long lessons?**~~ → **Decided:** ~20 min lessons with pause points; path lessons split into a/b; pick up, put down taught as a concept.
 3. **Lit-review sources (3B.2):** needs a small set of openly licensed papers (e.g., PLOS, CC-BY). Pick them alongside the dataset (Assumption 5).
-4. **Personal adaptation in 3A.2 / 3B.2:** at the end of the lesson, or saved for the capstone?
+4. ~~**Personal adaptation**~~ → **Decided:** capstone. 4.1 Make it yours, 4.2 Idea gallery, 4.3 Build it.
