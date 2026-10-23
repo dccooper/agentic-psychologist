@@ -95,7 +95,7 @@ Drafted: 0.1, 0.2, 1.1 (full scripts).
 - **Key moment:** scope before you build. Ask "what question does this answer?" first.
 
 ### 3B.2a Build a lab agent: reading (~20 min)
-- **Steps:** create the agent's folder: role instructions plus memory (`projects.md`, `reading-list.md`). Build `/paper-summary` and `/lit-matrix`, and run them on a small set of **openly licensed papers**.
+- **Steps:** create the agent's folder: role instructions plus memory (`projects.md`, `reading-list.md`). Build `/paper-summary` and `/lit-matrix`, and run them on a small set of **openly licensed papers** (PLOS ONE future-thinking papers; **not** 0237435, which is held back for the blind comparison in 3B.3b).
 - **Psychology hook (critical):** **hallucinated citations.** The agent may only cite sources it was given. Include a planted trap where it's asked for "a few more references." The learner checks every citation.
 - **Ends with:** a literature matrix they've checked.
 
@@ -110,9 +110,14 @@ Drafted: 0.1, 0.2, 1.1 (full scripts).
 - **Psychology hook:** the AI will happily run 20 tests until one is significant. Stick to the stated question, and record what was tried.
 - **Ends with:** a script that runs and answers the question.
 
-### 3B.3b Vibe code an analysis: the dashboard (~20 min)
-- **Steps:** turn the results into a small dashboard. Write a short README so someone else could rerun it.
-- **Key moment:** fast analysis is only worth something if you can explain and reproduce it.
+### 3B.3b Vibe code an analysis: the reveal (~20 min)
+- **Steps:** turn the results into a small dashboard. Then **the reveal:** download the authors' published paper and their own R analysis from OSF, and **compare the human-produced, peer-reviewed analysis with the agent's.** Same answer? Same exclusions? Where did they differ, and who was right? Write a short README so someone else could rerun it.
+- **Key moment:** fast analysis is only worth something if you can explain and reproduce it, **and now you've checked an agent's work against peer-reviewed human work.**
+
+**Firewall for the blind analysis (3B.3a):**
+- **The repo ships only the CSV and the data dictionary.** The authors' scripts and paper are **not** in the repo. Learners download them in 3B.3b. This is airtight: `.cursorignore` blocks the agent's file tools but not the terminal (per Cursor docs), so leaving the files out is the only reliable wall.
+- The tutor rule for 3B.3a: don't search the web for or cite the original paper's results until the reveal.
+- Small residual risk: the model may have seen the paper in training. The comparison still holds, because the learner's own code is visible and checkable.
 - **Language: Python**, with R on request. Rationale for learners: most technical data-science roles use Python. Installing it with the agent's help builds on 2.4.
 
 ---

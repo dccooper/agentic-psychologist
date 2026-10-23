@@ -63,4 +63,4 @@ Findings for open research items. Searched 2026-10-23.
 - **Realistic mess:** numerically coded race and education (you need the data dictionary), manual exclusions (`Fail.Writing` 52, `Outside.US` 4), attention-check failures (38). A natural teaching moment about **exclusion decisions as forking paths**.
 - **Reproducibility hook:** the authors' own R scripts are included. Python learners can check whether their result matches the published one, and R learners can run the original.
 
-**To do:** read the data dictionary (codes for race, education, groups); confirm the paper's main result; add the data to `data/` with an attribution file (CC BY requires credit).
+**To do:** read the data dictionary (codes for race, education, groups); confirm the paper's main result; add **only the CSV and data dictionary** to `data/` with an attribution file (CC BY requires credit). **Don't add the authors' R scripts or the paper.** They're held back for the blind-comparison reveal in 3B.3b (see OUTLINE firewall note).

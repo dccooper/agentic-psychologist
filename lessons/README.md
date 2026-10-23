@@ -31,7 +31,7 @@ The tutor follows this order. Slice 1 lessons are marked **[S1]**. Titles are wo
 - 3B.2a Lab agent: reading
 - 3B.2b Lab agent: memory and handoffs
 - 3B.3a Analysis: the script (Python)
-- 3B.3b Analysis: the dashboard
+- 3B.3b Analysis: the reveal (compare with the published analysis)
 
 ## Module 4: Capstone (shared)
 - 4.1 Make it yours (adapt your path agent + go-live checklist)
