@@ -4,7 +4,7 @@
 
 - **Module:** X (shared | clinic | lab)
 - **Time:** ~N min
-- **Request budget:** ~N agent requests (update from free-tier testing; see docs/free-tier-budget.md)
+- **Request budget:** ~N agent requests (update from free-tier testing; see planning/free-tier-budget.md)
 - **Last tested:** Cursor X.Y on YYYY-MM-DD
 
 ## Goal

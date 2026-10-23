@@ -1,6 +1,6 @@
-# Repo Plan: An AI-Tools On-Ramp for Psychologists
+# Repo Plan: The Agentic Psychologist
 
-*Working title TBD (see Assumption 7). Modeled on [Cursor for PMs](https://cursorforpms.com/): a course you learn **inside** the tool, not from a website.*
+*Working title: "The Agentic Psychologist" (placeholder; see Assumption 7). Modeled on [Cursor for PMs](https://cursorforpms.com/): a course you learn **inside** the tool, not from a website.*
 
 Status: plan, produced from a grilling session on 2026-10-21. Nothing built yet.
 
@@ -39,7 +39,7 @@ The tutor format uses requests heavily, since every exchange with the tutor is a
 4. **Free-tier test protocol** (runs with every slice; see §10):
    - Testers use **brand-new Free accounts only**.
    - Record requests used per lesson (from Cursor's usage view, or the tester's notes), where the limit was hit if it was, and what happened then.
-   - Keep a running `docs/free-tier-budget.md`: requests per lesson, the cumulative total, and the point where Free runs out.
+   - Keep a running `planning/free-tier-budget.md`: requests per lesson, the cumulative total, and the point where Free runs out.
    - Exit criterion for v1: Modules 0–2 fit inside Free with margin. If they don't, cut or batch lessons before considering a paid requirement.
 5. **Alternatives to evaluate** (all unverified; check during Slice 1):
    - Cursor **Plus at $8/mo** as the stated fallback. Arguably an acceptable bar.
@@ -76,7 +76,7 @@ Content to create: `world/` docs covering the department, clinic and lab overvie
 | **1. Foundations** | Shared | Interface, files and folders, Ask/Plan/Agent modes, @-context. First real tasks: meeting transcript → action items, rewrite an email to the director. | 1.5 h |
 | **2. Making it reusable** | Shared | Rules files, templates, reusable pipelines, **first skill/command**. **Open-the-hood lesson** (§7.3). *The terminal isn't scary*: run one command on purpose. | 1 h |
 | **3A. Clinic path** | Split | **Agent:** chief of staff for the clinic director (planning, project tracking, weekly review, personal-life planning too). **Vibe code:** a clinic marketing site or referral one-pager generator. | 2–3 h |
-| **3B. Lab path** | Split | **Agent:** lab manager or literature-review assistant. **Vibe code:** an analysis script and small dashboard on a public dataset. | 2–3 h |
+| **3B. Lab path** | Split | **Agent:** lab manager or literature-review assistant. **Vibe code:** an analysis script and small dashboard on a public dataset, in **Python** (R on request; rationale: most technical data-science roles use Python). | 2–3 h |
 | **4. Capstone** | Shared | Build one thing for your own real, non-patient work, plus the go-live checklist. | Open-ended |
 | **Graduation** | Optional | **GitHub for version control** (Cursor's built-in git or GitHub Desktop, not command-line git): a first taste of agentic-dev practice. Optional: Vercel publishing (only things built to be public; no API keys in code), terminal agents (Pi / Claude Code), Orca. | Later |
 
@@ -89,7 +89,11 @@ Design rules:
 
 ### 7.1 Distribution
 - **One GitHub repo** holds the course files and the docs site.
-- **GitHub Pages** hosts the reference and setup site (like cursorforpms.com's guides). Teaching happens in Cursor, not on the site.
+- **The repo stays private until v1.** Then it goes public for comments. Until then, testers get a ZIP from David (no GitHub account needed).
+- **GitHub Pages** hosts the site (Markdown + Jekyll, in `/docs`). Teaching happens in Cursor, not on the site. The site has two parts:
+  - **Front page: a showcase.** Sells the idea and gets people started right away (what it is, why it matters for psychologists, a demo, "Start in 5 minutes"). More polished than a standard docs theme. **Visual direction: David to bring reference examples.**
+  - **Guide section, behind a menu:** detailed reference material, setup help, FAQs, the educator guide (§8), the concerns page (§8.5). A docs-style theme (e.g., Just the Docs).
+- **Launch checklist (v1):** make repo public → turn on Pages → check that the site loads → check "Download ZIP" on a clean machine.
 - Learners get the course with **"Download ZIP"** (no git required up front). An optional one-line bootstrap prompt ("Fetch [url] and help me start…") is offered as a convenience.
 
 ### 7.2 Teaching method
@@ -122,15 +126,15 @@ The course **works out of the box**. Learners don't build the machinery first. I
 ├── world/                    # fictional department, clinic, lab, cast, artifacts
 ├── data/                     # synthetic + openly licensed public datasets (with license notes)
 ├── workspace/                # where learners work; progress.md lives here
-├── site/                     # GitHub Pages source (setup, reference guides, educators)
-└── docs/
+├── docs/                     # GitHub Pages site (Jekyll): landing page + guide
+└── planning/
     ├── PLAN.md               # this file
     └── free-tier-budget.md   # request counts per lesson (§3.1)
 ```
 
 ## 8. For educators and professors
 
-A dedicated section on the Pages site (`site/educators`) and in the README:
+A dedicated section in the site's guide (`docs/educators`) and in the README:
 
 - **Where it fits:** practicum or clinical seminar (clinic path), research methods or stats lab (lab path), professional-development series, or first-year orientation (Modules 0–2 only).
 - **Module-to-session map:** e.g., a 4-session version (M0–1 / M2 / path / capstone share-out) and a single-workshop version (M0–2 in a 3-hour block).
@@ -160,7 +164,7 @@ A page on the GitHub Pages site (and referenced from the README) that **takes co
 Both paths ship in v1. There's no deadline: release when it's done. Build in vertical slices so the whole system works early.
 
 **Slice 1, the walking skeleton:**
-Download ZIP → bootstrap → Module 0 complete → one lesson each from Modules 1 and 2 (including open the hood) → the first lesson of **both** the clinic and lab paths → `progress.md` updating throughout → GitHub Pages site with setup instructions → first `free-tier-budget.md` entries.
+Download ZIP → bootstrap → Module 0 complete → one lesson each from Modules 1 and 2 (including open the hood) → the first lesson of **both** the clinic and lab paths → `progress.md` updating throughout → **site content drafted** in `/docs` (landing + setup page; it goes live at v1 because the repo is private until then) → first `free-tier-budget.md` entries.
 
 Later slices fill in content within the proven structure.
 

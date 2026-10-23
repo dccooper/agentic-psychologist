@@ -92,7 +92,7 @@ Drafted: 0.1, 0.2, 1.1 (full scripts).
 - **Steps:** Dr. Bello sets a **question in advance** (in the spirit of preregistration). The learner has the AI write an analysis script on the public dataset, run it, explain each step, then build a small dashboard.
 - **Psychology hook:** the AI will happily run 20 tests until one is significant. Stick to the stated question, and record what was tried.
 - **Key moment:** fast analysis is only worth something if you can explain and reproduce it.
-- **⚠️ Open decision:** which language (see the decision list below).
+- **Language: Python**, with R on request. Rationale for learners: most technical data-science roles use Python. Installing it with the agent's help builds on 2.4.
 
 ---
 
@@ -114,7 +114,7 @@ Drafted: 0.1, 0.2, 1.1 (full scripts).
 
 ## Open decisions
 
-1. **Lab path language (3B.3):** Python, R, or an in-browser dashboard with nothing to install.
+1. ~~**Lab path language (3B.3)**~~ → **Decided:** Python, R on request.
 2. **Split long lessons?** 3A.2/3B.2 and 3A.3/3B.3 run 45–60 min each. Split into a and b?
 3. **Lit-review sources (3B.2):** needs a small set of openly licensed papers (e.g., PLOS, CC-BY). Pick them alongside the dataset (Assumption 5).
 4. **Personal adaptation in 3A.2 / 3B.2:** at the end of the lesson, or saved for the capstone?
