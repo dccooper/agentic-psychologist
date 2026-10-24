@@ -11,7 +11,7 @@ A free, hands-on course where psychology trainees, clinicians, and researchers l
 1. Install [Cursor](https://cursor.com) (the Free plan is the goal; see [cost notes](planning/PLAN.md#31-cost-keep-the-bar-as-low-as-possible)).
 2. Click **Code → Download ZIP** on this page and unzip it.
 3. In Cursor: **File → Open Folder** → choose the unzipped folder.
-4. Open the Agent chat and type `/start-course`.
+4. In the chat's message box, check there's no **Ask** tag (if there is, click its **×**, because the tutor needs to be able to save your progress). Then type `/start-course`.
 
 ## The one rule
 

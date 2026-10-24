@@ -14,6 +14,7 @@ Drafted: 0.1, 0.2, 1.1 (full scripts).
 - **Scenario:** Dr. Okafor wants "thoughts" on fixing the shared drive (`FINAL`, `FINAL_actual`, `USE THIS ONE`).
 - **Steps:** **Ask** mode: question the mess without changing anything. **Plan** mode: have the AI propose a reorganization. **Agent** mode: carry out the plan on a practice copy of the folder.
 - **Key moment:** pick the mode by risk. *Read → think → act.*
+- **UI note (QA pass 1):** Cursor's mode menu shows **Plan, Debug, Multitask, Ask**. There's no "Agent" item: the default (no tag) is the one that edits files. Teach "Ask = read-only tag; remove the tag to let the AI act." See `lessons/CURSOR_UI.md`.
 - **New artifact:** `world/artifacts/shared-drive/` (about 10 small, badly named dummy files)
 
 ### 1.3 Giving the AI context with @ (~20 min)

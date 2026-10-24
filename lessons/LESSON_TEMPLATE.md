@@ -19,11 +19,16 @@ One or two sentences tying this to real clinical or research work.
 
 Files from `world/` or `data/` this lesson uses. Anything the tutor should check first.
 
+## UI this lesson depends on
+
+Every on-screen control the lesson uses (by label), pointing to `lessons/CURSOR_UI.md`. This list is the regression checklist: when Cursor updates, recheck these. Never write directions by position ("on the left").
+
 ## Steps
 
 1. **Step name:** what the learner does. *Why:* one line.
-   - ✅ **Checkpoint:** how the tutor confirms it's done (a file exists, the learner reports X).
+   - ✅ **Checkpoint:** how the tutor confirms it's done (a file exists, the learner reports X). If the answer is a fact from a file, write the **expected answer** here so the tutor doesn't have to guess.
 2. ...
+N. **Name the moment:** one or two sentences, said *after* the exercise, naming the skill they just practiced and how it carries over to real work.
 
 ## Pause points
 

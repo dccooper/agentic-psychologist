@@ -1,8 +1,16 @@
-# "Can I paste this?" (from Jordan)
+**From:** Office of Research Compliance (Ward, Locke & Key), University of Tomorrow
+**To:** Incoming Trainees, Department of Experimental Theoretical Psychology
+**Subject:** REQUIRED: AI Tools Data-Handling Exercise (complete before first use)
 
-hey new person! before you start using the AI stuff, Ward, Locke & Key (compliance) made every trainee do this exercise. i got 2 wrong my first year. don't be me. for each one: **OK**, **NOT OK**, or **IT DEPENDS**, and why.
+Dear Trainee,
 
-*(Everything below is fictional.)*
+Welcome to the University of Tomorrow. Before you use any AI tool for university work, the Office of Research Compliance asks every new trainee to complete the short exercise below.
+
+**Why this matters.** AI tools send whatever you type or upload to a company's servers to be processed. Unless the University has approved a tool for a specific kind of information, putting that information into it may count as disclosing it. For clinical information this can violate HIPAA. For research data it can violate your IRB protocol and the consent participants gave.
+
+**Instructions.** For each scenario, decide whether it's **OK**, **NOT OK**, or **IT DEPENDS** to put this into a general AI tool, and say why in a sentence. Your answers are for your own learning and won't be graded. (Our records show one trainee once answered "OK" to all eight. We're still discussing it.)
+
+*All scenarios are fictional.*
 
 1. **Dr. Okafor's welcome email**, pasted in to get a summary of what to do this week.
 
@@ -19,3 +27,12 @@ hey new person! before you start using the AI stuff, Ward, Locke & Key (complian
 7. **The text of the Daybreak Clinic's public brochure**, to help rewrite it for the website.
 
 8. **A "made-up" case example for a training handout**, which is really based on a client you saw last month with a few details changed.
+
+When in doubt, leave it out, and ask your supervisor or this office.
+
+Regards,
+
+**Office of Research Compliance**
+Ward, Locke & Key
+University of Tomorrow
+*Office hours: Tuesdays, 2:00–2:05 p.m.*

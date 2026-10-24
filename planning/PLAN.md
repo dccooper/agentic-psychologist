@@ -176,6 +176,8 @@ Later slices fill in content within the proven structure.
 - 1–2 real beginners (ideally trainees who've never used Cursor) go through the slice on **fresh Free accounts** while you **watch without helping** (a screen share is fine). Note every hesitation.
 - You run it yourself on a **fresh Cursor install** to catch setup problems.
 - Record free-tier request usage (§3.1).
+- Record the **Cursor version, layout (Agents window or IDE), and model** shown in the message box. The tutor's accuracy depends on the model.
+- Log findings in `QA/<pass name>/` (error log + screenshots). After fixes, re-run the **UI claims** in each lesson's "UI this lesson depends on" list against `lessons/CURSOR_UI.md`.
 
 **Success criterion for release:** a beginner gets from download to their first skill **without asking for help**, within the Free tier.
 
@@ -184,7 +186,7 @@ Later slices fill in content within the proven structure.
 - **Content:** CC BY-SA 4.0. **Code** (rules, commands, scripts): MIT.
 - **Contributions:** open via PRs, with you as final reviewer (likely post-v1). Doubles as a real first GitHub contribution for graduates.
 - **Upkeep:**
-  - Lessons avoid screenshots and exact menu paths where possible. The tutor describes the current UI.
+  - Lessons avoid screenshots and exact menu paths where possible. On-screen directions live in one file, `lessons/CURSOR_UI.md` (labels, not positions; ✅ verified / ⚠️ inferred), which lessons point to. When Cursor changes, update that file.
   - Each module carries a "last tested with Cursor X.Y on [date]" stamp.
   - Rerun slices when Cursor ships major UI changes or changes its default model.
 
