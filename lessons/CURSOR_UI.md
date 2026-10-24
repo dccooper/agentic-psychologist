@@ -56,7 +56,7 @@ Right-click a folder in the Files tree and look for **New Folder** / **New File*
 - Ignore **Create Branch & Commit** until Graduation (G.1).
 
 **Model** ✅
-The model name shows in the message box (e.g. "Cursor Grok 4.6 Medium"). Learners don't need to change it in Slice 1. Testers should record it.
+The model name shows in the message box (e.g. "Cursor Grok 4.6 Medium"). **On the Free plan it's locked to that model.** Choosing a different one requires a paid plan. So never tell a learner to "switch models" as a fix. Testers should record it.
 
 ## Open items to verify (next test)
 

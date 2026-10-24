@@ -31,6 +31,8 @@ A free, open, downloadable course that teaches psychologists to use an AI coding
 
 Cursor pricing as checked on 2026-10-21: **Free** ($0; "Limited agent requests," with no published numbers), **Plus** ($8/mo), Premium ($30/mo), and higher tiers. No standing free trial or student year is listed. Student offers are campus promotions only.
 
+**The Free plan locks the model** (observed by David in QA pass 1, 2026-10-23): Free accounts run **Cursor Grok 4.6 Medium** and can't choose another model. Choosing models requires upgrading. (David saw "Pro." Which paid tier unlocks it is unconfirmed, since the plans listed are Plus, Premium, and so on.) **Consequence: the Free model is the floor the tutor must work on.** Lesson scripts can't depend on a stronger model's judgment. That's why scripts spell out expected answers, the tutor reads files rather than recalling them, and every slice is tested on Free. In QA pass 1 this model invented a name at a checkpoint (QA-002).
+
 The tutor format uses requests heavily, since every exchange with the tutor is an agent request. So:
 
 1. **Goal:** a learner on the Free plan can get from download to their first skill (end of Module 2) without paying. Ideally they can finish the whole course on Free.
@@ -197,7 +199,7 @@ Later slices fill in content within the proven structure.
 | # | Assumption | Holds if… | Breaks if… | Resolve when |
 |---|---|---|---|---|
 | 1 | **Cursor's teaching tools work as planned.** File layout *verified* 2026-10-21 (rules `.mdc`, commands → skills). Still unverified: whether a skill reliably reads `progress.md` plus a lesson file and runs a multi-turn lesson. | Slice 1 shows the navigation skills drive lessons correctly | Skills can't carry multi-step lesson flows | Slice 1 |
-| 2 | **The agent follows lesson scripts** | The tutor stays on script and doesn't finish exercises for the learner | It skips checkpoints, or a default-model change shifts behavior | Every slice |
+| 2 | **The agent follows lesson scripts on the Free model** (Free is locked to Cursor Grok 4.6 Medium; QA pass 1) | The tutor stays on script, reads files rather than guessing, and doesn't finish exercises for the learner, even on the Free model | It skips checkpoints or invents facts (seen once: QA-002), or Cursor changes the Free model | Every slice, always on a Free account |
 | 3 | **The Free tier (or $8 Plus) is enough.** Free limits are unpublished. | Modules 0–2 fit in Free with margin | Learners hit the limit before their first skill | Slice 1 budget test |
 | 4 | **The data guardrail is a nudge.** The lesson is the real protection. | Learners take in "what never goes in" | Someone relies on the guardrail and pastes real data | Ongoing; watch in testing |
 | 5 | **Suitable openly licensed psych datasets exist.** *Largely resolved 2026-10-23:* OSF bfxnv (CC BY 4.0, demographics, paired PLOS paper). See `research-notes.md`. Remaining: data dictionary review. | CC0/CC-BY data (e.g., OSF) that's realistic and messy | Good data requires DUAs or forbids redistribution | Before lab-path slice 2 |
