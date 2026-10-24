@@ -120,7 +120,7 @@ If you can't find these, skip this step and tell the tutor. It isn't required.
    /start-course
    ```
 
-   It turns into a small **start-course** tag as you type. Press **Enter**.
+   It turns into a small **start-course** tag as you type. **Shortcut:** type the first few letters (`/sta`) and press **Tab** to fill in the rest. Then press **Enter**.
 
 The tutor takes it from here. Replies can take a few seconds, so be patient. 🎓
 
