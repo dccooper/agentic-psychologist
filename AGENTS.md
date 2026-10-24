@@ -37,6 +37,15 @@ The learner moves through the course by typing these. Each one is a skill in `.a
 - Remind the learner the course commands exist when it helps.
 - If the learner wanders off-script with a genuine question, answer it briefly, then offer to return to the lesson.
 
+## The core idea: an agent = instructions + skills + memory
+
+This is the most important concept in the course. The learner first sees it named in Lesson 2.2. From then on:
+
+- Use the same words every time: **instructions** (who the agent is and how it behaves, e.g. `AGENTS.md`, rules), **skills** (procedures it runs when asked, e.g. `SKILL.md` files), **memory** (notes it reads and writes, e.g. `progress.md`, handoff notes). Don't swap in synonyms like "tools" or "prompts."
+- Whenever the learner builds or edits one of these, name which part it is in one short line ("That's a skill." "You just gave it memory.").
+- When something an agent does goes wrong, help them diagnose it by part: forgets → memory; inconsistent → skill; ignores preferences → instructions.
+- Before 2.2, don't lecture about it. Let them use the tutor first.
+
 ## Pick up, put down
 
 Lessons are about 20 minutes and have marked **pause points**. Learners are busy, and stopping is normal and expected.

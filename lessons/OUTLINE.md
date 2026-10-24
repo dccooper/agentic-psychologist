@@ -6,15 +6,17 @@ Drafted as full scripts: 0.1, 0.2, 1.1, 1.2, 2.2, 3A.1, 3B.1 (Slice 1 complete).
 
 **Design rule: about 20 minutes per lesson, with marked pause points.** Every lesson ends at a natural stopping point, with something that works. **Pick up, put down** is taught as a concept, not just accommodated: agentic work is easy to step away from and resume, because the work lives in files. Learners *experience* it from 0.1 (stop, `/start-course`, resume), *understand* it in 2.2 (`progress.md` is memory), and *build it in* to their own agents in 3A.2 / 3B.2 (memory files plus a handoff note).
 
+**Core concept: an agent = instructions + skills + memory.** This is the idea the whole course is built around. Learners *use* an agent from 0.1 (the tutor), *build the parts one at a time* in Module 2 (2.1 instructions, 2.3 a skill), *see all three named together* in 2.2, *assemble a full agent* on their path (3A.2 / 3B.2), and *make one their own* in the capstone. Every lesson that touches one of the parts names it, with the same three words every time (no "tools" or "prompts" as synonyms).
+
 ---
 
 ## Module 1: Foundations (continued)
 
 ### 1.2 Read, think, act (~20 min) [S1], full script: `1-foundations/1.2-read-think-act.md`
 - **Scenario:** Dr. Okafor wants "thoughts" on fixing the shared drive (`FINAL`, `FINAL_actual`, `USE THIS ONE`).
-- **Steps:** **Ask** mode: question the mess without changing anything. **Plan** mode: have the AI propose a reorganization. **Agent** mode: carry out the plan on a practice copy of the folder.
-- **Key moment:** pick the mode by risk. *Read → think → act.*
-- **⚠️ Needs reworking for Antigravity.** Cursor's Ask/Plan/Agent modes don't map directly. Antigravity has review settings (**Strict / Review-driven / Agent-driven**, chosen at setup) and, per Google's codelab, separate policies for **reviewing plans**, **file edits**, and **terminal commands** (Off / Auto / Turbo). Keep the key idea, *pick how much the AI may do by risk: read → think → act*, and map it to Antigravity's actual controls (verify where they live first).
+- **Steps:** **Read:** question the mess, telling the AI not to change anything. **Think:** have the AI write a reorganization plan, which the learner edits. **Act:** carry out the plan on a practice copy of the folder.
+- **Key moment:** choose how much the AI may do by risk. *Read → think → act.*
+- **Antigravity mapping (done in the script):** there are no Ask/Plan/Agent modes. The learner controls this through what they ask for, plus the review setting. Antigravity has review settings (**Strict / Review-driven / Agent-driven**, chosen at setup) and, per Google's codelab, separate policies for **reviewing plans**, **file edits**, and **terminal commands** (Off / Auto / Turbo). Keep the key idea, *pick how much the AI may do by risk: read → think → act*, and map it to Antigravity's actual controls (verify where they live first).
 - **Approval fatigue, taught on purpose (QA pass 2, NOTE-001):** by now the learner has clicked Accept many times. Name the tension: reviewing everything is tiring, and blind approval is how mistakes slip through. Teach the graduated rule: **look closely at anything that changes your work or does something new; glance-and-accept routine bookkeeping (`progress.md`).** Make the distinction explicit: **Accept all** = approve what's on screen now, after looking. **Automatic approval** (Agent-driven / auto policies) = approve future edits unseen. The course keeps review on. Turning it off is a deliberate choice for later, with a rollback plan (undo, version history in G.1).
 - **New artifact:** `world/artifacts/shared-drive/` (about 10 small, badly named dummy files)
 
@@ -36,7 +38,7 @@ Drafted as full scripts: 0.1, 0.2, 1.1, 1.2, 2.2, 3A.1, 3B.1 (Slice 1 complete).
 ### 2.1 Templates and rules (~20 min)
 - **Scenario:** they've now asked for action items in "their format" three times.
 - **Steps:** save a template file. Then write their own rule (`.agents/rules/my-style.md` with `trigger: always_on` frontmatter; missing frontmatter makes Antigravity silently ignore it, which is a good teaching moment), e.g., "plain language; action items always have owner + due date." Test it in a new chat without mentioning it.
-- **Key moment:** the AI follows your preferences without being reminded.
+- **Key moment:** the AI follows your preferences without being reminded. **Recipe preview:** a rule is part of an agent's *instructions* (2.2 names the full recipe).
 
 ### 2.2 Open the hood (~20 min) [S1], full script: `2-reusable/2.2-open-the-hood.md`
 - **Steps:** open `AGENTS.md`, the `/next-step` skill and `progress.md`. **Edit the tutor to talk like Groucho Marx (or a Pratchett-style narrator, the learner's pick)** for one exchange, see it change, then change it back. Notice `progress.md` has been the agent's memory all along.
@@ -45,7 +47,7 @@ Drafted as full scripts: 0.1, 0.2, 1.1, 1.2, 2.2, 3A.1, 3B.1 (Slice 1 complete).
 ### 2.3 Build your first skill (~25 min)
 - **Scenario:** a second transcript arrives (the clinic staff meeting).
 - **Steps:** build `/meeting-to-actions` using their template and rule from 2.1 (via `/create-skill` or by hand). Run it on the new transcript, then improve it once.
-- **Key moment:** *"I made the AI do my thing, the same way every time."* Template + rule + skill = a reusable pipeline.
+- **Key moment:** *"I made the AI do my thing, the same way every time."* Template + rule + skill = a reusable pipeline. **Recipe:** they've now written *instructions* (2.1) and a *skill* (2.3); 2.2 showed the *memory*. Name it.
 - **New artifact:** `world/artifacts/clinic-staff-meeting.md`
 
 ### 2.4 The terminal isn't scary (~15 min)
@@ -60,20 +62,20 @@ Drafted as full scripts: 0.1, 0.2, 1.1, 1.2, 2.2, 3A.1, 3B.1 (Slice 1 complete).
 
 ### 3A.1 Meet the clinic director (~15 min) [S1], full script: `3a-clinic/3A.1-meet-the-clinic-director.md`
 - **Scenario:** Dr. Reyes's voice-memo brain dump: "website from 2017, referrals down, I forget everything."
-- **Steps:** use Plan mode to scope two projects. Set up `workspace/clinic/`.
+- **Steps:** ask the AI for a project brief (the "think" move from 1.2) to scope two projects; the learner rewrites what "done" looks like. Set up `workspace/clinic/`.
 - **Key moment:** scope before you build.
 - **New artifact:** `world/artifacts/reyes-voice-memo.md`
 
 *What "agent" means in both paths:* an agent = **instructions** (a rule or `AGENTS.md` describing the role) + **skills** (things it can do on command) + **memory** (files it reads and updates).
 
 ### 3A.2a Build a chief of staff: the office (~20 min)
-- **Steps:** create the chief of staff's folder: role instructions plus memory files (`projects.md`, `people.md`). Build `/weekly-plan` and run it on Dr. Reyes's to-do pile.
+- **Steps:** build the chief of staff from the recipe, naming each part as it's made: *instructions* (its role file), *memory* files (`projects.md`, `people.md`). Then its first *skill*: build `/weekly-plan` and run it on Dr. Reyes's to-do pile.
 - **Ends with:** a working weekly plan. *It works.*
 - **New artifacts:** Reyes's to-do pile, calendar (fictional)
 
 ### 3A.2b Build a chief of staff: memory and handoffs (~20 min)
 - **Steps:** add `/meeting-prep` (a referral-partner lunch) and `/whats-slipping`. Add a **`/wrap-up` skill that writes a handoff note** (what happened, what's next) to the memory files at the end of a session. Close the chat, open a fresh one, and watch the chief of staff pick up where it left off.
-- **Key moment:** an agent isn't magic. It's instructions + tools + memory. **The handoff note is pick up, put down, built into your own agent.**
+- **Key moment:** an agent isn't magic. It's instructions + skills + memory, and they built every part. **The handoff note is pick up, put down, built into your own agent.**
 - **Teaser:** "In the capstone, you'll make this yours."
 - **New artifact:** referral-partner list
 
@@ -93,17 +95,17 @@ Drafted as full scripts: 0.1, 0.2, 1.1, 1.2, 2.2, 3A.1, 3B.1 (Slice 1 complete).
 
 ### 3B.1 Meet the lab (~15 min) [S1], full script: `3b-lab/3B.1-meet-the-lab.md`
 - **Scenario:** Dr. Lund's email chain ("quick lit review," "dashboard like that paper," grant due) and Dr. Bello's tour of the data folder.
-- **Steps:** use Plan mode to scope the projects. Set up `workspace/lab/`.
+- **Steps:** ask the AI for a project brief (the "think" move from 1.2), with a question per project. Set up `workspace/lab/`.
 - **Key moment:** scope before you build. Ask "what question does this answer?" first.
 
 ### 3B.2a Build a lab agent: reading (~20 min)
-- **Steps:** create the agent's folder: role instructions plus memory (`projects.md`, `reading-list.md`). Build `/paper-summary` and `/lit-matrix`, and run them on a small set of **openly licensed papers** (PLOS ONE future-thinking papers; **not** 0237435, which is held back for the blind comparison in 3B.3b).
+- **Steps:** build the lab agent from the recipe, naming each part as it's made: *instructions* (its role file), *memory* (`projects.md`, `reading-list.md`). Build `/paper-summary` and `/lit-matrix`, and run them on a small set of **openly licensed papers** (PLOS ONE future-thinking papers; **not** 0237435, which is held back for the blind comparison in 3B.3b).
 - **Psychology hook (critical):** **hallucinated citations.** The agent may only cite sources it was given. Include a planted trap where it's asked for "a few more references." The learner checks every citation.
 - **Ends with:** a literature matrix they've checked.
 
 ### 3B.2b Build a lab agent: memory and handoffs (~20 min)
 - **Steps:** add `/weekly-lab-update` and a **`/wrap-up` handoff-note skill**. Close the chat, open a fresh one, and watch it resume.
-- **Key moment:** the AI speeds up reading but doesn't replace checking. **The handoff note is pick up, put down, built into your own agent.**
+- **Key moment:** the AI speeds up reading but doesn't replace checking. They've built all three parts: instructions + skills + memory. **The handoff note is pick up, put down, built into your own agent.**
 - **Teaser:** "In the capstone, you'll make this yours."
 
 ### 3B.3a Vibe code an analysis: the script (~20 min)
@@ -129,12 +131,12 @@ Drafted as full scripts: 0.1, 0.2, 1.1, 1.2, 2.2, 3A.1, 3B.1 (Slice 1 complete).
 **Purpose:** take the skills and make them your own. The course has given them the skill. The capstone's job is to **spark their imagination** and then get out of the way.
 
 ### 4.1 Make it yours (~20 min)
-- **Steps:** copy their path agent (chief of staff or lab agent) out of the University of Tomorrow and adapt it to their own life, school or research. Change the role instructions, reset the memory files, and run it once for real.
+- **Steps:** copy their path agent (chief of staff or lab agent) out of the University of Tomorrow and adapt it to their own life, school or research. Walk the recipe: change the *instructions* (role), keep or adapt the *skills*, reset the *memory*, and run it once for real.
 - **Go-live checklist (first use here):** what data does this touch, and where does it go? Institutional AI policy; BAA / IRB if it ever touches protected data; review-before-accept habits.
 - **Key moment:** University of Tomorrow was practice. This is yours.
 
 ### 4.2 The idea gallery (~20 min)
-- **Steps:** browse a gallery of project ideas (below; also published on the site's showcase page). Pick one or invent their own. Scope it in Plan mode into a first 20-minute version.
+- **Steps:** browse a gallery of project ideas (below; also published on the site's showcase page). Pick one or invent their own. Scope it into a first 20-minute version with a brief, and sketch which instructions, skills, and memory it needs.
 - **Key moment:** "I could actually build that."
 
 ### 4.3 Build it (open-ended)
