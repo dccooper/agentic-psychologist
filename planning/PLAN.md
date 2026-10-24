@@ -164,6 +164,30 @@ A dedicated section in the site's guide (`docs/educators`) and in the README:
 - **Before assigning:** check cost (Free-tier budget, institutional licenses or campus promotions), your institution's AI and data policies, and that students understand the no-real-data rule.
 - **Facilitation tips:** pair nervous learners, budget time for setup, and know the common sticking points (from slice testing notes).
 
+### 8.1 Translation and localization (plan for it now; build later)
+
+Educators may want to run this in other languages. CC BY-SA already permits translations. The goal is to **write v1 so a translation is a copy-and-translate job, not a rewrite.** No translations ship in v1.
+
+**What makes this cheaper than usual:** the tutor is an AI. Lesson scripts are *instructions to the tutor*, so they can stay in English while the tutor *speaks* the learner's language. Only learner-facing text needs human translation.
+
+**Structure (decided now, so we don't paint ourselves into a corner):**
+
+| Layer | Who reads it | Translation approach |
+|---|---|---|
+| `AGENTS.md`, `.agents/skills/`, `lessons/` | The tutor | Stays English. Add a **"Language"** line to `progress.md`; the tutor replies in that language. *(Proposed for v2. Test it in one non-English language before promising it.)* |
+| `world/` (emails, guides, transcripts) | The learner | Human-translated copies in per-language folders, e.g. `world/es/artifacts/…`. English stays at `world/` for now; move it to `world/en/` only when the first translation lands. |
+| `SETUP.md`, the `/docs` site | The learner | Per-language pages (Jekyll supports per-language folders). Screenshots will show the English UI unless retaken. |
+| `data/` | Both | Stays as published. Variable names are part of the dataset. |
+| `lessons/SCREEN_GUIDE.md` | The tutor | Labels are English. Antigravity's UI language may differ, so translated runs need their own labels or a note to "ask the learner what their button says." |
+
+**Writing rules from now on (cheap now, expensive to retrofit):**
+- **Plain, literal English in instructions.** No idioms in tutor scripts or SETUP ("ballpark," "touch base").
+- **Keep jokes in the world artifacts**, where a translator can *adapt* them rather than translate them word for word. Puns rarely survive translation, and that's fine: the Pratchett-style situational humor travels better than wordplay. Encourage translators to write their own local gags.
+- **Keep text out of images.** Annotations on screenshots are the exception. Keep their source script (or a list of their labels) so they can be regenerated per language.
+- **Don't hard-code cultural assumptions in the tutor's voice** (dates, currency, US-only institutions) except where the content really is jurisdiction-specific (see below).
+
+**The real localization work is legal, not linguistic.** Lesson 0.2 ("What never goes into an AI tool") and the capstone go-live checklist are framed around **U.S. law** (HIPAA, BAAs, IRBs). Other countries use different frameworks (e.g., GDPR in the EU, PIPEDA/PHIPA in Canada, the Privacy Act in Australia, ethics committees instead of IRBs). A translator-educator must **adapt the 0.2 answer key and the checklist to local law**, not just translate them. The educator guide should say so plainly, and 0.2 should keep the general principle ("is this information allowed to leave my hands, into this tool?") separate from the U.S.-specific examples, to make that swap easy.
+
 ## 8.5 Site page: real concerns about AI
 
 A page on the GitHub Pages site (and referenced from the README) that **takes concerns seriously and offers gentle, evidence-based pushback**. It's honest, not dismissive, and not evangelical.
