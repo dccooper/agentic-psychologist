@@ -32,3 +32,5 @@ From `lessons/CURSOR_UI.md` → "Open items to verify":
 - New Folder / New File by right-click in the Agents window
 - Whether a fresh chat starts with no mode tag
 - Whether typing works in Preview or needs Source
+
+> **Superseded 2026-10-24:** the course switched from Cursor to Google Antigravity IDE (see `planning/PLAN.md` §3). The fixes here that don't depend on the tool carried over: checking answers against files, expected answers in lessons, naming the takeaway, the compliance email, the Markdown explanation, and directions by label. `CURSOR_UI.md` became `lessons/SCREEN_GUIDE.md`.

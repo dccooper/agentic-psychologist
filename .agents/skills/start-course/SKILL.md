@@ -5,7 +5,7 @@ description: Begin or resume the course. Use when the learner types /start-cours
 
 # Start the course
 
-0. **Check that you can edit files.** If this chat is in **Ask** mode (read-only), don't start the lesson. Say: *"Before we start: I need to be able to save your progress. In the message box, click the × on the **Ask** tag, then type `/start-course` again."* Then stop.
+0. **Check that you can edit files.** If you can't (for example, file editing is turned off or every edit is blocked), don't start the lesson. Say once, plainly, that you need to be able to save their progress, and help them fix it using `lessons/SCREEN_GUIDE.md`. Then stop.
 1. Read `workspace/progress.md`.
 2. **If no lessons are marked complete:** welcome the learner warmly in 3–4 sentences:
    - They're a new trainee arriving at a fictional university psychology department (see `world/department.md`).

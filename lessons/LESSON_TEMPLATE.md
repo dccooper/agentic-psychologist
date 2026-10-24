@@ -5,7 +5,7 @@
 - **Module:** X (shared | clinic | lab)
 - **Time:** ~N min
 - **Request budget:** ~N agent requests (update from free-tier testing; see planning/free-tier-budget.md)
-- **Last tested:** Cursor X.Y on YYYY-MM-DD
+- **Last tested:** Antigravity IDE X.Y on YYYY-MM-DD
 
 ## Goal
 
@@ -21,7 +21,7 @@ Files from `world/` or `data/` this lesson uses. Anything the tutor should check
 
 ## UI this lesson depends on
 
-Every on-screen control the lesson uses (by label), pointing to `lessons/CURSOR_UI.md`. This list is the regression checklist: when Cursor updates, recheck these. Never write directions by position ("on the left").
+Every on-screen control the lesson uses (by label), pointing to `lessons/SCREEN_GUIDE.md`. This list is the regression checklist: when Antigravity updates, recheck these. Lead with labels; position is only a hint.
 
 ## Steps
 

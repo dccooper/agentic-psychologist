@@ -2,16 +2,18 @@
 
 *A hands-on AI course for psychologists, taught inside the tool. (Working title.)*
 
-A free, hands-on course where psychology trainees, clinicians, and researchers learn to use AI tools **inside the tool itself**. You'll work through practical exercises in Cursor, set in a fictional university psychology department, and finish by building your own reusable skills, an agent, and a small project.
+A free, hands-on course where psychology trainees, clinicians, and researchers learn to use AI tools **inside the tool itself**. You'll work through practical exercises in Google Antigravity IDE (a free AI-powered editor), set in a fictional university psychology department, and finish by building your own reusable skills, an agent, and a small project.
 
 > 🚧 **In development.** Not ready for learners yet. See [planning/PLAN.md](planning/PLAN.md).
 
 ## Quick start (draft)
 
-1. Install [Cursor](https://cursor.com) (the Free plan is the goal; see [cost notes](planning/PLAN.md#31-cost-keep-the-bar-as-low-as-possible)).
+**Full step-by-step instructions: [SETUP.md](SETUP.md).** The short version:
+
+1. Install **Antigravity IDE (Standalone)** from https://antigravity.google/download. ⚠️ Not the "Antigravity App" listed first. Sign in with a Google account.
 2. Click **Code → Download ZIP** on this page and unzip it.
-3. In Cursor: **File → Open Folder** → choose the unzipped folder.
-4. In the chat's message box, check there's no **Ask** tag (if there is, click its **×**, because the tutor needs to be able to save your progress). Then type `/start-course`.
+3. In Antigravity: **File → Open Folder** → choose the unzipped folder.
+4. Open the agent panel (**Ctrl+L** / **Cmd+L**) and type `/start-course`.
 
 ## The one rule
 

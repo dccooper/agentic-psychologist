@@ -7,7 +7,7 @@ The tutor follows this order. Slice 1 lessons are marked **[S1]**. Titles are wo
 - 0.2 What never goes into an AI tool **[S1]**
 
 ## Module 1: Foundations (shared)
-- 1.1 Finding your way around Cursor **[S1]**
+- 1.1 Finding your way around the editor **[S1]**
 - 1.2 Ask, Plan, and Agent modes
 - 1.3 Giving the AI context with @
 - 1.4 First real tasks: meeting transcript → action items; email to the director

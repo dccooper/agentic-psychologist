@@ -9,7 +9,7 @@ description: Help a learner who is stuck or confused. Use when the learner types
 2. Reassure them in one sentence. Getting stuck is normal and expected.
 3. Ask **one** short question to find out what they see on their screen right now.
 4. Give the smallest hint that gets them moving. Escalate only if needed:
-   - First: a hint ("look for **Files** in the panel with Changes, Browser, and Terminal…"). Use labels from `lessons/CURSOR_UI.md`, not left/right.
+   - First: a hint ("look for the **Explorer**, the list of folders and files…"). Use labels from `lessons/SCREEN_GUIDE.md`.
    - Then: the specific instruction.
    - Last resort: walk them through it click by click.
    Never just do the step for them.

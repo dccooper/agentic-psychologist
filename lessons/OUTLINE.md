@@ -14,7 +14,7 @@ Drafted: 0.1, 0.2, 1.1 (full scripts).
 - **Scenario:** Dr. Okafor wants "thoughts" on fixing the shared drive (`FINAL`, `FINAL_actual`, `USE THIS ONE`).
 - **Steps:** **Ask** mode: question the mess without changing anything. **Plan** mode: have the AI propose a reorganization. **Agent** mode: carry out the plan on a practice copy of the folder.
 - **Key moment:** pick the mode by risk. *Read → think → act.*
-- **UI note (QA pass 1):** Cursor's mode menu shows **Plan, Debug, Multitask, Ask**. There's no "Agent" item: the default (no tag) is the one that edits files. Teach "Ask = read-only tag; remove the tag to let the AI act." See `lessons/CURSOR_UI.md`.
+- **⚠️ Needs reworking for Antigravity.** Cursor's Ask/Plan/Agent modes don't map directly. Antigravity has review settings (**Strict / Review-driven / Agent-driven**, chosen at setup) and may have planning vs. fast modes (unverified). Keep the key idea, *pick how much the AI may do by risk: read → think → act*, and map it to Antigravity's actual controls after QA pass 2. See `lessons/SCREEN_GUIDE.md`.
 - **New artifact:** `world/artifacts/shared-drive/` (about 10 small, badly named dummy files)
 
 ### 1.3 Giving the AI context with @ (~20 min)
@@ -34,7 +34,7 @@ Drafted: 0.1, 0.2, 1.1 (full scripts).
 
 ### 2.1 Templates and rules (~20 min)
 - **Scenario:** they've now asked for action items in "their format" three times.
-- **Steps:** save a template file. Then write their own rule (`.cursor/rules/my-style.mdc`), e.g., "plain language; action items always have owner + due date." Test it in a new chat without mentioning it.
+- **Steps:** save a template file. Then write their own rule (`.agents/rules/my-style.md` with `trigger: always_on` frontmatter; missing frontmatter makes Antigravity silently ignore it, which is a good teaching moment), e.g., "plain language; action items always have owner + due date." Test it in a new chat without mentioning it.
 - **Key moment:** the AI follows your preferences without being reminded.
 
 ### 2.2 Open the hood (~20 min) [S1]
@@ -48,7 +48,7 @@ Drafted: 0.1, 0.2, 1.1 (full scripts).
 - **New artifact:** `world/artifacts/clinic-staff-meeting.md`
 
 ### 2.4 The terminal isn't scary (~15 min)
-- **Steps:** open Cursor's terminal panel. Run 2–3 harmless commands that work on Mac and Windows (`pwd`, `ls`). Then ask the agent to do something that needs a command, and **read what it wants to run before approving**.
+- **Steps:** open the editor's terminal panel (**Terminal → New Terminal**). Run 2–3 harmless commands that work on Mac and Windows (`pwd`, `ls`). Then ask the agent to do something that needs a command, and **read what it wants to run before approving**.
 - **Key moment:** the terminal is just typing instructions to your computer. The real skill is reading what the AI asks to run before you say yes.
 
 **→ Choose your path:** Clinic (3A) or Lab (3B). It's recorded in `progress.md`.
@@ -116,7 +116,7 @@ Drafted: 0.1, 0.2, 1.1 (full scripts).
 - **Key moment:** fast analysis is only worth something if you can explain and reproduce it, **and now you've checked an agent's work against peer-reviewed human work.**
 
 **Firewall for the blind analysis (3B.3a):**
-- **The repo ships only the CSV and the data dictionary.** The authors' scripts and paper are **not** in the repo. Learners download them in 3B.3b. This is airtight: `.cursorignore` blocks the agent's file tools but not the terminal (per Cursor docs), so leaving the files out is the only reliable wall.
+- **The repo ships only the CSV and the data dictionary.** The authors' scripts and paper are **not** in the repo. Learners download them in 3B.3b. This is airtight: ignore files (e.g. `.cursorignore` in Cursor) block an agent's file tools but not its terminal, so leaving the files out is the only reliable wall.
 - The tutor rule for 3B.3a: don't search the web for or cite the original paper's results until the reveal.
 - Small residual risk: the model may have seen the paper in training. The comparison still holds, because the learner's own code is visible and checkable.
 - **Language: Python**, with R on request. Rationale for learners: most technical data-science roles use Python. Installing it with the agent's help builds on 2.4.
@@ -163,7 +163,7 @@ Drafted: 0.1, 0.2, 1.1 (full scripts).
 
 ## Graduation (optional)
 
-- **G.1 Version control with GitHub:** why it helps (unlimited undo, a history of your work, sharing). Use GitHub Desktop or Cursor's source-control panel to commit the capstone to a **private** repo.
+- **G.1 Version control with GitHub:** why it helps (unlimited undo, a history of your work, sharing). Use GitHub Desktop or the editor's **Source Control** panel to commit the capstone to a **private** repo.
 - **G.2 Publishing with GitHub Pages (optional):** publish the clinic website. No new account, since they already have GitHub from G.1: "you pushed it, now flip one setting and it's live." Only publish things built to be public; never put keys in code. Mention Vercel as the next step for real apps (logins, backends).
 - **G.3 Beyond:** terminal agents (Pi / Claude Code); Orca for running several agents in parallel.
 
