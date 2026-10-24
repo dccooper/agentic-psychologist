@@ -53,7 +53,7 @@ Under Review-driven development, the agent should ask before applying changes, a
 
 ## Open items to verify (QA pass 2)
 
-- [ ] Antigravity version (Help → About), plus the Google sign-in screens (screenshots for `SETUP.md`)
+- [ ] Antigravity version (Help → About), plus the Google sign-in screens (screenshots for `SETUP.md`; the download page is done)
 - [ ] Whether the trust prompt appears when opening the course folder
 - [ ] Whether typing `/start-course` runs the skill, or only works through the `AGENTS.md` backstop
 - [ ] **What reviewing an AI edit looks like** under Review-driven development (exact button labels)

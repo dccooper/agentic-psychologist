@@ -1,18 +1,43 @@
 # Setup: Getting Ready (about 15 minutes)
 
-You'll install a free app called **Antigravity IDE**, sign in with a Google account, and open the course in it. After that, the course teaches itself: an AI tutor inside the app takes over.
+You'll install a free app called **Antigravity IDE** (what's an IDE? see below), sign in with a Google account, and open the course in it. After that, the course teaches itself: an AI tutor inside the app takes over.
 
 > **You don't need any technical experience.** If something here doesn't match your screen, that's normal (apps update often). Take your best guess, and once the tutor is running, tell it what happened.
 
 <!-- Authors: steps marked ⚠️ weren't captured in testing yet. Verify them on the next fresh install (QA pass 2). -->
 
+## First: what's an "IDE"?
+
+**IDE** stands for **integrated development environment**. That's a technical name for a simple idea: **one app that keeps everything for a project in one window.** You get a list of your files, a place to read and edit them, and (in newer IDEs) an **AI assistant that can work on those files with you**.
+
+Programmers use IDEs to write software, but you don't need to be a programmer to use one. Picture a word processor and a filing cabinet in the same window, with a capable assistant beside you who can read your documents and make changes you approve.
+
+**Why use an IDE for this course, instead of a chat website like Gemini or ChatGPT?**
+
+- A chat website only sees what you paste into it. In an IDE, the AI can **open your files, create new ones, and edit them**, with you reviewing each change.
+- It can **remember things by writing them down** in files, so your work doesn't vanish when the chat ends.
+- That's the difference between a chatbot that *talks* and an **agent** that *does work*. Learning to direct and check an agent is what this course is about.
+- It's also how the course teaches itself. The tutor is an AI agent that reads the lesson files and saves your progress.
+
+**Antigravity IDE** is Google's free IDE with a built-in AI agent. Google makes several products called "Antigravity," which is why step 1 is careful about which one to download.
+
+*(Curious for more? Wikipedia has a short overview: [Integrated development environment](https://en.wikipedia.org/wiki/Integrated_development_environment). You don't need it for the course.)*
+
 ## 1. Download the right app
 
 1. Go to **https://antigravity.google/download**.
-2. ⚠️ **Careful: the first download on that page is the wrong one.** The page lists several products. The first, **Antigravity App**, is a different app. Skip it. Also skip **Antigravity CLI**.
-3. Scroll down to **Antigravity IDE (Standalone)**. This is the one you want.
-4. Click the button for your computer:
-   - **Windows:** **Download for x64** (almost all Windows PCs). Choose ARM64 only if your laptop has a Snapdragon / ARM chip. To check, go to **Settings → System → About → System type**.
+2. Near the top, make sure your kind of computer is selected (**macOS**, **Windows**, …). It's usually picked for you.
+3. ⚠️ **The first download on the page is the wrong one.** It's called **Antigravity App**, and it's a different product. **Don't click its buttons. Scroll down.**
+
+   ![The top of the download page: the computer type is already selected; the first section, "Antigravity App," is the wrong download](docs/assets/setup/download-1-not-the-app.png)
+
+4. Keep scrolling past **Antigravity CLI** (commands in boxes) and **Antigravity for IDEs** (Visual Studio Code, JetBrains, Zed, Xcode, each with a **View Docs** button). You don't need any of these.
+5. Near the bottom, find **Antigravity IDE (Standalone)**. Its heading is smaller than the others, so it's easy to miss. **This is the one you want.**
+
+   ![Near the bottom of the page: "Antigravity IDE (Standalone)" with its Download buttons](docs/assets/setup/download-2-ide-standalone.png)
+
+6. Click the button for your computer:
+   - **Windows:** **Download for x64** works for almost all Windows PCs. Choose **ARM64** only if your laptop has a Snapdragon / ARM chip. To check, go to **Settings → System → About → System type**.
    - **Mac:** **Download for Apple Silicon** if your Mac has an M1, M2, M3 or newer chip. Choose **Download for Intel** for older Macs. To check, open **Apple menu → About This Mac → Chip / Processor**.
 
 ## 2. Install it
@@ -67,6 +92,6 @@ The tutor takes it from here. Replies can take a few seconds, so be patient. �
 
 ## If something goes wrong
 
-- **I downloaded the wrong app** (it doesn't look like a code editor with a file list): go back to step 1 and get **Antigravity IDE (Standalone)**. You can uninstall the other one.
+- **I downloaded the wrong app** (there's no list of files on one side and no **File → Open Folder** menu): you probably got the **Antigravity App**. Go back to step 1 and get **Antigravity IDE (Standalone)**, near the bottom of the page. You can uninstall the other one.
 - **Sign-in fails with a university account:** try a personal Google account.
 - **The tutor doesn't seem to know about the course:** make sure you opened the course folder itself (step 6.2), not the ZIP or a folder above it.
