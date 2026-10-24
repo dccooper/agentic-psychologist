@@ -2,7 +2,7 @@
 
 Working outlines for every lesson after 1.1. Each becomes a full script (see `LESSON_TEMPLATE.md`) once Slice 1 testing confirms the format works. **Key moment** = the one thing the learner should walk away feeling.
 
-Drafted as full scripts: 0.1, 0.2, 1.1, 1.2, 2.2, 3A.1, 3B.1 (Slice 1 complete).
+Drafted as full scripts: 0.1, 0.2, 1.1, 1.2, 2.2, 3A.1, 3B.1 (Slice 1); 1.3, 1.4, 2.1, 2.3, 2.4 (Slice 2: all of Modules 0–2).
 
 **Design rule: about 20 minutes per lesson, with marked pause points.** Every lesson ends at a natural stopping point, with something that works. **Pick up, put down** is taught as a concept, not just accommodated: agentic work is easy to step away from and resume, because the work lives in files. Learners *experience* it from 0.1 (stop, `/start-course`, resume), *understand* it in 2.2 (`progress.md` is memory), and *build it in* to their own agents in 3A.2 / 3B.2 (memory files plus a handoff note).
 
@@ -20,23 +20,23 @@ Drafted as full scripts: 0.1, 0.2, 1.1, 1.2, 2.2, 3A.1, 3B.1 (Slice 1 complete).
 - **Approval fatigue, taught on purpose (QA pass 2, NOTE-001):** by now the learner has clicked Accept many times. Name the tension: reviewing everything is tiring, and blind approval is how mistakes slip through. Teach the graduated rule: **look closely at anything that changes your work or does something new; glance-and-accept routine bookkeeping (`progress.md`).** Make the distinction explicit: **Accept all** = approve what's on screen now, after looking. **Automatic approval** (Agent-driven / auto policies) = approve future edits unseen. The course keeps review on. Turning it off is a deliberate choice for later, with a rollback plan (undo, version history in G.1).
 - **New artifact:** `world/artifacts/shared-drive/` (about 10 small, badly named dummy files)
 
-### 1.3 Giving the AI context with @ (~20 min)
+### 1.3 Giving the AI context with @ (~20 min) [S2], full script: `1-foundations/1.3-context-with-at.md`
 - **Scenario:** the long, rambling department meeting transcript.
 - **Steps:** first a vague request with no context. Then the same request with @-mentioned files, plus a role, a task, a format and constraints. Compare the two results.
 - **Key moment:** the same question gets a much better answer when the AI has context. Introduces a simple prompt pattern: **context, task, format, constraints**.
 - **New artifact:** `world/artifacts/dept-meeting-transcript.md`
 
-### 1.4 First real tasks (~25 min)
-- **Scenario:** turn the transcript into action items (with owner and date), then reply to Dr. Okafor's "Thoughts?" email.
-- **Steps:** draft, then revise (shorter, warmer, more direct), then a final version they edited themselves. Optional: paste a screenshot (e.g., the Annex whiteboard) and ask about it.
+### 1.4 First real tasks (~25 min) [S2], full script: `1-foundations/1.4-first-real-tasks.md`
+- **Scenario:** turn the transcript into action items (with owner and date), then reply to Dr. Okafor's "Thoughts?" email about the shared drive, proposing the plan from 1.2 (`workspace/drive-plan.md`).
+- **Steps:** draft, then revise (shorter, warmer, more direct), then a final version they edited themselves. *(The screenshot exercise was dropped from 1.4 to keep it under 25 minutes. Possible home: an optional extra later.)*
 - **Key moment:** don't accept the first draft. Revising is the skill.
 
 ---
 
 ## Module 2: Making it reusable
 
-### 2.1 Templates and rules (~20 min)
-- **Scenario:** they've now asked for action items in "their format" three times.
+### 2.1 Templates and rules (~20 min) [S2], full script: `2-reusable/2.1-templates-and-rules.md`
+- **Scenario:** they explained their action-items format in 1.4 and would have to explain it again every time.
 - **Steps:** save a template file. Then write their own rule (`.agents/rules/my-style.md` with `trigger: always_on` frontmatter; missing frontmatter makes Antigravity silently ignore it, which is a good teaching moment), e.g., "plain language; action items always have owner + due date." Test it in a new chat without mentioning it.
 - **Key moment:** the AI follows your preferences without being reminded. **Recipe preview:** a rule is part of an agent's *instructions* (2.2 names the full recipe).
 
@@ -44,13 +44,13 @@ Drafted as full scripts: 0.1, 0.2, 1.1, 1.2, 2.2, 3A.1, 3B.1 (Slice 1 complete).
 - **Steps:** open `AGENTS.md`, the `/next-step` skill and `progress.md`. **Edit the tutor to talk like Groucho Marx (or a Pratchett-style narrator, the learner's pick)** for one exchange, see it change, then change it back. Notice `progress.md` has been the agent's memory all along.
 - **Key moment:** everything that taught you is plain text files, and you can edit them. **And that's why you could stop and resume all along:** the tutor didn't remember you; `progress.md` did. That's the core of pick up, put down.
 
-### 2.3 Build your first skill (~25 min)
+### 2.3 Build your first skill (~25 min) [S2], full script: `2-reusable/2.3-build-your-first-skill.md`
 - **Scenario:** a second transcript arrives (the clinic staff meeting).
-- **Steps:** build `/meeting-to-actions` using their template and rule from 2.1 (via `/create-skill` or by hand). Run it on the new transcript, then improve it once.
+- **Steps:** build `/meeting-to-actions` using their template and rule from 2.1 (the learner describes the procedure, the AI drafts `SKILL.md`, the learner reviews and edits it). Run it on the new transcript, then improve it once.
 - **Key moment:** *"I made the AI do my thing, the same way every time."* Template + rule + skill = a reusable pipeline. **Recipe:** they've now written *instructions* (2.1) and a *skill* (2.3); 2.2 showed the *memory*. Name it.
 - **New artifact:** `world/artifacts/clinic-staff-meeting.md`
 
-### 2.4 The terminal isn't scary (~15 min)
+### 2.4 The terminal isn't scary (~15 min) [S2], full script: `2-reusable/2.4-the-terminal.md`
 - **Steps:** open the editor's terminal panel (**Terminal → New Terminal**). Run 2–3 harmless commands that work on Mac and Windows (`pwd`, `ls`). Then ask the agent to do something that needs a command, and **read what it wants to run before approving**.
 - **Key moment:** the terminal is just typing instructions to your computer. The real skill is reading what the AI asks to run before you say yes.
 

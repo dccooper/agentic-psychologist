@@ -209,7 +209,9 @@ Both paths ship in v1. There's no deadline: release when it's done. Build in ver
 **Slice 1, the walking skeleton:**
 Download ZIP → bootstrap → Module 0 complete → one lesson each from Modules 1 and 2 (including open the hood) → the first lesson of **both** the clinic and lab paths → `progress.md` updating throughout → **site content drafted** in `/docs` (landing + setup page; it goes live at v1 because the repo is private until then) → first `free-tier-budget.md` entries.
 
-Later slices fill in content within the proven structure.
+**Slice 2, the shared core:** the rest of Modules 1–2 (1.3 context with @, 1.4 first real tasks, 2.1 templates and rules, 2.3 first skill, 2.4 terminal). With it, a learner can go from download to **their first skill** (the release success criterion, §10) and on to the path choice without skipping anything.
+
+Later slices fill in content within the proven structure: next, the path lessons (3A.2–3A.3, 3B.2–3B.3, which needs the dataset), then the capstone and graduation.
 
 ## 10. Testing and success
 

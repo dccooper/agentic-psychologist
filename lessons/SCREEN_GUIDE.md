@@ -61,7 +61,18 @@ During setup the learner chose one of: **Strict Mode**, **Review-driven developm
 
 **Skills in the message box** ✅ Typing `/` plus a skill name turns it into a chip with a small icon (e.g. **start-course**).
 
-**@ and /** ✅ (labels) The message box says *"@ to mention, / for actions"*. **@** attaches a file to your message (Lesson 1.3). **/** runs a command such as `/start-course`.
+**@ and /** ✅ (labels) The message box says *"@ to mention, / for actions"*. **@** attaches a file to your message (Lesson 1.3). **/** runs a command such as `/start-course`. ⚠️ The look of the @ file picker is unverified. Typing the file's path in the message works as a fallback.
+
+**Settings** ✅ (QA pass 3, Lesson 1.2) The gear menu lists **Open Antigravity IDE User Settings (Ctrl+,)**, **Editor Settings**, **Extensions**, **Keyboard Shortcuts**, and more. ⚠️ Which of these holds the review setting chosen at setup is still unconfirmed.
+
+**Rules and skills (files the learner creates)** ⚠️
+- A **rule** is a `.md` file in `.agents/rules/` that must start with `---` / `trigger: always_on` / `---`, or it's silently ignored (Lesson 2.1).
+- A **skill** is a folder in `.agents/skills/` with a `SKILL.md` inside, starting with `name` and `description` frontmatter (Lesson 2.3).
+- Unverified: whether a new rule or skill takes effect in the current conversation or only after **+** (new conversation). Lessons use a new conversation to be safe.
+
+**The terminal** ⚠️ **Terminal → New Terminal** in the top menu, or **Ctrl+`** (Mac: **Ctrl+`** too). It opens as a panel, usually along the bottom. On Windows it's PowerShell by default. `pwd`, `ls`, and `clear` work on both Windows and Mac. The trash-can icon on the panel closes it.
+
+**When the agent wants to run a command** ⚠️ Unverified in Antigravity: the look of the approval prompt, and whether **Review-driven development** asks before harmless commands or runs them on its own (Google's docs describe terminal policies **Off / Auto / Turbo**). Lessons 1.2 and 2.4 ask the learner to describe what they see.
 
 ## Open items to verify (QA pass 2)
 
@@ -76,3 +87,10 @@ During setup the learner chose one of: **Strict Mode**, **Review-driven developm
 - [ ] Where to change the review setting after setup
 - [x] New Folder / New File and typing in Markdown worked (QA pass 2: the learner created `workspace/my-notes/first-week.md` by hand)
 - [ ] Free-plan usage limits view, and response times on the default model
+
+**Added for Slice 2 (verify in QA pass 4):**
+- [ ] The @ file picker: how it looks, and whether typing part of a name finds the file (1.3)
+- [ ] `.agents/rules/my-style.md` with `trigger: always_on` is followed in a new conversation; the same file without frontmatter is ignored (2.1)
+- [ ] A new skill in `.agents/skills/` shows up as a `/` chip, and whether that needs a new conversation (2.3)
+- [ ] **Terminal → New Terminal** exists in the menu; **Ctrl+`** opens the terminal (2.4)
+- [ ] What the command-approval prompt looks like, and whether `python --version` runs without asking under Review-driven development (2.4)

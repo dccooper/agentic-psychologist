@@ -16,7 +16,8 @@
 ### Recurring artifacts (created as lessons need them)
 
 - Orientation welcome email from Dr. Okafor
-- Department meeting transcript (long, rambling, buried action items)
+- Department meeting transcript (long, rambling, buried action items) → `dept-meeting-transcript.md`
+- Clinic staff meeting transcript (the open house) → `clinic-staff-meeting.md`
 - Jordan's "survival guide" notes (half useful, half jokes)
 - Clinic: outdated website copy, a referral-partner list, Dr. Reyes's to-do pile
 - Lab: messy data folder, Dr. Lund's "quick lit review" requests, grant deadline email
