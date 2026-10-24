@@ -38,7 +38,7 @@ Drafted: 0.1, 0.2, 1.1 (full scripts).
 - **Key moment:** the AI follows your preferences without being reminded.
 
 ### 2.2 Open the hood (~20 min) [S1]
-- **Steps:** open `tutor.mdc`, the `/next-step` skill and `progress.md`. **Edit the tutor to talk like Groucho Marx** for one exchange, see it change, then change it back. Notice `progress.md` has been the agent's memory all along.
+- **Steps:** open `AGENTS.md`, the `/next-step` skill and `progress.md`. **Edit the tutor to talk like Groucho Marx (or a Pratchett-style narrator, the learner's pick)** for one exchange, see it change, then change it back. Notice `progress.md` has been the agent's memory all along.
 - **Key moment:** everything that taught you is plain text files, and you can edit them. **And that's why you could stop and resume all along:** the tutor didn't remember you; `progress.md` did. That's the core of pick up, put down.
 
 ### 2.3 Build your first skill (~25 min)

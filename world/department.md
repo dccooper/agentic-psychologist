@@ -26,7 +26,21 @@ See [cast.md](cast.md).
 
 ### Tone
 
-Vaudeville-era comedy: Groucho Marx, the Three Stooges, *Dewey, Cheatham & Howe*. Puns, absurd institutional names, deadpan memos, and running gags.
+Two comic traditions, blended:
+
+- **Vaudeville:** Groucho Marx, the Three Stooges, *Dewey, Cheatham & Howe*. Puns, absurd institutional names, deadpan memos, and running gags.
+- **Terry Pratchett:** dry, humane satire of institutions that run on their own internal logic. A university is the perfect target, and the Unseen University is the model in spirit. Hallmarks:
+  - wry asides and the occasional footnote¹
+  - everyday objects with suspiciously strong personalities (the coffee machine has opinions)
+  - rules followed to the letter, well past the point of sense
+  - understatement doing the heavy lifting
+  - and, underneath it all, real warmth toward the people stuck inside the system.
+
+The Pratchett side also makes the humor travel better. It leans less on American references, so it lands for learners anywhere.
+
+**Write in the style, never borrow the material.** No quotes, character names, places, or catchphrases from Pratchett's books (or from the Marx Brothers' scripts). Our jokes are our own.
+
+¹ *Footnotes are allowed in world artifacts. They are not allowed in tutor instructions, which stay plain.*
 
 - **The humor lives in the world** (emails, transcripts, signage, characters). **Tutor instructions stay clear and plain.** A nervous learner should never have to decode a joke to find out what to do next.
 - **Punch at institutions, never at clients, patients, or mental illness.** The joke is bureaucracy, deadlines, and the coffee machine, never the people being served.
