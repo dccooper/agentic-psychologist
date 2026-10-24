@@ -2,13 +2,15 @@
 
 The tutor follows this order. Slice 1 lessons are marked **[S1]**. Titles are working drafts.
 
+**While the course is being built:** lessons without a script file are skipped (see the `/next-step` skill). So in Slice 1 the order runs 0.1 → 0.2 → 1.1 → 1.2 → 2.2 → path choice → 3A.1 or 3B.1.
+
 ## Module 0: Getting started (shared)
 - 0.1 Welcome to the department **[S1]**
 - 0.2 What never goes into an AI tool **[S1]**
 
 ## Module 1: Foundations (shared)
 - 1.1 Finding your way around the editor **[S1]**
-- 1.2 Ask, Plan, and Agent modes
+- 1.2 Read, think, act: how much should the AI do on its own? **[S1]**
 - 1.3 Giving the AI context with @
 - 1.4 First real tasks: meeting transcript → action items; email to the director
 

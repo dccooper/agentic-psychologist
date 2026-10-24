@@ -2,7 +2,7 @@
 
 Working outlines for every lesson after 1.1. Each becomes a full script (see `LESSON_TEMPLATE.md`) once Slice 1 testing confirms the format works. **Key moment** = the one thing the learner should walk away feeling.
 
-Drafted: 0.1, 0.2, 1.1 (full scripts).
+Drafted as full scripts: 0.1, 0.2, 1.1, 1.2, 2.2, 3A.1, 3B.1 (Slice 1 complete).
 
 **Design rule: about 20 minutes per lesson, with marked pause points.** Every lesson ends at a natural stopping point, with something that works. **Pick up, put down** is taught as a concept, not just accommodated: agentic work is easy to step away from and resume, because the work lives in files. Learners *experience* it from 0.1 (stop, `/start-course`, resume), *understand* it in 2.2 (`progress.md` is memory), and *build it in* to their own agents in 3A.2 / 3B.2 (memory files plus a handoff note).
 
@@ -10,7 +10,7 @@ Drafted: 0.1, 0.2, 1.1 (full scripts).
 
 ## Module 1: Foundations (continued)
 
-### 1.2 Ask, Plan, and Agent modes (~20 min)
+### 1.2 Read, think, act (~20 min) [S1], full script: `1-foundations/1.2-read-think-act.md`
 - **Scenario:** Dr. Okafor wants "thoughts" on fixing the shared drive (`FINAL`, `FINAL_actual`, `USE THIS ONE`).
 - **Steps:** **Ask** mode: question the mess without changing anything. **Plan** mode: have the AI propose a reorganization. **Agent** mode: carry out the plan on a practice copy of the folder.
 - **Key moment:** pick the mode by risk. *Read → think → act.*
@@ -38,7 +38,7 @@ Drafted: 0.1, 0.2, 1.1 (full scripts).
 - **Steps:** save a template file. Then write their own rule (`.agents/rules/my-style.md` with `trigger: always_on` frontmatter; missing frontmatter makes Antigravity silently ignore it, which is a good teaching moment), e.g., "plain language; action items always have owner + due date." Test it in a new chat without mentioning it.
 - **Key moment:** the AI follows your preferences without being reminded.
 
-### 2.2 Open the hood (~20 min) [S1]
+### 2.2 Open the hood (~20 min) [S1], full script: `2-reusable/2.2-open-the-hood.md`
 - **Steps:** open `AGENTS.md`, the `/next-step` skill and `progress.md`. **Edit the tutor to talk like Groucho Marx (or a Pratchett-style narrator, the learner's pick)** for one exchange, see it change, then change it back. Notice `progress.md` has been the agent's memory all along.
 - **Key moment:** everything that taught you is plain text files, and you can edit them. **And that's why you could stop and resume all along:** the tutor didn't remember you; `progress.md` did. That's the core of pick up, put down.
 
@@ -58,7 +58,7 @@ Drafted: 0.1, 0.2, 1.1 (full scripts).
 
 ## Module 3A: Clinic path (Daybreak Clinic)
 
-### 3A.1 Meet the clinic director (~15 min) [S1]
+### 3A.1 Meet the clinic director (~15 min) [S1], full script: `3a-clinic/3A.1-meet-the-clinic-director.md`
 - **Scenario:** Dr. Reyes's voice-memo brain dump: "website from 2017, referrals down, I forget everything."
 - **Steps:** use Plan mode to scope two projects. Set up `workspace/clinic/`.
 - **Key moment:** scope before you build.
@@ -91,7 +91,7 @@ Drafted: 0.1, 0.2, 1.1 (full scripts).
 
 ## Module 3B: Lab path (Foresight Lab)
 
-### 3B.1 Meet the lab (~15 min) [S1]
+### 3B.1 Meet the lab (~15 min) [S1], full script: `3b-lab/3B.1-meet-the-lab.md`
 - **Scenario:** Dr. Lund's email chain ("quick lit review," "dashboard like that paper," grant due) and Dr. Bello's tour of the data folder.
 - **Steps:** use Plan mode to scope the projects. Set up `workspace/lab/`.
 - **Key moment:** scope before you build. Ask "what question does this answer?" first.

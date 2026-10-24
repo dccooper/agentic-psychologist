@@ -11,6 +11,8 @@
 | **Dr. Henrik Lund** (he/him) | PI, Foresight Lab | The lit review by Friday. The grant by next month. A dashboard "like the ones in that paper." | Brilliant, scattered, enthusiastic |
 | **Dr. Aisha Bello** (she/her) | Postdoc / lab manager, Foresight Lab | Clean data and reproducible analyses, finally | Precise, dry humor, the lab's real backbone |
 
+*Minor: **Dr. Osei** (she/her), a family-practice physician down the road and a potential referral partner (mentioned in Dr. Reyes's voice memo).*
+
 ### Recurring artifacts (created as lessons need them)
 
 - Orientation welcome email from Dr. Okafor
