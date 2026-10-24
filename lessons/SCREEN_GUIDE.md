@@ -2,7 +2,7 @@
 
 <!-- The tutor reads this whenever it gives on-screen directions. Lessons point here instead of describing the screen themselves, so when Antigravity changes, this is the one file to update. -->
 
-- **Last verified:** 2026-10-24, Windows, Antigravity IDE (Standalone), from David's setup screenshots. Version not recorded (the download page listed v2.5.5). Record it next time (Help → About).
+- **Last verified:** 2026-10-24, Windows, Antigravity IDE (Standalone), from David's setup screenshots. **Antigravity IDE v2.5.5.**
 - **Status key:** ✅ seen in a test screenshot · ⚠️ inferred (usually from standard VS Code behavior; Antigravity is built on VS Code), not yet confirmed
 - **Setup** (download, Google sign-in, first-run screens) is in `SETUP.md`. Learners do it before the tutor exists.
 
@@ -58,8 +58,8 @@ Under Review-driven development, the agent should ask before applying changes, a
 ## Open items to verify (QA pass 2)
 
 - [x] Google sign-in screens, installer screens, start screen (captured 2026-10-24, in `SETUP.md`)
-- [ ] Antigravity version (Help → About)
-- [ ] Whether the trust prompt appears when opening the course folder
+- [x] Version: Antigravity IDE 2.5.5
+- [x] The trust prompt appears when opening the course folder (David, first install). Exact wording not captured
 - [x] Typing `/start-course` is recognized as a skill: it turns into a **start-course** chip in the message box (2026-10-24). *Still to confirm:* the tutor then follows the skill correctly.
 - [ ] **What reviewing an AI edit looks like** under Review-driven development (exact button labels)
 - [ ] Where to change the review setting after setup

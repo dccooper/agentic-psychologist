@@ -28,4 +28,4 @@ Captured by David on 2026-10-24 (Windows, fresh setup). The source for `SETUP.md
 | 31 | Start screen with no folder open: **Open Folder**, **Clone Repository**, Workspaces, Google Extensions | |
 | 32 | Clone Repository: "Provide repository URL or pick a repository source" / **Clone from GitHub** | Needs Git installed. **Antigravity doesn't bundle Git** (checked the install folder) |
 
-**Still needed:** the trust prompt (didn't appear; the folder reopened from history), the version number, and the review-an-edit UI (QA pass 2 lessons), the trust prompt, and what reviewing an AI edit looks like.
+**Confirmed by David:** the trust prompt appears on first open; version **2.5.5**. **Still needed:** the review-an-edit UI (QA pass 2 lessons), the trust prompt, and what reviewing an AI edit looks like.

@@ -98,7 +98,7 @@ You'll land on a start screen with two big buttons: **Open Folder** and **Clone 
 
 1. On the start screen, click **Open Folder** (or use the menu: **File → Open Folder…**).
 2. Choose the unzipped course folder. It's the one that contains `README.md`, `lessons`, and `world`. (If you see just one folder inside another with the same name, go into it.)
-3. ⚠️ If asked whether you trust the authors of the files, choose **Yes, I trust the authors**. The course needs this so the tutor can work.
+3. Antigravity asks whether you trust the authors of the files. Choose **Yes, I trust the authors**. The course needs this so the tutor can work.
 4. You should see the course's folders listed in the **Explorer** panel.
 
 ## 7. Start the course
