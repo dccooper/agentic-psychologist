@@ -13,4 +13,4 @@ description: Continue to the next step of the current lesson. Use when the learn
    - Mark the lesson complete in `progress.md`.
    - Give a two-sentence recap of what they can now do.
    - Set the next lesson (follow the order in `lessons/README.md`). At the end of Module 2, ask which path they want, **Clinic** (3A) or **Lab** (3B), and record their choice.
-6. Update `workspace/progress.md`.
+6. Update `workspace/progress.md` only at a pause point or the end of a lesson (see `AGENTS.md`), not after every step.

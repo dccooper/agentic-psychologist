@@ -44,10 +44,18 @@ In the Explorer, right-click the folder you want it in (e.g. `workspace`) and ch
 **How much the agent may do on its own** ✅ (labels from setup) / ⚠️ (behavior)
 During setup the learner chose one of: **Strict Mode**, **Review-driven development** (*Recommended*; what `SETUP.md` tells learners to choose), **Agent-driven development** (*"The agent will never request for review"*), or **Custom configuration**. ⚠️ Where to change it later is unknown, probably **Antigravity - Settings** (status bar) or the gear icon. This matters for Lesson 1.1 (reviewing changes) and 1.2 (deciding how much the AI may do alone).
 
-**Review the AI's changes** ⚠️ *Not yet observed. Top priority for QA pass 2.*
-Under Review-driven development, the agent should ask before applying changes, and edited files should show the changes for you to accept or reject. Until verified, ask the learner to describe what appears after the AI edits a file (in the agent panel and in the editor), and to read out the button names. Record what they say in `progress.md` Notes.
+**Review the AI's changes** ✅ (QA pass 2, Review-driven development). A change shows up in **three places**:
+1. **Under the agent's message:** a card, e.g. **1 file changed +20 −1**, with a **Review** button. Review opens the file with the changes highlighted.
+2. **In the editor:** added lines are tinted green, removed lines red. Each changed block has its own floating **Accept** (Alt+Enter) / **Reject** (Shift+Alt+Backspace). A bar at the bottom of the editor applies to the whole file: **Accept Changes** (Ctrl+Enter) / **Reject** (Ctrl+Backspace), arrows to jump between changes (Alt+K / Alt+J), and **Edited files 1/2** to move between files.
+3. **Above the message box:** **N File(s) With Changes**, listing each pending file with its `+/−` counts, plus **Reject all** / **Accept all**. It stays there until the learner decides, so pending edits from several turns pile up in it.
+
+⚠️ *Inferred, not confirmed:* the change is already written to the file while it's pending (the file on disk showed it), so **Reject** reverts it and **Accept** keeps it. If so, progress saves even before the learner accepts, unless they reject it.
+
+**`progress.md` updates** appear in the same list, so the tutor saves progress only at pause points and lesson ends (see `AGENTS.md`).
 
 **Model** ✅ The model picker sits in the message box. A fresh install (2026-10-24) defaulted to **Gemini 3.8 Flash High**. David has also seen Medium. Before sign-in it shows **No Model Selected**. Learners don't need to change it. ⚠️ Whether the Free plan allows other models is unknown. Never suggest switching models as a fix.
+
+**Voice input** ✅ (icon) / ⚠️ (behavior) A **microphone** icon sits in the message box, next to send. It presumably dictates into the box so you can read and edit before sending. Permission prompts are untested.
 
 **Before sign-in / the start screen** ✅ With no folder open, the editor shows **Open Folder**, **Clone Repository**, recent **Workspaces**, and **Google Extensions** (ignore those). Before sign-in, the agent panel says *"To use the agent, please login here"*, and a blue **Log in →** button sits at the top right.
 
@@ -61,7 +69,10 @@ Under Review-driven development, the agent should ask before applying changes, a
 - [x] Version: Antigravity IDE 2.5.5
 - [x] The trust prompt appears when opening the course folder (David, first install). Exact wording not captured
 - [x] Typing `/start-course` is recognized as a skill: it turns into a **start-course** chip in the message box (2026-10-24). *Still to confirm:* the tutor then follows the skill correctly.
-- [ ] **What reviewing an AI edit looks like** under Review-driven development (exact button labels)
+- [x] Reviewing an AI edit: the Review card, per-change Accept/Reject, the Accept Changes bar, Files With Changes / Accept all (QA pass 2)
+- [ ] Whether a pending (unaccepted) edit is already saved to the file, and what Reject does
+- [ ] The microphone: dictation vs. voice chat; Windows/Mac permission prompts
+- [ ] Exact settings location for the Tab features (Autocomplete, Supercomplete, Tab-to-Jump, Tab-to-Import)
 - [ ] Where to change the review setting after setup
-- [ ] New Folder / New File by right-click; Markdown opens as editable text
+- [x] New Folder / New File and typing in Markdown worked (QA pass 2: the learner created `workspace/my-notes/first-week.md` by hand)
 - [ ] Free-plan usage limits view, and response times on the default model

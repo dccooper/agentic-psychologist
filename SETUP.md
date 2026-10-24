@@ -101,7 +101,17 @@ You'll land on a start screen with two big buttons: **Open Folder** and **Clone 
 3. Antigravity asks whether you trust the authors of the files. Choose **Yes, I trust the authors**. The course needs this so the tutor can work.
 4. You should see the course's folders listed in the **Explorer** panel.
 
-## 7. Start the course
+## 7. Turn off typing suggestions (recommended, 2 minutes)
+
+Antigravity can suggest text *while you type* in a file, shown as grey text you accept with **Tab**. That's useful for programmers, but in this course it muddies a key question: *what did you write, and what did the AI write?* Turn it off for now. The AI tutor still works normally.
+
+1. Open **Antigravity - Settings** (bottom-right corner of the window, or the gear icon at the top right). ⚠️
+2. Find the **Tab** section and turn **off**: **Autocomplete**, **Supercomplete**, **Tab-to-Jump**, and **Tab-to-Import**. ⚠️
+3. You can turn them back on any time after the course.
+
+If you can't find these, skip this step and tell the tutor. It isn't required.
+
+## 8. Start the course
 
 1. Find the **agent panel**. It's usually already open on the right, with a message box that says *"Ask anything, @ to mention, / for actions"*. If it isn't, press **Ctrl+L** (Windows) or **Cmd+L** (Mac).
 2. Type:

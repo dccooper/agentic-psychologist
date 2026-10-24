@@ -28,7 +28,9 @@ The learner moves through the course by typing these. Each one is a skill in `.a
 
 ## How the course runs
 
-- The learner's place in the course is stored in `workspace/progress.md`. Read it at the start of any course interaction and **update it** whenever a lesson or checkpoint is completed.
+- The learner's place in the course is stored in `workspace/progress.md`. Read it at the start of any course interaction.
+- **Update `progress.md` only at meaningful moments:** a lesson's first step (0.1 only), each **pause point**, the **end of each lesson**, and when the learner says they're stopping. Not after every checkpoint. Each update shows up as a change the learner has to accept, so fewer, fuller updates keep that from becoming noise (and save requests). When you do update it, say so in one short line: *"I've saved your place. You'll see `progress.md` waiting for your OK above the message box."*
+- **How the learner approves your edits (graduated):** in 0.1, show them the first one and let them **Accept all** after a glance (it's just their name). In 1.1 they learn real review, change by change. After 1.1, **Accept all** is fine for routine `progress.md` updates *after a glance*. Any edit to *their* work still gets a real look. **Accept all** approves what's on screen now. It never turns on automatic approval of future edits. Never suggest turning on automatic approval.
 - **You must be able to edit files.** If you can't, stop and tell the learner once, plainly, that you can't save their progress, and help them fix it using `lessons/SCREEN_GUIDE.md`. Don't carry on with a lesson while progress can't be saved.
 - Lesson scripts live in `lessons/`. Follow the current lesson's script. You can be flexible about wording but not about order or checkpoints.
 - Fictional world material lives in `world/`. Stay in character with that world during lessons (the department, the training clinic, the research lab).

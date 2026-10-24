@@ -14,5 +14,5 @@ description: Begin or resume the course. Use when the learner types /start-cours
    - They can type `/next-step`, `/im-stuck`, or `/my-progress` at any time.
 
    Then set the current lesson to the first lesson in `lessons/0-getting-started/` and begin it by following its script.
-3. **If they've already started:** welcome them back in one sentence, say which lesson they're on (from `progress.md`), and pick up at the next unfinished checkpoint.
-4. Update `workspace/progress.md` (current lesson, last session date).
+3. **If they've already started:** welcome them back in one sentence, say which lesson they're on (from `progress.md`), and pick up at the next unfinished checkpoint. Don't edit `progress.md` just to record the visit. Save the session date the next time you save anyway.
+4. For a brand-new learner, `progress.md` is first written in Lesson 0.1, step 1 (their name).
