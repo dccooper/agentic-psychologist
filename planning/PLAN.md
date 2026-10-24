@@ -110,8 +110,9 @@ Design rules:
 - **GitHub Pages** hosts the site (Markdown + Jekyll, in `/docs`). Teaching happens in Antigravity, not on the site (except setup: the site's setup page walks through download and sign-in, since the tutor can't help before it's installed). The site has two parts:
   - **Front page: a showcase.** Sells the idea and gets people started right away (what it is, why it matters for psychologists, a demo, "Start in 5 minutes"). More polished than a standard docs theme. **Visual direction: David to bring reference examples.**
   - **Guide section, behind a menu:** detailed reference material, setup help, FAQs, the educator guide (§8), the concerns page (§8.5). A docs-style theme (e.g., Just the Docs).
-- **Launch checklist (v1):** make repo public → turn on Pages → check that the site loads → check "Download ZIP" on a clean machine.
+- **Launch checklist (v1):** **remove or scrub `QA/` screenshots that show personal info** (names, email, other repo names) → make repo public → turn on Pages → check that the site loads → check "Download ZIP" on a clean machine.
 - Learners get the course with **"Download ZIP"** (no git required up front). An optional one-line bootstrap prompt ("Fetch [url] and help me start…") is offered as a convenience.
+- **Clone Repository (decided 2026-10-24: secondary path, not default).** Antigravity's start screen offers **Clone Repository** (paste a GitHub URL), which would skip the ZIP. But **Antigravity doesn't bundle Git** (checked the install folder). On a fresh Windows PC without Git, clone fails or asks for a Git install, which is a scarier step than unzipping. So SETUP offers clone as "already use Git?". **Revisit:** a G.1 bonus could be installing Git, then re-cloning to get course updates with a pull. Also test what Antigravity shows when Git is missing (a tester without Git).
 
 ### 7.2 Teaching method
 *Portable layout (2026-10-24):* the tutor is `AGENTS.md` and the skills are `.agents/skills/<name>/SKILL.md`. Antigravity, VS Code + Copilot, and Cursor all read these. See §3 for Antigravity specifics.
@@ -212,7 +213,7 @@ Later slices fill in content within the proven structure.
 
 | # | Assumption | Holds if… | Breaks if… | Resolve when |
 |---|---|---|---|---|
-| 1 | **Antigravity's teaching tools work as planned.** `AGENTS.md` and `.agents/skills/` are documented. In Cursor (QA pass 1), skills drove multi-turn lessons and updated `progress.md`. Unverified in Antigravity: whether `/start-course` triggers the skill in the IDE, or only the `AGENTS.md` backstop does. | Slice 1 retest shows the commands drive lessons | Neither the slash command nor the backstop works reliably | QA pass 2 |
+| 1 | **Antigravity's teaching tools work as planned.** `AGENTS.md` and `.agents/skills/` are documented. In Cursor (QA pass 1), skills drove multi-turn lessons and updated `progress.md`. *2026-10-24:* typing `/start-course` in the IDE is recognized as a skill (it shows a chip). Still to confirm: the tutor follows the skill through a multi-turn lesson. | Slice 1 retest shows the commands drive lessons | Neither the slash command nor the backstop works reliably | QA pass 2 |
 | 2 | **The agent follows lesson scripts on the default free model** (Gemini 3.8 Flash) | The tutor stays on script, reads files rather than guessing, and doesn't finish exercises for the learner | It skips checkpoints or invents facts (seen on Cursor's Grok: QA-002), or it's too slow for a 20-minute lesson | Every slice, always on a Free account |
 | 3 | **Antigravity's Free weekly limits are enough.** Limits are unpublished. | Modules 0–2 fit in a week of Free with margin | Learners hit the weekly limit before their first skill | Slice 1 budget test |
 | 4 | **The data guardrail is a nudge.** The lesson is the real protection. | Learners take in "what never goes in" | Someone relies on the guardrail and pastes real data | Ongoing; watch in testing |

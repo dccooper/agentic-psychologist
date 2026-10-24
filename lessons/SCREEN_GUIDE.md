@@ -24,7 +24,7 @@ While the agent works, the agent panel shows its activity (e.g. *"Exploring 1 fi
 
 ## Common actions
 
-**Open the agent panel** ✅ **Ctrl+L** (Mac: **Cmd+L** ⚠️), or click **Code with Agent** in the empty editor. ⚠️ The layout icons at the top of the window also toggle the side panels.
+**Open the agent panel** ✅ It's open by default on the right (title **Agent**). Otherwise press **Ctrl+L** (Mac: **Cmd+L** ⚠️), or click **Code with Agent** in the empty editor. ⚠️ The layout icons at the top of the window also toggle the side panels.
 
 **Start a fresh conversation** ✅ The **+** at the top of the agent panel. ⚠️ Course progress lives in `workspace/progress.md`, so a new conversation loses nothing. Type `/start-course` to resume.
 
@@ -47,15 +47,20 @@ During setup the learner chose one of: **Strict Mode**, **Review-driven developm
 **Review the AI's changes** ⚠️ *Not yet observed. Top priority for QA pass 2.*
 Under Review-driven development, the agent should ask before applying changes, and edited files should show the changes for you to accept or reject. Until verified, ask the learner to describe what appears after the AI edits a file (in the agent panel and in the editor), and to read out the button names. Record what they say in `progress.md` Notes.
 
-**Model** ✅ The model picker sits in the message box (e.g. **Gemini 3.8 Flash High**). The default is **Gemini 3.8 Flash (Medium)**. Learners don't need to change it. ⚠️ Whether the Free plan allows other models is unknown. Never suggest switching models as a fix.
+**Model** ✅ The model picker sits in the message box. A fresh install (2026-10-24) defaulted to **Gemini 3.8 Flash High**. David has also seen Medium. Before sign-in it shows **No Model Selected**. Learners don't need to change it. ⚠️ Whether the Free plan allows other models is unknown. Never suggest switching models as a fix.
+
+**Before sign-in / the start screen** ✅ With no folder open, the editor shows **Open Folder**, **Clone Repository**, recent **Workspaces**, and **Google Extensions** (ignore those). Before sign-in, the agent panel says *"To use the agent, please login here"*, and a blue **Log in →** button sits at the top right.
+
+**Skills in the message box** ✅ Typing `/` plus a skill name turns it into a chip with a small icon (e.g. **start-course**).
 
 **@ and /** ✅ (labels) The message box says *"@ to mention, / for actions"*. **@** attaches a file to your message (Lesson 1.3). **/** runs a command such as `/start-course`.
 
 ## Open items to verify (QA pass 2)
 
-- [ ] Antigravity version (Help → About), plus the Google sign-in screens (screenshots for `SETUP.md`; the download page is done)
+- [x] Google sign-in screens, installer screens, start screen (captured 2026-10-24, in `SETUP.md`)
+- [ ] Antigravity version (Help → About)
 - [ ] Whether the trust prompt appears when opening the course folder
-- [ ] Whether typing `/start-course` runs the skill, or only works through the `AGENTS.md` backstop
+- [x] Typing `/start-course` is recognized as a skill: it turns into a **start-course** chip in the message box (2026-10-24). *Still to confirm:* the tutor then follows the skill correctly.
 - [ ] **What reviewing an AI edit looks like** under Review-driven development (exact button labels)
 - [ ] Where to change the review setting after setup
 - [ ] New Folder / New File by right-click; Markdown opens as editable text

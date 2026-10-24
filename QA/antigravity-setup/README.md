@@ -14,4 +14,18 @@ Captured by David on 2026-10-24 (Windows, fresh setup). The source for `SETUP.md
 | 07 | Security Notice & Data Use | Data-use box is **checked by default** |
 | 08 | The IDE with the course open, `/start-course` running | Explorer / editor / agent panel; model shown: Gemini 3.8 Flash High |
 
-**Still needed (QA pass 2):** the Google sign-in screens, the trust prompt, and what reviewing an AI edit looks like.
+## Second capture: fresh reinstall (2026-10-24, 07:17–07:25)
+
+| # | Screen | Note |
+|---|---|---|
+| 10–15 | Windows installer: License → Destination → Start Menu → **Additional Tasks** → Ready → Finish | "Create a desktop icon" is **off by default**. SETUP tells learners to tick it |
+| 20 | First launch: **Migrate Settings, Keybindings, and Extensions** dialog | Only because an older Antigravity install existed. Learners: **Cancel** |
+| 21 | Agent panel: "To use the agent, please login **here**"; model "No Model Selected" | Plus the **Log in →** button, top right |
+| 22 | Welcome to Antigravity IDE: **Continue with Google** | |
+| 23–25 | Browser: Choose an account → "Make sure that you downloaded this app from Google" → **Sign in** → "You have successfully authenticated" + **Open Antigravity IDE?** | 23 and 24 show David's email. **Don't publish these** |
+| 26 | Success, Continuing… → Next | Then the same first-run screens as 02–07 |
+| 30 | `/start-course` typed: it becomes a **start-course** skill chip | ✅ Skills are invocable in the IDE. Default model: **Gemini 3.8 Flash High** |
+| 31 | Start screen with no folder open: **Open Folder**, **Clone Repository**, Workspaces, Google Extensions | |
+| 32 | Clone Repository: "Provide repository URL or pick a repository source" / **Clone from GitHub** | Needs Git installed. **Antigravity doesn't bundle Git** (checked the install folder) |
+
+**Still needed:** the trust prompt (didn't appear; the folder reopened from history), the version number, and the review-an-edit UI (QA pass 2 lessons), the trust prompt, and what reviewing an AI edit looks like.

@@ -4,7 +4,7 @@ You'll install a free app called **Antigravity IDE** (what's an IDE? see below),
 
 > **You don't need any technical experience.** If something here doesn't match your screen, that's normal (apps update often). Take your best guess, and once the tutor is running, tell it what happened.
 
-<!-- Authors: steps marked ⚠️ weren't captured in testing yet. Verify them on the next fresh install (QA pass 2). -->
+<!-- Authors: screenshots behind every step are in QA/antigravity-setup/ (Windows, 2026-10-24). Steps marked ⚠️ weren't captured yet. Mac steps are untested. -->
 
 ## First: what's an "IDE"?
 
@@ -42,13 +42,33 @@ Programmers use IDEs to write software, but you don't need to be a programmer to
 
 ## 2. Install it
 
-Open the file you downloaded (usually in your **Downloads** folder) and follow the installer. On a Mac, drag Antigravity into **Applications**.
+Open the file you downloaded (usually in your **Downloads** folder).
 
-## 3. Sign in with Google ⚠️
+**Windows**, the installer's screens:
 
-1. Open **Antigravity IDE**. It will ask you to sign in with Google, usually by opening your web browser.
-2. Choose a Google account and approve the sign-in. **A personal Google account is simplest.** University Google accounts sometimes block new apps. (The course never uses real patient or research data, so a personal account is fine for it.)
-3. Go back to the app. You should see **Welcome to Antigravity IDE** and **Success, Continuing…** Click **Next**.
+| Screen | What to do |
+|---|---|
+| **License Agreement** | Choose **I accept the agreement** → **Next** |
+| **Select Destination Location** | Leave it as is → **Next** |
+| **Select Start Menu Folder** | Leave it as is → **Next** |
+| **Select Additional Tasks** | ✅ **Tick "Create a desktop icon"** (it's off by default, and it makes the app easy to find). Leave the other boxes as they are → **Next** |
+| **Ready to Install** | **Install** |
+| **Completing the Antigravity IDE Setup Wizard** | Leave **Launch Antigravity IDE** ticked → **Finish** |
+
+**Mac:** open the `.dmg` file and drag **Antigravity IDE** into **Applications**. Then open it from Applications.
+
+## 3. Sign in with Google
+
+The app opens to an empty window. On the right, the agent panel shows a warning: *"To use the agent, please login here."*
+
+1. Click **here** (or the blue **Log in →** button at the top right of the window).
+2. On **Welcome to Antigravity IDE**, click **Continue with Google**. Your web browser opens.
+3. **Choose an account** (or **Use another account**). **A personal Google account is simplest.** University Google accounts sometimes block new apps. (The course never uses real patient or research data, so a personal account is fine.)
+4. Google shows **"Make sure that you downloaded this app from Google."** You did, from antigravity.google, so click **Sign in**.
+5. The browser says **"You have successfully authenticated"** and asks **"Open Antigravity IDE?"** Click **Open Antigravity IDE**.
+6. Back in the app: **Welcome to Antigravity IDE — Success, Continuing…** Click **Next**.
+
+> If a box called **Migrate Settings, Keybindings, and Extensions** pops up, click **Cancel**. It's only for people who used an older version of Antigravity.
 
 ## 4. The setup screens (7 short steps)
 
@@ -62,6 +82,8 @@ Open the file you downloaded (usually in your **Downloads** folder) and follow t
 | **Build with Google** | Leave everything **unchecked**. You won't need these. Click **Next**. |
 | **Security Notice & Data Use** | Read it. The first box (letting Google use your interactions to improve the product) **is checked by default, and it's your choice.** Uncheck it if you prefer. The email box is optional. Click **Next**. |
 
+You'll land on a start screen with two big buttons: **Open Folder** and **Clone Repository**. Leave it open, and get the course next.
+
 ## 5. Get the course
 
 1. On the course's GitHub page, click the green **Code** button, then **Download ZIP**.
@@ -70,23 +92,25 @@ Open the file you downloaded (usually in your **Downloads** folder) and follow t
    - **Mac:** double-click the ZIP. It unzips into a folder.
 3. Optionally, move the unzipped folder somewhere easy to find, like **Documents**.
 
+> **Already use Git?** You can skip the ZIP: click **Clone Repository** on the start screen, paste the course's GitHub address, and choose where to save it. This needs Git installed on your computer, and Antigravity doesn't include it. If you don't know what Git is, use the ZIP. You'll meet Git at the end of the course.
+
 ## 6. Open the course in Antigravity
 
-1. In Antigravity: **File → Open Folder…**
+1. On the start screen, click **Open Folder** (or use the menu: **File → Open Folder…**).
 2. Choose the unzipped course folder. It's the one that contains `README.md`, `lessons`, and `world`. (If you see just one folder inside another with the same name, go into it.)
 3. ⚠️ If asked whether you trust the authors of the files, choose **Yes, I trust the authors**. The course needs this so the tutor can work.
 4. You should see the course's folders listed in the **Explorer** panel.
 
 ## 7. Start the course
 
-1. Open the **agent panel**: press **Ctrl+L** (Windows) or **Cmd+L** (Mac). Or click **Code with Agent** in the middle of the window.
-2. In the message box (it says *"Ask anything, @ to mention, / for actions"*), type:
+1. Find the **agent panel**. It's usually already open on the right, with a message box that says *"Ask anything, @ to mention, / for actions"*. If it isn't, press **Ctrl+L** (Windows) or **Cmd+L** (Mac).
+2. Type:
 
    ```
    /start-course
    ```
 
-   and press **Enter**.
+   It turns into a small **start-course** tag as you type. Press **Enter**.
 
 The tutor takes it from here. Replies can take a few seconds, so be patient. 🎓
 
@@ -94,4 +118,6 @@ The tutor takes it from here. Replies can take a few seconds, so be patient. �
 
 - **I downloaded the wrong app** (there's no list of files on one side and no **File → Open Folder** menu): you probably got the **Antigravity App**. Go back to step 1 and get **Antigravity IDE (Standalone)**, near the bottom of the page. You can uninstall the other one.
 - **Sign-in fails with a university account:** try a personal Google account.
+- **The browser didn't switch back to the app after signing in:** click **Open Antigravity IDE** in the browser's pop-up, or **Click here** on the "successfully authenticated" page.
+- **I can't find the app after installing:** on Windows, press the Windows key and type *Antigravity IDE*. (Make sure it says **IDE**. Plain "Antigravity" is the other app.)
 - **The tutor doesn't seem to know about the course:** make sure you opened the course folder itself (step 6.2), not the ZIP or a folder above it.
