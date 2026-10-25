@@ -105,6 +105,14 @@ During setup the learner chose one of: **Strict Mode**, **Review-driven developm
 - [ ] Whether the agent can open a web address the learner gives it (the taste step, 3A.3a)
 - [ ] The terminal-command **Allow list** (described in Antigravity's settings docs under Request Review; a forum report says entries move after a restart in 2.5.5 on Windows). Mentioned in 3B.3a as optional and narrow, only if the learner asks
 - [ ] Whether an **edited** skill updates in a conversation that's already open (lessons rerun in a new conversation to be safe)
+
+**Added for Slice 4 (capstone):**
+- [x] The tutor can copy files to a folder **outside** the course folder (a small script, one approval; QA pass 5)
+- [ ] **File → New Window**, then **Open Folder**: labels, and whether Open Folder replaces the current window if no new window was opened first (4.1)
+- [ ] A second folder's `AGENTS.md` is read as always-on, and `/` finds its `.agents/skills/` with Tab completion (4.1)
+- [ ] Switching between two Antigravity windows on Windows and Mac (4.1–4.4)
+- [ ] Where the **data-use setting** lives after setup, and its wording (4.2 go-live checklist)
+- [ ] If an agent folder sits *inside* the course folder, does the course's `AGENTS.md` also apply? (4.1 warns against it)
 - [ ] Installing Python on a fresh Windows PC **by the agent** (`winget install` with Python's official ID): does winget work from Antigravity's terminal, does Windows show an admin prompt, and does the terminal need restarting afterward? Fallback: python.org installer with **Add python.exe to PATH** (3B.3a)
 - [ ] Same on a Mac with no Homebrew: what does the agent propose? (3B.3a)
 - [ ] `pip install pandas scipy matplotlib` works on Windows and Mac (3B.3a)

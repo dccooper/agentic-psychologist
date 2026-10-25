@@ -15,7 +15,7 @@
 |---|---|---|---|
 | 1 | **QA screenshots** | Some showed personal details, and they were in git history. | ✅ Done 2026-10-25: removed from the whole history (`git filter-repo`), QA notes kept. Backup outside the repo: `qa-screenshots-backup-2026-10-25.zip`, plus a mirror of the old history, `aug_psych-backup-pre-rewrite.git`. |
 | 2 | **Commit email** | Commits showed a personal email address. | ✅ Done 2026-10-25: all commits rewritten to GitHub's private noreply address, and the repo is set to use it from now on. |
-| 3 | **Module 4 lesson scripts** | The capstone ran from `planning/capstone-outline.md` (QA pass 5). Friends would hit "still being written" without scripts. | Write 4.1–4.5 from the outline. |
+| 3 | **Module 4 lesson scripts** | The capstone ran from `planning/capstone-outline.md` (QA pass 5). | ✅ Done 2026-10-25: `lessons/4-capstone/4.1`–`4.5`, plus the go-live checklist and idea gallery. Not yet tested as scripts. |
 | 4 | **Repo name / URL** | The site URL is `dccooper.github.io/<repo-name>/`, and renaming after links go out breaks them. | ✅ Done 2026-10-25: renamed `aug_psych` → `agentic-psychologist`. Site: `dccooper.github.io/agentic-psychologist/`. |
 | 5 | **Scrub check** | No test files ship (`QA/SHIP_SCRUB.md`). | ✅ Done 2026-10-25 (reset to zero). |
 

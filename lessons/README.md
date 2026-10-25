@@ -1,8 +1,8 @@
 # Lesson Order
 
-The tutor follows this order. Slice 1 lessons are marked **[S1]**, Slice 2 **[S2]**, Slice 3 **[S3]**. Titles are working drafts.
+The tutor follows this order. Slice 1 lessons are marked **[S1]**, Slice 2 **[S2]**, Slice 3 **[S3]**, Slice 4 **[S4]**. Titles are working drafts.
 
-**While the course is being built:** lessons without a script file are skipped (see the `/next-step` skill). With Slices 1–3 written, Modules 0–3 are in place: 0.1 → … → 2.4 → path choice → all of 3A or all of 3B. Module 4 and Graduation are still to come. Learners who skipped a lesson before it was written are offered it when they return (see `/start-course`).
+**While the course is being built:** lessons without a script file are skipped (see the `/next-step` skill). With Slices 1–4 written, Modules 0–4 are in place: 0.1 → … → 2.4 → path choice → all of 3A or all of 3B → 4.1 … 4.5. Graduation is still to come. Learners who skipped a lesson before it was written are offered it when they return (see `/start-course`).
 
 ## Module 0: Getting started (shared)
 - 0.1 Welcome to the department **[S1]**
@@ -36,9 +36,13 @@ The tutor follows this order. Slice 1 lessons are marked **[S1]**, Slice 2 **[S2
 - 3B.3b Analysis: the reveal (compare with the published analysis) **[S3]**
 
 ## Module 4: Capstone (shared)
-- 4.1 Make it yours (adapt your path agent + go-live checklist)
-- 4.2 The idea gallery
-- 4.3 Build it
+- 4.1 Moving day: your agent gets its own folder **[S4]**
+- 4.2 Go live: make it yours, safely **[S4]**
+- 4.3 Pick your project **[S4]**
+- 4.4 Build it (open-ended, in ~20-minute chunks) **[S4]**
+- 4.5 Show it, then what's next **[S4]**
+
+*Support files (not lessons):* `4-capstone/go-live-checklist.md`, `4-capstone/idea-gallery.md`. *If a learner did both paths, they pick one agent to move in 4.1.*
 
 ## Graduation (optional)
 - G.1 Version control with GitHub

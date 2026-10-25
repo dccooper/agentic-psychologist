@@ -133,7 +133,7 @@ Drafted as full scripts: 0.1, 0.2, 1.1, 1.2, 2.2, 3A.1, 3B.1 (Slice 1); 1.3, 1.4
 
 ## Module 4: Capstone
 
-*A fuller five-lesson draft (4.1 Moving day … 4.5 Show it) is in `planning/capstone-outline.md`, awaiting review. The sketch below is the original.*
+*Superseded (2026-10-25): Module 4 is now five lessons, **4.1 Moving day, 4.2 Go live, 4.3 Pick your project, 4.4 Build it, 4.5 Show it** [S4], with full scripts in `4-capstone/`. Design and reasoning: `planning/capstone-outline.md`. The sketch below is the original, kept for history.*
 
 **Purpose:** take the skills and make them your own. The course has given them the skill. The capstone's job is to **spark their imagination** and then get out of the way.
 

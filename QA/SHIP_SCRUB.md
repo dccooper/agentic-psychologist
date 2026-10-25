@@ -44,6 +44,7 @@ Path lessons (3A.2 onward, 3B.2 onward) will add more under `workspace/clinic/`,
 - Both paths: `.agents/skills/tidy-up/`, `workspace/INDEX.md`, `workspace/archive/**`.
 - Clinic: `workspace/clinic/chief-of-staff/**` (instructions, memory, plans, prep), `workspace/clinic/website/index.html`; skills `weekly-plan`, `meeting-prep`, `wrap-up` (and stretch `whats-slipping`, `referral-one-pager`).
 - Lab: `workspace/lab/lab-agent/**`, `workspace/lab/analysis/**`; skills `lit-matrix`, `weekly-lab-update`, `lab-wrap-up` (and stretch `paper-summary`).
+- Capstone: `workspace/capstone/**` (go-live, build log, retrospective). The learner's moved agent lives **outside** the repo (e.g. `Documents/<name>`), so it can't be committed, but testers should know it's there.
 - ⚠️ **`workspace/lab/reveal/` contains the authors' paper and R scripts, downloaded in 3B.3b. Never commit it.** (It's in `.gitignore` as a guard.) Committing it would break the blind comparison for every future learner (the firewall in `lessons/OUTLINE.md`).
 
 ## Also before release

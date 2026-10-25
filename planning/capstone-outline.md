@@ -1,6 +1,8 @@
 # Capstone Outline: Module 4
 
-*Draft for review, 2026-10-25. Lesson-level outline only; full scripts follow `lessons/LESSON_TEMPLATE.md` once this is agreed. Replaces the three-lesson sketch in `lessons/OUTLINE.md` (Module 4) if accepted.*
+*Accepted 2026-10-25 (the author: "everything looks good"). Full scripts are in `lessons/4-capstone/`. Open questions 1–6 were settled with the recommended answers. The two candidate side lessons stay in `planning/backlog.md`; the three candidate gallery ideas went into `lessons/4-capstone/idea-gallery.md`.*
+
+*Lessons from QA pass 5 (an improvised run from this outline, before scripts existed), built into the scripts: the tutor must ask for evidence before marking anything done (it declared a project built that wasn't); it must not write the learner's brain dump or prompt; the 4.2 instructions rewrite must leave no placeholders; and 4.5 must not be skipped.*
 
 ## Purpose
 
