@@ -25,6 +25,8 @@ git status --short --untracked-files=all workspace .agents
 
 ## Known test-run files (as of QA pass 3, 2026-10-24)
 
+> ✅ **Scrubbed 2026-10-25** after QA pass 5 (59 files, backed up to `../test-run-backup-2026-10-25.zip`). The list below is kept as a record of what a full run produces.
+
 From David's runs through Slices 1–2. Kept on disk on purpose (his live progress) and **not** committed.
 
 - `workspace/progress.md` (modified: Dave, Lab path, all of Slices 1–2 complete)
