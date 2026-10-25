@@ -52,7 +52,7 @@ Drafted as full scripts: 0.1, 0.2, 1.1, 1.2, 2.2, 3A.1, 3B.1 (Slice 1); 1.3, 1.4
 - **Key moment:** *"I made the AI do my thing, the same way every time."* Template + rule + skill = a reusable pipeline. **Recipe:** they've now written *instructions* (2.1) and a *skill* (2.3); 2.2 showed the *memory*. Name it.
 - **New artifact:** `world/artifacts/clinic-staff-meeting.md`
 
-### 2.4 The terminal isn't scary (~15 min) [S2], full script: `2-reusable/2.4-the-terminal.md`
+### 2.4 When the AI asks to run a command (~10 min) [S2], full script: `2-reusable/2.4-the-terminal.md` *(trimmed after QA pass 4: typing practice cut; reading and approving commands kept, because 3A.3a, 3B.3a and 3B.3b rely on it. Working in the terminal yourself moves to "learn more" in a future update.)*
 - **Steps:** open the editor's terminal panel (**Terminal → New Terminal**). Run 2–3 harmless commands that work on Mac and Windows (`pwd`, `ls`). Then ask the agent to do something that needs a command, and **read what it wants to run before approving**.
 - **Key moment:** the terminal is just typing instructions to your computer. The real skill is reading what the AI asks to run before you say yes.
 
@@ -62,7 +62,7 @@ Drafted as full scripts: 0.1, 0.2, 1.1, 1.2, 2.2, 3A.1, 3B.1 (Slice 1); 1.3, 1.4
 
 ## Module 3A: Clinic path (Daybreak Clinic)
 
-### 3A.1 Meet the clinic director (~15 min) [S1], full script: `3a-clinic/3A.1-meet-the-clinic-director.md`
+### 3A.1 Meet the clinic director (~20 min) [S1], full script: `3a-clinic/3A.1-meet-the-clinic-director.md` *(ends by building `/tidy-up`, shared with 3B.1)*
 - **Scenario:** Dr. Reyes's voice-memo brain dump: "website from 2017, referrals down, I forget everything."
 - **Steps:** ask the AI for a project brief (the "think" move from 1.2) to scope two projects; the learner rewrites what "done" looks like. Set up `workspace/clinic/`.
 - **Key moment:** scope before you build.
@@ -95,7 +95,9 @@ Drafted as full scripts: 0.1, 0.2, 1.1, 1.2, 2.2, 3A.1, 3B.1 (Slice 1); 1.3, 1.4
 
 ## Module 3B: Lab path (Foresight Lab)
 
-### 3B.1 Meet the lab (~15 min) [S1], full script: `3b-lab/3B.1-meet-the-lab.md`
+### 3B.1 Meet the lab (~20 min) [S1], full script: `3b-lab/3B.1-meet-the-lab.md` *(ends by building `/tidy-up`, shared with 3A.1)*
+
+**`/tidy-up` (both paths, decided after QA pass 4):** `world/artifacts/` stays messy on purpose, like a real shared drive. The learner builds a tidy-up skill at the start of their path and reruns it when things pile up (the tutor suggests it now and then). It keeps `workspace/INDEX.md`, tidies only `workspace/`, checks what points to a file before moving it, and never deletes. It can't reorganize `world/` because lessons point to those files by name, which is itself the lesson.
 - **Scenario:** Dr. Lund's email chain ("quick lit review," "dashboard like that paper," grant due) and Dr. Bello's tour of the data folder.
 - **Steps:** ask the AI for a project brief (the "think" move from 1.2), with a question per project. Set up `workspace/lab/`.
 - **Key moment:** scope before you build. Ask "what question does this answer?" first.

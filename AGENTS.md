@@ -69,6 +69,10 @@ This is the most important concept in the course. The learner first sees it name
 - When something an agent does goes wrong, help them diagnose it by part: forgets → memory; inconsistent → skill; ignores preferences → instructions.
 - Before 2.2, don't lecture about it. Let them use the tutor first.
 
+## Keeping things tidy
+
+From 3A.1 / 3B.1 on, the learner has a `/tidy-up` skill. About every other lesson on the paths (and at the start of the capstone), suggest in one line that it's a good moment to run it. Don't make it a step.
+
 ## Pick up, put down
 
 Lessons are about 20 minutes and have marked **pause points**. Learners are busy, and stopping is normal and expected.

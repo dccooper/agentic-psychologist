@@ -9,10 +9,12 @@ Things the author has flagged for later, so they don't get lost. Newest first. M
 
 ## Open questions to discuss
 
-- **The terminal lesson (2.4).** It introduces the terminal but doesn't connect back to later lessons. Options: keep and connect it, shrink it to a mention, or hold it for v2. *Waiting on a discussion with the author; don't change it yet.* (QA pass 4)
-- **`world/artifacts/` is getting cluttered** (about 20 files by the end of the paths). Options: (a) organize it into folders by where it's used (`department/`, `clinic/`, `lab/`); (b) leave it, and make tidying up part of a lesson. (QA pass 4)
+- ~~**The terminal lesson (2.4)**~~ → **Decided (2026-10-25):** trimmed to ~10 minutes in v1 (reading and approving commands, the quiz). Typing in the terminal yourself moves to "Learn more" (below).
+- ~~**`world/artifacts/` clutter**~~ → **Decided (2026-10-25):** leave it messy; learners build `/tidy-up` in 3A.1 / 3B.1 and rerun it now and then.
 
 ## Candidate additions (later, maybe v2)
+
+- **"Learn more" pointers.** A section (on the site and/or at the end of lessons) pointing learners to good outside resources for going deeper: working in the terminal, vibe coding, prompting, agent tools. Source: the author's curated **Raindrop** collections. Ask the author which collections to pull from, then draft the list for review. (2026-10-25)
 
 - **Agents as tech support.** From a talk the author attended: psychologists can use agents and LLMs for everyday tech support (an error message, a settings problem, a spreadsheet formula, "why won't this print"). Builds on 2.4 and 3B.3a's install-with-the-agent moment. Possible home: a capstone side lesson or an idea-gallery entry (see `planning/capstone-outline.md`). (QA pass 4)
 - **Writing papers in LaTeX with an agent.** Draft in Markdown, have an agent build and iterate on a LaTeX version (layout, references, figures). Common outside the social sciences. Needs a LaTeX install (or Overleaf, no install). Possible home: a Lab-path or capstone side lesson. (QA pass 4)

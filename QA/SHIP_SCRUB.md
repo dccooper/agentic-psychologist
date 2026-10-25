@@ -9,7 +9,7 @@ Only these files ship in the two folders learners write to:
 | Folder | Ships | Everything else there is test-run output |
 |---|---|---|
 | `workspace/` | `progress.md`, **in its blank starting state** (as committed) | ✅ remove |
-| `.agents/` | `skills/start-course/`, `skills/next-step/`, `skills/im-stuck/`, `skills/my-progress/` (plus any course skill added later; list it here). **Never ship skills learners build** (`meeting-to-actions`, `weekly-plan`, `lit-matrix`, …). | ✅ remove (e.g. `.agents/rules/`, `skills/meeting-to-actions/`) |
+| `.agents/` | `skills/start-course/`, `skills/next-step/`, `skills/im-stuck/`, `skills/my-progress/` (plus any course skill added later; list it here). **Never ship skills learners build** (`meeting-to-actions`, `tidy-up`, `weekly-plan`, `lit-matrix`, …). | ✅ remove (e.g. `.agents/rules/`, `skills/meeting-to-actions/`) |
 
 Learner work outside these folders shouldn't exist. If `git status` shows a new file anywhere else after a test run, check it before committing.
 
@@ -39,6 +39,7 @@ From David's runs through Slices 1–2. Kept on disk on purpose (his live progre
 Path lessons (3A.2 onward, 3B.2 onward) will add more under `workspace/clinic/`, `workspace/lab/`, `workspace/actions/` and new `.agents/skills/*`. The rule above catches them. Add notable ones here after each QA pass.
 
 **Expected from Slice 3 (paths):**
+- Both paths: `.agents/skills/tidy-up/`, `workspace/INDEX.md`, `workspace/archive/**`.
 - Clinic: `workspace/clinic/chief-of-staff/**` (instructions, memory, plans, prep), `workspace/clinic/website/index.html`; skills `weekly-plan`, `meeting-prep`, `wrap-up` (and stretch `whats-slipping`, `referral-one-pager`).
 - Lab: `workspace/lab/lab-agent/**`, `workspace/lab/analysis/**`; skills `lit-matrix`, `weekly-lab-update`, `lab-wrap-up` (and stretch `paper-summary`).
 - ⚠️ **`workspace/lab/reveal/` contains the authors' paper and R scripts, downloaded in 3B.3b. Never commit it.** (It's in `.gitignore` as a guard.) Committing it would break the blind comparison for every future learner (the firewall in `lessons/OUTLINE.md`).

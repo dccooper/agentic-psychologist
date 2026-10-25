@@ -18,7 +18,7 @@ The tutor follows this order. Slice 1 lessons are marked **[S1]**, Slice 2 **[S2
 - 2.1 Templates and rules **[S2]**
 - 2.2 Open the hood: what's been teaching you **[S1]**
 - 2.3 Build your first skill **[S2]**
-- 2.4 The terminal isn't scary **[S2]**
+- 2.4 When the AI asks to run a command **[S2]** *(trimmed after QA pass 4; terminal skills are a "learn more" topic)*
 - → **Choose your path:** Clinic (3A) or Lab (3B)
 
 ## Module 3A: Clinic path
