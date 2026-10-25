@@ -88,3 +88,28 @@ Recommendation: a form for everyone, with Issues as an option. Either way, ask t
 - [ ] Check the home page on a phone (390px) and in light mode.
 - [ ] FAQ answers: iterate.
 - [ ] At launch (v1.0): `preview_noindex: false` in `docs/_config.yml`, then release **v1.0.0** on GitHub. (v0.5.0 "Preview for testers" released 2026-10-25.)
+
+## Before the wider release (v1.0): full checklist (audited 2026-10-25)
+
+Audit results: no email addresses or local file paths anywhere in the repo; every link on the live site returns 200; `QA/` is local only.
+
+### Decide what's public
+- [ ] **`planning/` is public.** It's useful to educators (the reasoning behind the design), but it holds internal deliberation: "Why we left Cursor" (names SpaceX/xAI), "two framings from David," budget notes, the capstone outline, and outdated lines (e.g., "the repo stays private until v1"). Options: keep it; trim it to a public "design notes" page; or make it local-only like `QA/`. *Recommend:* local-only, plus a short public "How this was made" page later.
+- [ ] **"Last tested" lines and `SCREEN_GUIDE.md`** mention QA passes and "David." Harmless, but internal. Fine to keep; tidy at the renumbering pass.
+- [ ] **Setup screenshots** in `docs/assets/setup/` show Google's download page. Low risk (instructional), but note it.
+
+### Content and accuracy
+- [ ] Real concerns: the environment section (sourced figures, Assumption 11).
+- [ ] FAQ answers: iterate; confirm the data-use default against a fresh install.
+- [ ] Graduation lessons (G.1–G.3) aren't written. The course page says "coming later." Write them, or say "optional, coming after 1.0."
+- [ ] Renumber lessons without a/b suffixes (backlog), then retest `/start-course` and `/next-step`.
+- [ ] Untested as scripts: 3B.3b (only improvised so far) and 4.1–4.5. Untested paths: Mac setup; Python *not* installed (3B.3a); a second Antigravity window (4.1). See the open items in `lessons/SCREEN_GUIDE.md`.
+- [ ] **Free-tier fit (Assumption 3):** does Modules 0–2 fit in a week of Antigravity's free plan? The "free" claim depends on it. Count requests in the next full run.
+- [ ] Testers' feedback folded in (the point of v0.5).
+
+### Site
+- [ ] Feedback channel; educators contact; About credit wording.
+- [ ] **Link previews:** the home page has no social-preview tags (`og:title`, `og:description`, `og:image`), so a shared link shows a bare URL. Add them, with a simple preview image (the crest and the headline). Worth doing before sending links around.
+- [ ] Phone (390px) and light-mode check; a quick automated accessibility check (e.g., axe) on the home page and one course page.
+- [ ] Optional: a custom domain.
+- [ ] Launch: `preview_noindex: false`, release v1.0.0, then announce.

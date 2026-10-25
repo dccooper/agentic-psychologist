@@ -21,7 +21,7 @@ A free, hands-on course where psychology trainees, clinicians, and researchers l
 
 ## For educators
 
-Want to use this in a class or training program? See the educator guide (coming soon; plan in [planning/PLAN.md §8](planning/PLAN.md#8-for-educators-and-professors)).
+Want to use this in a class or training program? See [For educators](https://dccooper.github.io/agentic-psychologist/educators/).
 
 ## License
 
