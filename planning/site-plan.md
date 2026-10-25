@@ -87,4 +87,4 @@ Recommendation: a form for everyone, with Issues as an option. Either way, ask t
 - [ ] Real concerns: the environment section (needs sourced figures, Assumption 11).
 - [ ] Check the home page on a phone (390px) and in light mode.
 - [ ] FAQ answers: iterate.
-- [ ] At launch: `preview_noindex: false` in `docs/_config.yml`.
+- [ ] At launch (v1.0): `preview_noindex: false` in `docs/_config.yml`, then release **v1.0.0** on GitHub. (v0.5.0 "Preview for testers" released 2026-10-25.)
