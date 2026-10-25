@@ -4,7 +4,7 @@
 
 - **Last verified:** 2026-10-24, Windows, Antigravity IDE (Standalone), from David's setup screenshots. **Antigravity IDE v2.5.5.**
 - **Status key:** ✅ seen in a test screenshot · ⚠️ inferred (usually from standard VS Code behavior; Antigravity is built on VS Code), not yet confirmed
-- **Setup** (download, Google sign-in, first-run screens) is in `SETUP.md`. Learners do it before the tutor exists.
+- **Setup** (download, Google sign-in, first-run screens) is in `docs/setup.md` (the course website's setup page). Learners do it before the tutor exists.
 
 ## The rule for giving directions
 
@@ -42,7 +42,7 @@ In the Explorer, right-click the folder you want it in (e.g. `workspace`) and ch
 **Save** ⚠️ **Ctrl+S** (Mac: **Cmd+S**). A dot on a file's tab means it has unsaved changes.
 
 **How much the agent may do on its own** ✅ (labels from setup) / ⚠️ (behavior)
-During setup the learner chose one of: **Strict Mode**, **Review-driven development** (*Recommended*; what `SETUP.md` tells learners to choose), **Agent-driven development** (*"The agent will never request for review"*), or **Custom configuration**. ⚠️ Where to change it later is unknown, probably **Antigravity - Settings** (status bar) or the gear icon. This matters for Lesson 1.1 (reviewing changes) and 1.2 (deciding how much the AI may do alone).
+During setup the learner chose one of: **Strict Mode**, **Review-driven development** (*Recommended*; what `docs/setup.md` tells learners to choose), **Agent-driven development** (*"The agent will never request for review"*), or **Custom configuration**. ⚠️ Where to change it later is unknown, probably **Antigravity - Settings** (status bar) or the gear icon. This matters for Lesson 1.1 (reviewing changes) and 1.2 (deciding how much the AI may do alone).
 
 **Review the AI's changes** ✅ (QA pass 2, Review-driven development). A change shows up in **three places**:
 1. **Under the agent's message:** a card, e.g. **1 file changed +20 −1**, with a **Review** button. Review opens the file with the changes highlighted.
@@ -76,7 +76,7 @@ During setup the learner chose one of: **Strict Mode**, **Review-driven developm
 
 ## Open items to verify (QA pass 2)
 
-- [x] Google sign-in screens, installer screens, start screen (captured 2026-10-24, in `SETUP.md`)
+- [x] Google sign-in screens, installer screens, start screen (captured 2026-10-24, in `docs/setup.md`)
 - [x] Version: Antigravity IDE 2.5.5
 - [x] The trust prompt appears when opening the course folder (David, first install). Exact wording not captured
 - [x] Typing `/start-course` is recognized as a skill: it turns into a **start-course** chip in the message box (2026-10-24). *Still to confirm:* the tutor then follows the skill correctly.

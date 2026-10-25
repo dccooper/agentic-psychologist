@@ -2,3 +2,8 @@ observability/
 
 # The 3B.3b reveal downloads the authors' paper and R scripts here. Never commit them (firewall; see QA/SHIP_SCRUB.md).
 workspace/lab/reveal/
+
+# Local Jekyll builds
+docs/_site/
+docs/_site_preview/
+docs/.jekyll-cache/

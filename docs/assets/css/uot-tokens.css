@@ -1,0 +1,53 @@
+/*
+  Harbor design tokens for The Agentic Psychologist home page.
+  Light is the default; dark follows the visitor's system setting.
+  Every text/background pair below passes WCAG AA (most pass AAA).
+*/
+:root {
+  --uot-page: #FFFFFF;
+  --uot-surface: #EEF3F5;          /* bands, packet body */
+  --uot-text: #1E2A30;             /* 14.7:1 on page */
+  --uot-muted: #4F5D64;            /* 6.8:1 on page, 6.1:1 on surface */
+  --uot-accent: #1F5F7A;           /* links, button fill, eyebrow; 7.1:1 */
+  --uot-on-accent: #FFFFFF;        /* button text; 7.1:1 on accent */
+  --uot-check: #2E6B4F;            /* safety checkmarks; 6.3:1 */
+  --uot-border: #D5DDE1;           /* decorative only */
+  --uot-paper: #FFFEFA;            /* memo sheet */
+  --uot-paper-text: #1E2A30;
+  --uot-strip: #1E2A30;            /* packet letterhead strip */
+  --uot-strip-text: #FFFFFF;
+
+  --uot-font: "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --uot-mono: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --uot-page: #121A1E;
+    --uot-surface: #1B262C;
+    --uot-text: #E6EDF0;           /* 14.9:1 */
+    --uot-muted: #A9B7BE;          /* 8.6:1 */
+    --uot-accent: #7FC0DA;         /* 8.8:1 */
+    --uot-on-accent: #0E1A20;      /* 8.8:1 on accent */
+    --uot-check: #7CC79F;          /* 8.8:1 */
+    --uot-border: #2E3C43;
+    --uot-paper: #EDE9DF;          /* memo stays paper-colored: a sheet under a desk lamp */
+    --uot-paper-text: #1E2A30;     /* 12.1:1 on paper */
+    --uot-strip: #E6EDF0;
+    --uot-strip-text: #121A1E;
+  }
+}
+
+/* Self-hosted font. Download Atkinson Hyperlegible (SIL OFL) into assets/fonts/. */
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  src: url("../fonts/AtkinsonHyperlegible-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  src: url("../fonts/AtkinsonHyperlegible-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}

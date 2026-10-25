@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title }}: {{ page.tagline | default: site.description }}</title>
+  <meta name="description" content="{{ site.description }}">
+  {% if site.preview_noindex %}<meta name="robots" content="noindex, nofollow">{% endif %}
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="{{ '/assets/logo/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ '/assets/css/uot-tokens.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/home.css' | relative_url }}">
+</head>
+<body class="uot-home">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="site-name" href="{{ '/' | relative_url }}">The Agentic Psychologist</a>
+      <nav aria-label="Main">
+        <ul class="topnav">
+          <li><a href="{{ '/course/' | relative_url }}">The course</a></li>
+          <li><a href="{{ '/concerns/' | relative_url }}">Real concerns</a></li>
+          <li><a href="https://github.com/dccooper/agentic-psychologist">GitHub</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+{{ content }}
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p>The Agentic Psychologist ·
+        Content <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> ·
+        Code <a href="https://github.com/dccooper/agentic-psychologist/blob/main/LICENSE-CODE">MIT</a> ·
+        <a href="https://github.com/dccooper/agentic-psychologist">GitHub</a> ·
+        <a href="{{ '/about/' | relative_url }}">About &amp; credits</a></p>
+    </div>
+  </footer>
+</body>
+</html>

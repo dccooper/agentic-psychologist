@@ -1,0 +1,33 @@
+title: The Agentic Psychologist
+description: A free, hands-on course where psychologists learn the basics of AI agents, inside the tool, in 20-minute lessons.
+url: https://dccooper.github.io
+baseurl: /agentic-psychologist
+permalink: pretty
+
+remote_theme: just-the-docs/just-the-docs@v0.10.1
+plugins:
+  - jekyll-remote-theme
+
+color_scheme: harbor
+search_enabled: true
+heading_anchors: true
+back_to_top: true
+back_to_top_text: "Back to top"
+
+aux_links:
+  "GitHub":
+    - "https://github.com/dccooper/agentic-psychologist"
+aux_links_new_tab: false
+
+footer_content: 'The Agentic Psychologist · Content <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> · Code <a href="https://github.com/dccooper/agentic-psychologist/blob/main/LICENSE-CODE">MIT</a> · <a href="https://github.com/dccooper/agentic-psychologist">GitHub</a>'
+
+# Preview phase: keep the site out of search engines. Set to false at launch
+# (this also drops the noindex tag in _includes/head_custom.html and _layouts/home.html).
+preview_noindex: true
+
+# No analytics, ever: leave ga_tracking unset.
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor

@@ -1,0 +1,12 @@
+// Course pages: Atkinson Hyperlegible (loaded via uot-tokens.css in head_custom.html).
+body {
+  font-family: var(--uot-font);
+}
+code, pre, kbd {
+  font-family: var(--uot-mono);
+}
+// Visible focus everywhere (guidelines §7).
+a:focus-visible, button:focus-visible, summary:focus-visible, input:focus-visible {
+  outline: 3px solid #1F5F7A;
+  outline-offset: 2px;
+}

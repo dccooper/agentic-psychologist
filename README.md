@@ -2,17 +2,17 @@
 
 *A hands-on AI course for psychologists, taught inside the tool. (Working title.)*
 
-A free, hands-on course where psychology trainees, clinicians, and researchers learn to use AI tools **inside the tool itself**. You'll work through practical exercises in Google Antigravity IDE, a free app that puts your files, an editor, and an AI agent in one window (IDE = "integrated development environment"; [what that means](SETUP.md#first-whats-an-ide)), set in a fictional university psychology department, and finish by building your own reusable skills, an agent, and a small project.
+A free, hands-on course where psychology trainees, clinicians, and researchers learn to use AI tools **inside the tool itself**. You'll work through practical exercises in Google Antigravity IDE, a free app that puts your files, an editor, and an AI agent in one window (IDE = "integrated development environment"; [what that means](https://dccooper.github.io/agentic-psychologist/setup/#first-whats-an-ide)), set in a fictional university psychology department, and finish by building your own reusable skills, an agent, and a small project.
 
-> 🚧 **In development.** Not ready for learners yet. See [planning/PLAN.md](planning/PLAN.md).
+> 🚧 **Preview.** Shared with a few testers before a wider release. Course website: **https://dccooper.github.io/agentic-psychologist/**
 
 ## Quick start (draft)
 
-**Full step-by-step instructions: [SETUP.md](SETUP.md).** The short version:
+**Full step-by-step instructions: [the setup guide](https://dccooper.github.io/agentic-psychologist/setup/).** The short version:
 
-1. Install **Antigravity IDE (Standalone)** from https://antigravity.google/download. ⚠️ It's near the *bottom* of the page, not the "Antigravity App" listed first. Sign in with a Google account.
-2. Click **Code → Download ZIP** on this page and unzip it.
-3. In Antigravity: **File → Open Folder** → choose the unzipped folder.
+1. Install **Antigravity IDE (Standalone)** from https://antigravity.google/download. ⚠️ It's near the *bottom* of the page, not the "Antigravity App" listed first. Sign in with a Google account. (Any other agentic IDE like VS Code or Cursor also works. I just designed this for Antigravity since it's free.)
+2. [Download the course (ZIP)](https://github.com/dccooper/agentic-psychologist/archive/refs/heads/main.zip) and unzip it.
+3. In Antigravity: **File → Open Folder** → choose the unzipped folder (`agentic-psychologist-main`).
 4. Open the agent panel (**Ctrl+L** / **Cmd+L**) and type `/start-course`.
 
 ## The one rule

@@ -1,0 +1,214 @@
+/*
+  Home page styles. Everything is scoped under .uot-home so course pages
+  (Just the Docs) are unaffected. Colors and fonts come from uot-tokens.css.
+  Spec: docs/_design/home-page-guidelines.md
+*/
+
+.uot-home {
+  margin: 0;
+  background: var(--uot-page);
+  color: var(--uot-text);
+  font-family: var(--uot-font);
+  font-size: 1.125rem;          /* 18px */
+  line-height: 1.55;
+  -webkit-text-size-adjust: 100%;
+}
+.uot-home *, .uot-home *::before, .uot-home *::after { box-sizing: border-box; }
+
+.uot-home .wrap {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding-inline: max(1rem, env(safe-area-inset-left, 0px)) max(1rem, env(safe-area-inset-right, 0px));
+}
+@media (min-width: 48rem) {
+  .uot-home .wrap { padding-inline: 2rem; }
+}
+
+/* Type */
+.uot-home h1, .uot-home h2, .uot-home h3 { font-weight: 700; margin: 0 0 .75rem; color: var(--uot-text); }
+.uot-home h1 { font-size: clamp(2rem, 4vw + 1rem, 3rem); line-height: 1.1; letter-spacing: -.01em; }
+.uot-home h2 { font-size: clamp(1.625rem, 1.5vw + 1rem, 1.875rem); line-height: 1.2; }
+.uot-home h3 { font-size: 1.1875rem; line-height: 1.3; }
+.uot-home p { margin: 0 0 1rem; }
+.uot-home code { font-family: var(--uot-mono); font-size: .9em; }
+
+/* Links and focus */
+.uot-home a { color: var(--uot-accent); text-decoration: underline; text-underline-offset: .15em; }
+.uot-home a:hover { text-decoration-thickness: 2px; }
+.uot-home :focus-visible { outline: 3px solid var(--uot-accent); outline-offset: 2px; border-radius: 2px; }
+
+.uot-home .skip-link {
+  position: absolute; left: -999px; top: 0;
+  background: var(--uot-page); padding: .75rem 1rem; z-index: 10;
+}
+.uot-home .skip-link:focus { left: 1rem; top: 1rem; }
+
+/* Top bar */
+.uot-home .topbar {
+  border-bottom: 1px solid var(--uot-border);
+  padding-top: env(safe-area-inset-top, 0px);
+}
+.uot-home .topbar-inner {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
+  gap: .5rem 1.5rem; min-height: 3.75rem; padding-block: .5rem;
+}
+.uot-home .site-name {
+  font-weight: 700; font-size: 1.0625rem; color: var(--uot-text); text-decoration: none;
+  min-height: 44px; display: inline-flex; align-items: center;
+}
+.uot-home .topnav { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0 1.25rem; }
+.uot-home .topnav a {
+  text-decoration: none; font-size: 1rem;
+  min-height: 44px; display: inline-flex; align-items: center;
+}
+.uot-home .topnav a:hover, .uot-home .topnav a:focus-visible { text-decoration: underline; }
+
+/* Hero */
+.uot-home .hero { padding-block: 3rem 3.5rem; }
+.uot-home .hero-grid { display: grid; gap: 2.5rem; align-items: center; }
+@media (min-width: 56rem) {
+  .uot-home .hero { padding-block: 4.5rem 5rem; }
+  .uot-home .hero-grid { grid-template-columns: 1.05fr 1fr; gap: 3.5rem; }
+}
+.uot-home .eyebrow { color: var(--uot-accent); font-weight: 700; font-size: 1rem; margin-bottom: .75rem; }
+.uot-home .subhead { font-size: 1.1875rem; color: var(--uot-text); max-width: 36rem; }
+.uot-home .actions { display: flex; flex-wrap: wrap; align-items: center; gap: .75rem 1.5rem; margin-block: 1.75rem 1rem; }
+.uot-home .button {
+  display: inline-flex; align-items: center; min-height: 44px;
+  padding: 14px 24px; border-radius: 6px;
+  background: var(--uot-accent); color: var(--uot-on-accent);
+  font-weight: 700; text-decoration: none; line-height: 1.2;
+}
+.uot-home .button:hover { filter: brightness(1.08); text-decoration: none; }
+.uot-home .secondary { font-weight: 700; min-height: 44px; display: inline-flex; align-items: center; }
+.uot-home .trust { font-size: .875rem; color: var(--uot-muted); margin: 0; }
+
+/* The memo (hero visual). Paper stays light in dark mode. */
+.uot-home .memo-stack { position: relative; max-width: 34rem; justify-self: center; width: 100%; }
+.uot-home .memo-stack::before {
+  content: ""; position: absolute; inset: 0;
+  background: var(--uot-paper); border: 1px solid var(--uot-border); border-radius: 3px;
+  transform: rotate(2deg); opacity: .85;
+}
+.uot-home .memo {
+  position: relative; background: var(--uot-paper); color: var(--uot-paper-text);
+  border: 1px solid var(--uot-border); border-radius: 3px;
+  padding: 1.5rem 1.5rem 1.25rem; transform: rotate(-1deg);
+  box-shadow: 0 1px 2px rgba(30, 42, 48, .08);
+  font-size: 1rem; line-height: 1.5;
+}
+@media (min-width: 30rem) { .uot-home .memo { padding: 2rem 2rem 1.5rem; } }
+.uot-home .memo a, .uot-home .memo code { color: var(--uot-paper-text); }
+.uot-home .memo-head {
+  display: grid; grid-template-columns: auto 1fr; align-items: center; gap: .25rem .75rem;
+  border-bottom: 2px solid var(--uot-paper-text); padding-bottom: .75rem; margin-bottom: 1rem;
+}
+.uot-home .memo-mark { width: 34px; height: auto; }
+.uot-home .memo-org { display: flex; flex-direction: column; line-height: 1.25; }
+.uot-home .memo-uni { font-weight: 700; }
+.uot-home .memo-dept { font-size: .8125rem; }
+.uot-home .memo-kind {
+  grid-column: 1 / -1; font-family: var(--uot-mono); font-weight: 700;
+  font-size: .75rem; letter-spacing: .06em; text-transform: uppercase;
+}
+@media (min-width: 30rem) {
+  .uot-home .memo-head { grid-template-columns: auto 1fr auto; }
+  .uot-home .memo-kind { grid-column: auto; }
+}
+.uot-home .memo-fields { margin: 0 0 1rem; font-family: var(--uot-mono); font-size: .8125rem; }
+.uot-home .memo-fields div { display: grid; grid-template-columns: 4.5rem 1fr; gap: .5rem; }
+.uot-home .memo-fields dt { font-weight: 700; text-transform: uppercase; letter-spacing: .06em; }
+.uot-home .memo-fields dd { margin: 0; }
+.uot-home .memo-body p:last-child { margin-bottom: 1.25rem; }
+.uot-home .memo-sign { display: flex; justify-content: space-between; align-items: flex-end; gap: 1rem; }
+.uot-home .memo-name { display: block; font-weight: 700; }
+.uot-home .memo-title { display: block; font-size: .8125rem; }
+.uot-home .stamp {
+  font-family: var(--uot-mono); font-weight: 700; text-transform: uppercase; letter-spacing: .06em;
+  font-size: .8125rem; color: var(--uot-accent-on-paper, #1F5F7A);
+  border: 2px solid currentColor; border-radius: 3px; padding: .35rem .6rem;
+  transform: rotate(-8deg); text-align: center; line-height: 1.2; flex-shrink: 0;
+}
+.uot-home .stamp small { display: block; font-size: .6875rem; text-transform: none; letter-spacing: 0; font-weight: 400; }
+
+/* Bands and sections */
+.uot-home .band { background: var(--uot-surface); padding-block: 3.5rem; }
+.uot-home .section { padding-block: 3.5rem; }
+
+/* How it works */
+.uot-home .steps {
+  list-style: none; margin: 1.5rem 0 0; padding: 0;
+  display: grid; gap: 1rem;
+}
+@media (min-width: 48rem) { .uot-home .steps { grid-template-columns: repeat(3, 1fr); gap: 1.25rem; } }
+.uot-home .step-card {
+  background: var(--uot-page); border: 1px solid var(--uot-border); border-radius: 8px; padding: 1.25rem 1.25rem .5rem;
+}
+.uot-home .step-meta {
+  font-family: var(--uot-mono); font-weight: 700; font-size: .75rem; letter-spacing: .06em;
+  text-transform: uppercase; color: var(--uot-muted); margin-bottom: .5rem;
+}
+
+/* Orientation packet */
+.uot-home .packet { border: 1px solid var(--uot-border); border-radius: 4px; overflow: hidden; }
+.uot-home .packet-strip {
+  display: flex; align-items: center; gap: 1rem;
+  background: var(--uot-strip); color: var(--uot-strip-text); padding: 1rem 1.25rem;
+}
+.uot-home .packet-strip img { width: 34px; height: auto; display: block; }
+.uot-home .packet-strip span { display: block; line-height: 1.3; }
+.uot-home .strip-uni { font-weight: 700; }
+.uot-home .strip-dept { font-size: .875rem; }
+.uot-home .strip-motto { font-style: italic; font-size: .875rem; }
+.uot-home .packet-body { background: var(--uot-surface); padding: 1.75rem 1.25rem; }
+@media (min-width: 48rem) { .uot-home .packet-body { padding: 2.25rem 2rem; } }
+.uot-home .packet-intro { max-width: 40rem; }
+.uot-home .notices { display: grid; gap: 1rem; margin-block: 1.5rem; }
+@media (min-width: 48rem) { .uot-home .notices { grid-template-columns: repeat(2, 1fr); } }
+.uot-home .notice {
+  background: var(--uot-page); border: 1px solid var(--uot-border); border-top: 4px solid var(--uot-accent);
+  border-radius: 4px; padding: 1rem 1.25rem .25rem;
+}
+.uot-home .notice-label {
+  font-family: var(--uot-mono); font-weight: 700; font-size: .75rem; letter-spacing: .06em;
+  text-transform: uppercase; color: var(--uot-accent); margin-bottom: .5rem;
+}
+.uot-home .aside {
+  border: 1px dashed var(--uot-border); border-radius: 4px; padding: .5rem .75rem;
+  font-size: .9375rem; color: var(--uot-muted);
+}
+.uot-home .notice .aside { margin-top: -.25rem; }
+.uot-home .asides { list-style: none; margin: 0; padding: 0; display: grid; gap: .75rem; }
+@media (min-width: 48rem) { .uot-home .asides { grid-template-columns: repeat(3, 1fr); } }
+.uot-home .asides .aside { margin: 0; }
+.uot-home .after-packet, .uot-home .after-faq { margin-top: 1.25rem; font-weight: 700; }
+
+/* Safety checklist */
+.uot-home .checklist {
+  list-style: none; margin: 1.5rem 0 3rem; padding: 0; display: grid; gap: 1.25rem 2rem;
+}
+@media (min-width: 48rem) { .uot-home .checklist { grid-template-columns: repeat(2, 1fr); } }
+.uot-home .checklist li { display: grid; grid-template-columns: 22px 1fr; gap: .75rem; align-items: start; }
+.uot-home .check { color: var(--uot-check); margin-top: .2rem; }
+
+/* FAQ */
+.uot-home .faq { max-width: 48rem; }
+.uot-home .faq details { border-top: 1px solid var(--uot-border); }
+.uot-home .faq details:last-child { border-bottom: 1px solid var(--uot-border); }
+.uot-home .faq summary {
+  cursor: pointer; font-weight: 700; padding: .9rem 0; min-height: 44px;
+  list-style-position: inside;
+}
+.uot-home .faq details p { padding-bottom: .5rem; max-width: 44rem; }
+
+/* Footer */
+.uot-home .footer {
+  border-top: 1px solid var(--uot-border); padding-block: 1.5rem;
+  padding-bottom: max(1.5rem, env(safe-area-inset-bottom, 0px));
+  font-size: .9375rem; color: var(--uot-muted);
+}
+.uot-home .footer p { margin: 0; }
+
+@media (prefers-reduced-motion: reduce) {
+  .uot-home * { transition: none !important; animation: none !important; }
+}

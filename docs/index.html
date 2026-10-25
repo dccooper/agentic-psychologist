@@ -1,0 +1,163 @@
+---
+layout: home
+title: Home
+nav_exclude: true
+tagline: AI agents for psychologists, in 20-minute lessons
+---
+{% assign check = '<svg class="check" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 12.5l5 5L20 6.5"/></svg>' %}
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <p class="eyebrow">For psychologists who don't know where to start with AI</p>
+      <h1>Learn the basics of AI agents in 20-minute lessons. No coding required.</h1>
+      <p class="subhead">A free course for trainees, clinicians and researchers. A tutor inside the tool walks you through it one step at a time, so you leave with a foundation to build on.</p>
+      <p class="actions">
+        <a class="button" href="{{ '/setup/' | relative_url }}">Start in 5 minutes</a>
+        <a class="secondary" href="{{ '/concerns/' | relative_url }}">Real concerns, answered</a>
+      </p>
+      <p class="trust">Free · Open source · No real patient data, ever</p>
+    </div>
+
+    <div class="memo-stack">
+      <article class="memo" aria-label="A welcome memo from the University of Tomorrow">
+        <header class="memo-head">
+          <img class="memo-mark" src="{{ '/assets/logo/uot-mark.svg' | relative_url }}" alt="" width="34" height="38">
+          <div class="memo-org">
+            <span class="memo-uni">University of Tomorrow</span>
+            <span class="memo-dept">Department of Experimental Theoretical Psychology</span>
+          </div>
+          <span class="memo-kind">Memorandum</span>
+        </header>
+        <dl class="memo-fields">
+          <div><dt>To:</dt><dd>New students (you)</dd></div>
+          <div><dt>From:</dt><dd>Office of New Students, Room 0.5</dd></div>
+          <div><dt>Re:</dt><dd>Your first day, which is today</dd></div>
+          <div><dt>Date:</dt><dd>Tomorrow, as usual</dd></div>
+        </dl>
+        <div class="memo-body">
+          <p>Welcome. Your tutor is already inside the editor and has been rehearsing. Type <code>/start-course</code> and it will take things one step at a time.</p>
+          <p>Lessons last about twenty minutes, which is roughly how long the kettle takes now that the coffee machine is temporarily out of order.</p>
+          <p>Please bring curiosity. Questions of any size are welcome, including the ones you think are silly.</p>
+        </div>
+        <footer class="memo-sign">
+          <div>
+            <span class="memo-name">M. Pending</span>
+            <span class="memo-title">Acting Deputy Assistant Registrar</span>
+          </div>
+          <span class="stamp" aria-hidden="true">Admitted<small>(provisionally)</small></span>
+        </footer>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="band" aria-labelledby="how">
+  <div class="wrap">
+    <h2 id="how">How it works</h2>
+    <ol class="steps">
+      <li class="step-card">
+        <p class="step-meta">Step 1 · About 10 minutes</p>
+        <h3>Download Antigravity</h3>
+        <p>Google's free AI editor. Install it and sign in with a Google account. <a href="{{ '/setup/' | relative_url }}">The setup guide</a> shows every screen.</p>
+      </li>
+      <li class="step-card">
+        <p class="step-meta">Step 2 · About 2 minutes</p>
+        <h3>Open the course folder</h3>
+        <p>Download the course, unzip it, and open the folder in Antigravity.</p>
+      </li>
+      <li class="step-card">
+        <p class="step-meta">Step 3 · Under a minute</p>
+        <h3>Type <code>/start-course</code></h3>
+        <p>The tutor takes it from there, one step at a time.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="packet">
+  <div class="wrap">
+    <div class="packet">
+      <div class="packet-strip">
+        <picture>
+          <source srcset="{{ '/assets/logo/uot-mark.svg' | relative_url }}" media="(prefers-color-scheme: dark)">
+          <img src="{{ '/assets/logo/uot-mark-dark.svg' | relative_url }}" alt="University of Tomorrow crest" width="34" height="38">
+        </picture>
+        <div>
+          <span class="strip-uni">University of Tomorrow</span>
+          <span class="strip-dept">Department of Experimental Theoretical Psychology</span>
+          <span class="strip-motto">Tomorrow's Treatments, Today's Stress</span>
+        </div>
+      </div>
+      <div class="packet-body">
+        <h2 id="packet">Welcome to the Department. Here's what you'll do.</h2>
+        <p class="packet-intro">Everyone starts with the same orientation. Then you pick a rotation, and you graduate with an agent that's yours to keep.</p>
+
+        <div class="notices">
+          <div class="notice">
+            <p class="notice-label">PSY 101 · Core curriculum</p>
+            <p>An agent = instructions + skills + memory. Every lesson adds to one of the three.</p>
+          </div>
+          <div class="notice">
+            <p class="notice-label">Clinic rotation</p>
+            <p>Build a chief of staff for a busy clinic director. Then make the clinic a website.</p>
+            <p class="aside">The director's door sign reads "Knock. Then knock again."</p>
+          </div>
+          <div class="notice">
+            <p class="notice-label">Lab rotation</p>
+            <p>Build a literature-review agent. Then run a real analysis on open data and check it against the published, peer-reviewed version.</p>
+            <p class="aside">The Foresight Lab studies how people imagine the future. Every deadline still comes as a complete surprise.</p>
+          </div>
+          <div class="notice">
+            <p class="notice-label">Graduation · Capstone</p>
+            <p>Move your agent out of the course and make it your own.</p>
+          </div>
+        </div>
+
+        <ul class="asides">
+          <li class="aside"><strong>Timetable:</strong> Lessons run about 20 minutes. Stop and resume any time.</li>
+          <li class="aside"><strong>Your tutor:</strong> Lives inside the editor. Never tires of the same question.</li>
+          <li class="aside"><strong>Facilities:</strong> The coffee machine is temporarily out of order. It has been for years.</li>
+        </ul>
+      </div>
+    </div>
+    <p class="after-packet"><a href="{{ '/course/' | relative_url }}">See the full course outline</a></p>
+  </div>
+</section>
+
+<section class="band" aria-labelledby="safety">
+  <div class="wrap">
+    <h2 id="safety">Safe, free and open</h2>
+    <ul class="checklist">
+      <li>{{ check }}<div><strong>Never real patient or participant data.</strong> Practice data is provided: a fictional department, and openly licensed public research data.</div></li>
+      <li>{{ check }}<div><strong>Free plan.</strong> Antigravity's free tier has weekly usage limits. If you reach one, the course pauses and picks up where you left off.</div></li>
+      <li>{{ check }}<div><strong>Open.</strong> Content CC BY-SA, code MIT. Educators can adapt it for their own programs.</div></li>
+      <li>{{ check }}<div><strong>No tracking on this site.</strong> No analytics, no cookies, no outside scripts.</div></li>
+    </ul>
+
+    <h2 id="faq" class="faq-heading">Questions skeptics ask</h2>
+    <div class="faq">
+      <details>
+        <summary>Is it really free?</summary>
+        <p>The course is free and always will be. It runs in Antigravity, Google's AI editor, on its free plan. You need a Google account, and the free plan has weekly usage limits that Google doesn't publish. If you reach one, stop and come back later. Your place is saved. If Antigravity's terms change, we'll update this answer first.</p>
+      </details>
+      <details>
+        <summary>I've never used a code editor. Can I do this?</summary>
+        <p>Yes. That's who it's for. You won't write code. The setup guide shows every screen, and the first lessons are about finding your way around: where the files are, and how to talk to the tutor. The tutor gives one step at a time and checks your work before moving on.</p>
+      </details>
+      <details>
+        <summary>What happens to what I type?</summary>
+        <p>What you type, and the files the AI reads, are sent to Google's AI models so they can reply. During setup, Antigravity asks whether Google may use your interactions to improve its products. That box is checked by default, and you can uncheck it. Either way, this is why the course has one firm rule: never put real patient or research-participant data into it. Everything you practice on is fictional or openly licensed.</p>
+      </details>
+      <details>
+        <summary>Should psychologists be doing this at all?</summary>
+        <p>Choosing not to use AI is a legitimate choice. But these tools are arriving in clinics, labs and electronic health records whether or not we understand them. Knowing how they work, where they fail and what never belongs in them is what lets you set limits, push back and advocate for the people you serve. The course spends as much time on checking AI's work as on using it.</p>
+      </details>
+      <details>
+        <summary>Is the University of Tomorrow real?</summary>
+        <p>No. It's a fictional department where you can practice without risk: the emails, transcripts and messy shared drives are all made up. Any resemblance to your own department's coffee machine is a coincidence.</p>
+      </details>
+    </div>
+    <p class="after-faq"><a href="{{ '/concerns/' | relative_url }}">All real concerns</a></p>
+  </div>
+</section>
