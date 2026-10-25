@@ -73,3 +73,18 @@ Recommendation: a form for everyone, with Issues as an option. Either way, ask t
 3. **Feedback channel:** form, Issues, or email? *Recommended: a form, with Issues as an option.*
 4. **Course title:** is "The Agentic Psychologist" final enough to put on a site? (It's still marked "working title.")
 5. **Concerns page in the preview:** ship it with the water comparison cut until it's sourced, or hold the whole page? *Recommended: ship it, cut the comparison.*
+
+## Status and parked decisions (2026-10-25)
+
+**Live:** https://dccooper.github.io/agentic-psychologist/ (noindex). Home page per `docs/_design/home-page-guidelines.md`; six course pages; automatic dark mode on all pages.
+
+**Decided 2026-10-25:** button reads "Get started"; the lab joke stays; FAQ answers are a first draft to iterate; course pages follow the system's dark mode; `QA/` removed from the public repo (kept locally, ignored by git).
+
+**Parked for the next session:**
+- [ ] Feedback channel for testers (form, Issues, or email). The testing page says "reply to the message that sent you here" for now.
+- [ ] About page credit ("made by David Cooper"): confirm wording.
+- [ ] Educators page: a contact for "Tell us".
+- [ ] Real concerns: the environment section (needs sourced figures, Assumption 11).
+- [ ] Check the home page on a phone (390px) and in light mode.
+- [ ] FAQ answers: iterate.
+- [ ] At launch: `preview_noindex: false` in `docs/_config.yml`.

@@ -222,7 +222,7 @@ Later slices fill in content within the proven structure: next, the capstone (Mo
 - You run it yourself on a **fresh Antigravity IDE install**, starting from the download page, to catch setup problems.
 - Record free-tier request usage (§3.1).
 - Record the **Antigravity version, model, and review setting** chosen during setup, plus **rough response times**. The tutor's accuracy and pace depend on the model.
-- Log findings in `QA/<pass name>/` (error log + screenshots). After fixes, re-run the **UI claims** in each lesson's "UI this lesson depends on" list against `lessons/SCREEN_GUIDE.md`.
+- Log findings in `QA/<pass name>/` (error log + screenshots). **`QA/` is local only** (in `.gitignore` since 2026-10-25), so testing notes and screenshots never reach the public repo. After fixes, re-run the **UI claims** in each lesson's "UI this lesson depends on" list against `lessons/SCREEN_GUIDE.md`.
 
 **Success criterion for release:** a beginner gets from download to their first skill **without asking for help**, within the Free tier.
 

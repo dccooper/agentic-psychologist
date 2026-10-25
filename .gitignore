@@ -7,3 +7,6 @@ workspace/lab/reveal/
 docs/_site/
 docs/_site_preview/
 docs/.jekyll-cache/
+
+# QA logs and testing notes stay on the author's machine (removed from the public repo 2026-10-25)
+QA/

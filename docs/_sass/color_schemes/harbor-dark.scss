@@ -1,0 +1,19 @@
+// Harbor, dark: the course pages in dark mode. Matches the home page's dark tokens
+// (docs/assets/css/uot-tokens.css). Switched in automatically by _includes/head_custom.html.
+@import "./color_schemes/dark";
+
+$color-scheme: dark;
+$body-background-color: #121A1E;
+$sidebar-color: #1B262C;
+$body-heading-color: #E6EDF0;
+$body-text-color: #E6EDF0;
+$nav-child-link-color: #A9B7BE;
+$search-result-preview-color: #A9B7BE;
+$link-color: #7FC0DA;
+$btn-primary-color: #1F5F7A;
+$base-button-color: #1B262C;
+$border-color: #2E3C43;
+$search-background-color: #1B262C;
+$table-background-color: #1B262C;
+$code-background-color: #1B262C;
+$feedback-color: darken($sidebar-color, 3%);

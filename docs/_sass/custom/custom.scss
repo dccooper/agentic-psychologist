@@ -7,6 +7,6 @@ code, pre, kbd {
 }
 // Visible focus everywhere (guidelines §7).
 a:focus-visible, button:focus-visible, summary:focus-visible, input:focus-visible {
-  outline: 3px solid #1F5F7A;
+  outline: 3px solid var(--uot-accent);
   outline-offset: 2px;
 }

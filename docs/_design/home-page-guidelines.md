@@ -22,7 +22,7 @@ When a future change is debated, use the same two questions. "Which looks cooler
 | a2 | Problem statement | Eyebrow line above the headline |
 | b | How much of the world shows | The orientation packet only. No letterhead strip, no compliance joke in safety |
 | c | Hero visual | Department memo |
-| d | Button wording | "Start in 5 minutes" |
+| d | Button wording | "Get started" (changed 2026-10-25 from "Start in 5 minutes": setup really takes about 15 minutes, and the skeptic test requires honesty) |
 | e | Section order | Packet before safety, so safety and the FAQ form one serious block |
 | f | Color and type | Harbor: white, slate, harbor blue, Atkinson Hyperlegible |
 | Logo | Mark | The Sun That Hasn't Quite Risen (shield) |
@@ -50,7 +50,7 @@ Two columns on desktop, stacked on phone (text first, memo second).
 - Eyebrow (accent color, bold): For psychologists who don't know where to start with AI
 - Headline (h1): Learn the basics of AI agents in 20-minute lessons. No coding required.
 - Subhead: A free course for trainees, clinicians and researchers. A tutor inside the tool walks you through it one step at a time, so you leave with a foundation to build on.
-- Primary button: Start in 5 minutes (links to the setup guide)
+- Primary button: Get started (links to the setup guide)
 - Secondary link: Real concerns, answered
 - Trust line (muted, 14px): Free · Open source · No real patient data, ever
 
@@ -105,7 +105,7 @@ Inside, on the surface color:
 - Intro: Everyone starts with the same orientation. Then you pick a rotation, and you graduate with an agent that's yours to keep.
 - PSY 101 · Core curriculum: An agent = instructions + skills + memory. Every lesson adds to one of the three.
 - Clinic rotation: Build a chief of staff for a busy clinic director. Then make the clinic a website. Aside: The director's door sign reads "Knock. Then knock again."
-- Lab rotation: Build a literature-review agent. Then run a real analysis on open data and check it against the published, peer-reviewed version. Aside: [lab joke]
+- Lab rotation: Build a literature-review agent. Then run a real analysis on open data and check it against the published, peer-reviewed version. Aside: The Foresight Lab studies how people imagine the future. Every deadline still comes as a complete surprise.
 - Graduation · Capstone: Move your agent out of the course and make it your own.
 - Three small asides:
   - Timetable: Lessons run about 20 minutes. Stop and resume any time.
@@ -229,9 +229,9 @@ Check these against the Just the Docs version in your `Gemfile.lock`.
 
 ## 11. Still to fill
 
-- [ ] Step timings in How it works
-- [ ] Lab rotation joke
+- [x] Step timings in How it works (about 10 min, about 2 min, under a minute)
+- [x] Lab rotation joke
 - [ ] The tutor's real first message, if you want it quoted anywhere
-- [ ] Answers for the five FAQ items
-- [ ] Download Atkinson Hyperlegible into `assets/fonts/`
+- [x] Answers for the five FAQ items (first draft; iterate)
+- [x] Download Atkinson Hyperlegible into `assets/fonts/` (latin subset; add latin-ext for translations)
 - [ ] Remove noindex at launch
