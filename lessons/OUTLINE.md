@@ -2,7 +2,7 @@
 
 Working outlines for every lesson after 1.1. Each becomes a full script (see `LESSON_TEMPLATE.md`) once Slice 1 testing confirms the format works. **Key moment** = the one thing the learner should walk away feeling.
 
-Drafted as full scripts: 0.1, 0.2, 1.1, 1.2, 2.2, 3A.1, 3B.1 (Slice 1); 1.3, 1.4, 2.1, 2.3, 2.4 (Slice 2: all of Modules 0–2).
+Drafted as full scripts: 0.1, 0.2, 1.1, 1.2, 2.2, 3A.1, 3B.1 (Slice 1); 1.3, 1.4, 2.1, 2.3, 2.4 (Slice 2: all of Modules 0–2); 3A.2a–3A.3b and 3B.2a–3B.3b (Slice 3: both paths).
 
 **Design rule: about 20 minutes per lesson, with marked pause points.** Every lesson ends at a natural stopping point, with something that works. **Pick up, put down** is taught as a concept, not just accommodated: agentic work is easy to step away from and resume, because the work lives in files. Learners *experience* it from 0.1 (stop, `/start-course`, resume), *understand* it in 2.2 (`progress.md` is memory), and *build it in* to their own agents in 3A.2 / 3B.2 (memory files plus a handoff note).
 
@@ -68,23 +68,23 @@ Drafted as full scripts: 0.1, 0.2, 1.1, 1.2, 2.2, 3A.1, 3B.1 (Slice 1); 1.3, 1.4
 
 *What "agent" means in both paths:* an agent = **instructions** (a rule or `AGENTS.md` describing the role) + **skills** (things it can do on command) + **memory** (files it reads and updates).
 
-### 3A.2a Build a chief of staff: the office (~20 min)
+### 3A.2a Build a chief of staff: the office (~20 min) [S3], full script: `3a-clinic/3A.2a-chief-of-staff-the-office.md`
 - **Steps:** build the chief of staff from the recipe, naming each part as it's made: *instructions* (its role file), *memory* files (`projects.md`, `people.md`). Then its first *skill*: build `/weekly-plan` and run it on Dr. Reyes's to-do pile.
 - **Ends with:** a working weekly plan. *It works.*
 - **New artifacts:** Reyes's to-do pile, calendar (fictional)
 
-### 3A.2b Build a chief of staff: memory and handoffs (~20 min)
+### 3A.2b Build a chief of staff: memory and handoffs (~20 min) [S3], full script: `3a-clinic/3A.2b-chief-of-staff-memory-and-handoffs.md` (`/whats-slipping` became an optional stretch to keep it near 20 minutes)
 - **Steps:** add `/meeting-prep` (a referral-partner lunch) and `/whats-slipping`. Add a **`/wrap-up` skill that writes a handoff note** (what happened, what's next) to the memory files at the end of a session. Close the chat, open a fresh one, and watch the chief of staff pick up where it left off.
 - **Key moment:** an agent isn't magic. It's instructions + skills + memory, and they built every part. **The handoff note is pick up, put down, built into your own agent.**
 - **Teaser:** "In the capstone, you'll make this yours."
 - **New artifact:** referral-partner list
 
-### 3A.3a Vibe code a clinic website: first version (~20 min)
+### 3A.3a Vibe code a clinic website: first version (~20 min) [S3], full script: `3a-clinic/3A.3a-clinic-website-first-version.md` (adds `daybreak-facts.md` as the only source)
 - **Steps:** turn the outdated clinic copy into a single-page site (one HTML file, no frameworks) and preview it in the browser.
 - **Ends with:** a website on their screen. *It's real.*
 - **New artifact:** `world/artifacts/daybreak-old-website.md`
 
-### 3A.3b Vibe code a clinic website: refine and check (~20 min)
+### 3A.3b Vibe code a clinic website: refine and check (~20 min) [S3], full script: `3a-clinic/3A.3b-clinic-website-refine-and-check.md`
 - **Steps:** loop describe → build → look → refine (screenshots help). Ask the AI to explain the code. **Psychology hook:** a content check against the advertising sections of the APA Ethics Code (e.g., no client testimonials, no claims the clinic can't support), plus a basic accessibility check. **Bias check:** who does this copy assume the clinic serves, and who might read it and feel it isn't for them?
 - **Stretch:** a referral one-pager generator.
 - **Key moment:** you built and checked a working website by describing it. (Publishing it comes in Graduation.)
@@ -98,29 +98,30 @@ Drafted as full scripts: 0.1, 0.2, 1.1, 1.2, 2.2, 3A.1, 3B.1 (Slice 1); 1.3, 1.4
 - **Steps:** ask the AI for a project brief (the "think" move from 1.2), with a question per project. Set up `workspace/lab/`.
 - **Key moment:** scope before you build. Ask "what question does this answer?" first.
 
-### 3B.2a Build a lab agent: reading (~20 min)
-- **Steps:** build the lab agent from the recipe, naming each part as it's made: *instructions* (its role file), *memory* (`projects.md`, `reading-list.md`). Build `/paper-summary` and `/lit-matrix`, and run them on a small set of **openly licensed papers** (PLOS ONE future-thinking papers; **not** 0237435, which is held back for the blind comparison in 3B.3b).
+### 3B.2a Build a lab agent: reading (~25 min) [S3], full script: `3b-lab/3B.2a-lab-agent-reading.md`
+- **Steps:** build the lab agent from the recipe, naming each part as it's made: *instructions* (its role file), *memory* (`projects.md`, `reading-list.md`). Build `/lit-matrix` and run it on `data/reading-pack/`: five **openly licensed papers** (PLOS ONE, CC BY, abstracts only; **not** 0237435 or its 2023 follow-up 0289478, held back for the blind comparison in 3B.3b). `/paper-summary` became an optional stretch in 3B.2b.
 - **Psychology hook (critical):** **hallucinated citations.** The agent may only cite sources it was given. Include a planted trap where it's asked for "a few more references." The learner checks every citation.
 - **Ends with:** a literature matrix they've checked.
 
-### 3B.2b Build a lab agent: memory and handoffs (~20 min)
+### 3B.2b Build a lab agent: memory and handoffs (~20 min) [S3], full script: `3b-lab/3B.2b-lab-agent-memory-and-handoffs.md` (handoff skill named `/lab-wrap-up` so it can't collide with the clinic path's `/wrap-up`)
 - **Steps:** add `/weekly-lab-update` and a **`/wrap-up` handoff-note skill**. Close the chat, open a fresh one, and watch it resume.
 - **Key moment:** the AI speeds up reading but doesn't replace checking. They've built all three parts: instructions + skills + memory. **The handoff note is pick up, put down, built into your own agent.**
 - **Teaser:** "In the capstone, you'll make this yours."
 
-### 3B.3a Vibe code an analysis: the script (~20 min)
+### 3B.3a Vibe code an analysis: the script (~25 min) [S3], full script: `3b-lab/3B.3a-analysis-the-script.md`
 - **Steps:** Dr. Bello sets a **question in advance** (in the spirit of preregistration). Install Python with the agent's help (building on 2.4). The AI writes an analysis script on the public dataset, runs it, and explains each step.
 - **Bias check (before analysis):** *who is this data about, and who's missing?* The AI summarizes the sample's demographics. Compare that with who the findings get applied to (psychology's WEIRD-samples problem). Afterward, ask the AI to summarize the results and check whether it **overgeneralizes** beyond the sample.
 - **Psychology hook:** the AI will happily run 20 tests until one is significant. Stick to the stated question, and record what was tried.
 - **Ends with:** a script that runs and answers the question.
 
-### 3B.3b Vibe code an analysis: the reveal (~20 min)
+### 3B.3b Vibe code an analysis: the reveal (~25 min) [S3], full script: `3b-lab/3B.3b-analysis-the-reveal.md`
 - **Steps:** turn the results into a small dashboard. Then **the reveal:** the learner **has the agent fetch** the authors' published paper and their own R analysis from OSF (reading the command before approving it, as in 2.4; manual download as a fallback), and **compare the human-produced, peer-reviewed analysis with the agent's.** Same answer? Same exclusions? Where did they differ, and who was right? Write a short README so someone else could rerun it.
 - **Key moment:** fast analysis is only worth something if you can explain and reproduce it, **and now you've checked an agent's work against peer-reviewed human work.**
 
 **Firewall for the blind analysis (3B.3a):**
-- **The repo ships only the CSV and the data dictionary.** The authors' scripts and paper are **not** in the repo. Learners download them in 3B.3b. This is airtight: ignore files (e.g. `.cursorignore` in Cursor) block an agent's file tools but not its terminal, so leaving the files out is the only reliable wall.
+- **The repo ships only the CSV and the data dictionary** (`data/`, with CC BY attribution in `data/README.md`) **and the reading pack of other papers' abstracts.** The authors' scripts and paper are **not** in the repo. Learners download them in 3B.3b. This is airtight: ignore files (e.g. `.cursorignore` in Cursor) block an agent's file tools but not its terminal, so leaving the files out is the only reliable wall.
 - The tutor rule for 3B.3a: don't search the web for or cite the original paper's results until the reveal.
+- **Known leak to manage:** the 3B.3b script itself holds the expected comparison points (authors' exclusions, test, result) so the free model can check them. 3B.3a tells the tutor not to open it early. And when a tester runs 3B.3b, `workspace/lab/reveal/` holds the downloaded paper and Rmd: **never commit it** (see `QA/SHIP_SCRUB.md`).
 - Small residual risk: the model may have seen the paper in training. The comparison still holds, because the learner's own code is visible and checkable.
 - **Language: Python**, with R on request. Rationale for learners: most technical data-science roles use Python. Installing it with the agent's help builds on 2.4.
 
@@ -176,5 +177,5 @@ Drafted as full scripts: 0.1, 0.2, 1.1, 1.2, 2.2, 3A.1, 3B.1 (Slice 1); 1.3, 1.4
 
 1. ~~**Lab path language (3B.3)**~~ → **Decided:** Python, R on request.
 2. ~~**Split long lessons?**~~ → **Decided:** ~20 min lessons with pause points; path lessons split into a/b; pick up, put down taught as a concept.
-3. **Lit-review sources (3B.2):** needs a small set of openly licensed papers (e.g., PLOS, CC-BY). Pick them alongside the dataset (Assumption 5).
+3. ~~**Lit-review sources (3B.2)**~~ → **Decided (2026-10-24):** `data/reading-pack/`, five PLOS ONE abstracts (Bromberg 2017, Hollis-Hansen 2019, Calluso 2019, Noreen 2022, Noreen 2023). Two are deliberately off-question (depression and problem-solving) to teach relevance screening.
 4. ~~**Personal adaptation**~~ → **Decided:** capstone. 4.1 Make it yours, 4.2 Idea gallery, 4.3 Build it.

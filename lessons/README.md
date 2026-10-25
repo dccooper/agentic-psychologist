@@ -1,8 +1,8 @@
 # Lesson Order
 
-The tutor follows this order. Slice 1 lessons are marked **[S1]**, Slice 2 lessons **[S2]**. Titles are working drafts.
+The tutor follows this order. Slice 1 lessons are marked **[S1]**, Slice 2 **[S2]**, Slice 3 **[S3]**. Titles are working drafts.
 
-**While the course is being built:** lessons without a script file are skipped (see the `/next-step` skill). With Slices 1 and 2 written, all of Modules 0–2 is in place: 0.1 → … → 2.4 → path choice → 3A.1 or 3B.1. Learners who skipped a lesson before it was written are offered it when they return (see `/start-course`).
+**While the course is being built:** lessons without a script file are skipped (see the `/next-step` skill). With Slices 1–3 written, Modules 0–3 are in place: 0.1 → … → 2.4 → path choice → all of 3A or all of 3B. Module 4 and Graduation are still to come. Learners who skipped a lesson before it was written are offered it when they return (see `/start-course`).
 
 ## Module 0: Getting started (shared)
 - 0.1 Welcome to the department **[S1]**
@@ -23,17 +23,17 @@ The tutor follows this order. Slice 1 lessons are marked **[S1]**, Slice 2 lesso
 
 ## Module 3A: Clinic path
 - 3A.1 Meet the clinic director **[S1]**
-- 3A.2a Chief of staff: the office
-- 3A.2b Chief of staff: memory and handoffs
-- 3A.3a Clinic website: first version
-- 3A.3b Clinic website: refine and check
+- 3A.2a Chief of staff: the office **[S3]**
+- 3A.2b Chief of staff: memory and handoffs **[S3]**
+- 3A.3a Clinic website: first version **[S3]**
+- 3A.3b Clinic website: refine and check **[S3]**
 
 ## Module 3B: Lab path
 - 3B.1 Meet the lab **[S1]**
-- 3B.2a Lab agent: reading
-- 3B.2b Lab agent: memory and handoffs
-- 3B.3a Analysis: the script (Python)
-- 3B.3b Analysis: the reveal (compare with the published analysis)
+- 3B.2a Lab agent: reading **[S3]**
+- 3B.2b Lab agent: memory and handoffs **[S3]**
+- 3B.3a Analysis: the script (Python) **[S3]**
+- 3B.3b Analysis: the reveal (compare with the published analysis) **[S3]**
 
 ## Module 4: Capstone (shared)
 - 4.1 Make it yours (adapt your path agent + go-live checklist)

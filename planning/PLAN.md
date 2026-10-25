@@ -211,7 +211,9 @@ Download ZIP → bootstrap → Module 0 complete → one lesson each from Module
 
 **Slice 2, the shared core:** the rest of Modules 1–2 (1.3 context with @, 1.4 first real tasks, 2.1 templates and rules, 2.3 first skill, 2.4 terminal). With it, a learner can go from download to **their first skill** (the release success criterion, §10) and on to the path choice without skipping anything.
 
-Later slices fill in content within the proven structure: next, the path lessons (3A.2–3A.3, 3B.2–3B.3, which needs the dataset), then the capstone and graduation.
+**Slice 3, both paths:** 3A.2a–3A.3b (chief of staff, clinic website) and 3B.2a–3B.3b (lab agent and reading pack, analysis and reveal), with the dataset and reading pack added to `data/`.
+
+Later slices fill in content within the proven structure: next, the capstone (Module 4) and graduation.
 
 ## 10. Testing and success
 
@@ -243,7 +245,7 @@ Later slices fill in content within the proven structure: next, the path lessons
 | 2 | **The agent follows lesson scripts on the default free model** (Gemini 3.8 Flash) | The tutor stays on script, reads files rather than guessing, and doesn't finish exercises for the learner | It skips checkpoints or invents facts (seen on Cursor's Grok: QA-002), or it's too slow for a 20-minute lesson | Every slice, always on a Free account |
 | 3 | **Antigravity's Free weekly limits are enough.** Limits are unpublished. | Modules 0–2 fit in a week of Free with margin | Learners hit the weekly limit before their first skill | Slice 1 budget test |
 | 4 | **The data guardrail is a nudge.** The lesson is the real protection. | Learners take in "what never goes in" | Someone relies on the guardrail and pastes real data | Ongoing; watch in testing |
-| 5 | **Suitable openly licensed psych datasets exist.** *Largely resolved 2026-10-23:* OSF bfxnv (CC BY 4.0, demographics, paired PLOS paper). See `research-notes.md`. Remaining: data dictionary review. | CC0/CC-BY data (e.g., OSF) that's realistic and messy | Good data requires DUAs or forbids redistribution | Before lab-path slice 2 |
+| 5 | **Suitable openly licensed psych datasets exist.** *Resolved 2026-10-24:* OSF bfxnv (CC BY 4.0, creator Jillian Marie Rung) is in `data/`: the CSV unchanged, the dictionary converted to Markdown, attribution in `data/README.md`. Dictionary reviewed: race code 6 = White (191/254); several dictionary/column mismatches, used as a teaching moment in 3B.3a. | CC0/CC-BY data (e.g., OSF) that's realistic and messy | Good data requires DUAs or forbids redistribution | Before lab-path slice 2 |
 | 6 | **A shared foundation works for both clinicians and researchers** | Neither group feels Modules 0–2 "aren't for me" | Testers from one group drop out before the split | Slice 1 testing (include one of each) |
 | 7 | **Naming and trademark:** keep tool names (Google, Antigravity, Cursor) out of the course title | A neutral name ("The Agentic Psychologist") | Forced rename after launch | Before public release |
 | 8 | **Antigravity's BAA status (Free, personal Google account) is unknown** and irrelevant while everything is synthetic. Setup's data-use checkbox defaults to *on* (Google may use interactions) | The go-live checklist tells learners to check BAA and institutional approval | The course implies real clinical use is fine | Capstone authoring |

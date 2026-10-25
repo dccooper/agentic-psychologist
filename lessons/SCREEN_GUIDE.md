@@ -97,3 +97,11 @@ During setup the learner chose one of: **Strict Mode**, **Review-driven developm
 - [x] Opening the terminal worked in 2.4 (QA pass 3, no issues reported). Which of the two ways the tester used isn't recorded.
 - [x] Review-driven development asks before every command, including `python --version` (2.4, QA pass 3)
 - [ ] The approval box's exact labels (screenshot)
+
+**Added for Slice 3 (paths):**
+- [ ] Opening an HTML file in the browser: right-click in the Explorer → **Reveal in File Explorer** / **Reveal in Finder**, then double-click (3A.3a, 3B.3b)
+- [ ] Pasting a screenshot into the agent panel (optional in 3A.3b)
+- [ ] Installing Python on a fresh Windows PC: python.org installer with **Add python.exe to PATH**, and whether Antigravity's terminal needs restarting afterward (3B.3a)
+- [ ] `pip install pandas scipy matplotlib` works on Windows and Mac (3B.3a)
+- [ ] The agent can download from journals.plos.org and osf.io (3B.3b)
+- [ ] With several skills starting `/week` or `/meet`, Tab completes to which one? (3A.2, 3B.2)

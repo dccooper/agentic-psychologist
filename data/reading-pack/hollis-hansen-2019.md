@@ -1,0 +1,10 @@
+# Improvements in episodic future thinking methodology: Establishing a standardized episodic thinking control
+
+- **Authors:** Kelseanna Hollis-Hansen, Sara E. O’Donnell, Jennifer S. Seidman, Spencer J. Brande, Leonard H. Epstein
+- **Journal:** PLOS ONE, 2019
+- **DOI:** https://doi.org/10.1371/journal.pone.0214397
+- **License:** CC BY 4.0. Abstract reproduced unchanged from the published article.
+
+## Abstract
+
+Objective: Delay discounting (DD) is the choice of a smaller immediate reward over a larger delayed reward, which has been associated with a number of maladaptive behaviors. Episodic future thinking (EFT), the ability to project oneself into the future, is an intervention designed to reduce DD. EFT has reliable effects on DD, but the size of the effect varies, which could be due in part to the use of different control groups. Episodic recent thinking (ERT) serves as a common control for many EFT studies, but the temporal window of “recent” cues ranges from 24 hours ago to 12 days past. Since prior research has shown that retrospection can lead to prospection, it may be important to ensure that EFT controls do not inadvertently lead to prospection for some participants thereby increasing the variability of the control condition. The present study sought to develop a comparison group that standardizes the time frame and experiences that are the basis for the recent thinking control. Methods: Participants (n = 53, 18–45) were randomized to one of three conditions: EFT, ERT, or standardized episodic thinking (SET). Participants attended a laboratory appointment where they played mobile application games, created cues, and completed a DD task. Results: There was a significant difference between groups (p<0.05), with EFT reducing discounting more than either control (p<0.05), and no differences between ERT and SET (p>0.05). Conclusion: This study established that SET provides an alternative control in EFT studies and provides the advantage of standardizing the participant’s recent experience without changing the relationship between EFT and recent thinking controls.
