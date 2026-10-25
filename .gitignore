@@ -10,3 +10,8 @@ docs/.jekyll-cache/
 
 # QA logs and testing notes stay on the author's machine (removed from the public repo 2026-10-25)
 QA/
+
+# Author-only working notes (removed from the public repo 2026-10-25)
+planning/
+docs/_design/
+lessons/OUTLINE.md

@@ -7,6 +7,17 @@ permalink: pretty
 remote_theme: just-the-docs/just-the-docs@v0.10.1
 plugins:
   - jekyll-remote-theme
+  - jekyll-seo-tag
+
+# Link previews (Open Graph / Twitter cards) for every page.
+logo: /assets/logo/uot-mark.svg
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/social/social-preview.png
+twitter:
+  card: summary_large_image
 
 color_scheme: harbor
 search_enabled: true
@@ -28,6 +39,7 @@ preview_noindex: true
 # No analytics, ever: leave ga_tracking unset.
 
 exclude:
+  - assets/social/card.html
   - Gemfile
   - Gemfile.lock
   - vendor

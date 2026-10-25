@@ -1,7 +1,6 @@
 /*
   Home page styles. Everything is scoped under .uot-home so course pages
   (Just the Docs) are unaffected. Colors and fonts come from uot-tokens.css.
-  Spec: docs/_design/home-page-guidelines.md
 */
 
 .uot-home {

@@ -18,10 +18,4 @@ On the Lab path you'll:
 
 ### Data
 
-> ✅ **Recommended dataset:** "Development of a Clinical EFT Control" (OSF bfxnv, CC BY 4.0), paired with its PLOS ONE paper (10.1371/journal.pone.0237435). See `planning/research-notes.md`. Original requirements:
-> - CC0 / CC-BY license. No data use agreement.
-> - Related to future thinking, mood, or decision-making if possible.
-> - Realistic and a bit messy.
-> - **Includes demographic variables**, needed for the "who's in this sample?" bias check in 3B.3a.
->
-> See PLAN.md Assumption 5.
+The lab works with **openly licensed public data**: real studies, anonymous participants, and licenses that allow anyone to reuse them. Dr. Bello will put the dataset in the `data/` folder when the analysis starts, and not a moment before. (The question comes first. Habits matter.)
