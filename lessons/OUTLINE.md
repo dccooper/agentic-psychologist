@@ -4,7 +4,9 @@ Working outlines for every lesson after 1.1. Each becomes a full script (see `LE
 
 Drafted as full scripts: 0.1, 0.2, 1.1, 1.2, 2.2, 3A.1, 3B.1 (Slice 1); 1.3, 1.4, 2.1, 2.3, 2.4 (Slice 2: all of Modules 0–2); 3A.2a–3A.3b and 3B.2a–3B.3b (Slice 3: both paths).
 
-**Design rule: about 20 minutes per lesson, with marked pause points.** Every lesson ends at a natural stopping point, with something that works. **Pick up, put down** is taught as a concept, not just accommodated: agentic work is easy to step away from and resume, because the work lives in files. Learners *experience* it from 0.1 (stop, `/start-course`, resume), *understand* it in 2.2 (`progress.md` is memory), and *build it in* to their own agents in 3A.2 / 3B.2 (memory files plus a handoff note).
+**Design rule: about 20 minutes per lesson, with at most one mid-lesson pause point.** (QA pass 4: lessons run faster than planned. Between steps the tutor just asks "Ready to move on?") Every lesson ends at a natural stopping point, with something that works. **Pick up, put down** is taught as a concept, not just accommodated: agentic work is easy to step away from and resume, because the work lives in files. Learners *experience* it from 0.1 (stop, `/start-course`, resume), *understand* it in 2.2 (`progress.md` is memory), and *build it in* to their own agents in 3A.2 / 3B.2 (memory files plus a handoff note).
+
+**Progression: from hand-holding to the learner's own way of working with agents.** Modules 0–2 give clear prompts and have learners hand-edit files so they see what's inside. On the paths, learners refine skills and instructions by **telling the agent what to change in their own words** (typed or spoken), and the tutor asks "What would you change?" before offering options. In the capstone, the tutor coaches. Throughout: when making a skill or instructions, the learner asks the agent "Is anything missing?" (the agent as **thought partner**), and about once a lesson there's a quick **knowledge check** on an earlier idea.
 
 **Core concept: an agent = instructions + skills + memory.** This is the idea the whole course is built around. Learners *use* an agent from 0.1 (the tutor), *build the parts one at a time* in Module 2 (2.1 instructions, 2.3 a skill), *see all three named together* in 2.2, *assemble a full agent* on their path (3A.2 / 3B.2), and *make one their own* in the capstone. Every lesson that touches one of the parts names it, with the same three words every time (no "tools" or "prompts" as synonyms).
 
@@ -79,12 +81,12 @@ Drafted as full scripts: 0.1, 0.2, 1.1, 1.2, 2.2, 3A.1, 3B.1 (Slice 1); 1.3, 1.4
 - **Teaser:** "In the capstone, you'll make this yours."
 - **New artifact:** referral-partner list
 
-### 3A.3a Vibe code a clinic website: first version (~20 min) [S3], full script: `3a-clinic/3A.3a-clinic-website-first-version.md` (adds `daybreak-facts.md` as the only source)
+### 3A.3a Vibe code a clinic website: first version (~20 min) [S3], full script: `3a-clinic/3A.3a-clinic-website-first-version.md` (adds `daybreak-facts.md` as the only source, and a **taste step**: an example site they like, and why, before the page plan)
 - **Steps:** turn the outdated clinic copy into a single-page site (one HTML file, no frameworks) and preview it in the browser.
 - **Ends with:** a website on their screen. *It's real.*
 - **New artifact:** `world/artifacts/daybreak-old-website.md`
 
-### 3A.3b Vibe code a clinic website: refine and check (~20 min) [S3], full script: `3a-clinic/3A.3b-clinic-website-refine-and-check.md`
+### 3A.3b Vibe code a clinic website: refine and check (~20 min) [S3], full script: `3a-clinic/3A.3b-clinic-website-refine-and-check.md` (ends with a **before-you-publish security check**)
 - **Steps:** loop describe → build → look → refine (screenshots help). Ask the AI to explain the code. **Psychology hook:** a content check against the advertising sections of the APA Ethics Code (e.g., no client testimonials, no claims the clinic can't support), plus a basic accessibility check. **Bias check:** who does this copy assume the clinic serves, and who might read it and feel it isn't for them?
 - **Stretch:** a referral one-pager generator.
 - **Key moment:** you built and checked a working website by describing it. (Publishing it comes in Graduation.)
@@ -128,6 +130,8 @@ Drafted as full scripts: 0.1, 0.2, 1.1, 1.2, 2.2, 3A.1, 3B.1 (Slice 1); 1.3, 1.4
 ---
 
 ## Module 4: Capstone
+
+*A fuller five-lesson draft (4.1 Moving day … 4.5 Show it) is in `planning/capstone-outline.md`, awaiting review. The sketch below is the original.*
 
 **Purpose:** take the skills and make them your own. The course has given them the skill. The capstone's job is to **spark their imagination** and then get out of the way.
 

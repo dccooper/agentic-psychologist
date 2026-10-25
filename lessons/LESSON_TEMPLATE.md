@@ -28,11 +28,17 @@ Every on-screen control the lesson uses (by label), pointing to `lessons/SCREEN_
 1. **Step name:** what the learner does. *Why:* one line.
    - ✅ **Checkpoint:** how the tutor confirms it's done (a file exists, the learner reports X). If the answer is a fact from a file, write the **expected answer** here so the tutor doesn't have to guess.
 2. ...
+
+Also in every lesson:
+- Somewhere in the lesson: **one quick knowledge check** that recalls an earlier idea (with the expected answer).
+- When the learner creates a skill, rule, or instructions file: prompt them to ask the AI *"Is anything missing?"*
+- When a new skill is created: run it in a **new conversation** (it isn't available in the one that created it).
+
 N. **Name the moment:** one or two sentences, said *after* the exercise, naming the skill they just practiced and how it carries over to real work.
 
 ## Pause points
 
-Where the learner can safely stop mid-lesson (e.g., "after step 3"). At each one, the tutor briefly offers a break and updates `progress.md` so `/start-course` resumes exactly here. Every lesson ends at a natural stopping point.
+**At most one** mid-lesson stop (e.g., "after step 3"), plus the end of the lesson. At each one, the tutor briefly offers a break and updates `progress.md` so `/start-course` resumes exactly here. Between other steps the tutor just asks "Ready to move on?" (QA pass 4: lessons run faster than planned).
 
 ## Done when
 

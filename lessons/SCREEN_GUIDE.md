@@ -68,7 +68,7 @@ During setup the learner chose one of: **Strict Mode**, **Review-driven developm
 **Rules and skills (files the learner creates)** ⚠️
 - A **rule** is a `.md` file in `.agents/rules/` (Lesson 2.1). ✅ *QA pass 3:* with a rule file open, Antigravity shows an **Activation Mode** setting at the top: **Manual**, **Always On**, **Model Decision**, **Glob**. Use it instead of typing the `trigger:` header (typing both makes a duplicate). A rule with no mode is silently ignored. The file on disk then starts with `---` / `trigger: always_on` / `---`.
 - A **skill** is a folder in `.agents/skills/` with a `SKILL.md` inside, starting with `name` and `description` frontmatter (Lesson 2.3).
-- Unverified: whether a new rule or skill takes effect in the current conversation or only after **+** (new conversation). Lessons use a new conversation to be safe.
+- ✅ *QA pass 4:* a **new skill isn't available in the conversation that created it** (typing `/wrap-up` there showed nothing). Start a new conversation (**+**) to run it. ⚠️ Still unverified for rules; lessons use a new conversation to be safe.
 
 **The terminal** ⚠️ **Terminal → New Terminal** in the top menu, or **Ctrl+`** (Mac: **Ctrl+`** too). It opens as a panel, usually along the bottom. On Windows it's PowerShell by default. `pwd`, `ls`, and `clear` work on both Windows and Mac. The trash-can icon on the panel closes it.
 
@@ -93,14 +93,18 @@ During setup the learner chose one of: **Strict Mode**, **Review-driven developm
 - [x] Rules have an **Activation Mode** toggle (Manual / Always On / Model Decision / Glob); an Always On rule was followed in a new conversation (2.1, QA pass 3)
 - [ ] Whether the Activation Mode toggle writes the `trigger:` header to disk itself
 - [x] A new skill runs from `/` in a new conversation, and Tab completes the name (2.3, QA pass 3)
-- [ ] Whether a new skill works in the *same* conversation it was created in
+- [x] A new skill does **not** work in the conversation that created it; use a new conversation (QA pass 4)
 - [x] Opening the terminal worked in 2.4 (QA pass 3, no issues reported). Which of the two ways the tester used isn't recorded.
 - [x] Review-driven development asks before every command, including `python --version` (2.4, QA pass 3)
 - [ ] The approval box's exact labels (screenshot)
 
 **Added for Slice 3 (paths):**
-- [ ] Opening an HTML file in the browser: right-click in the Explorer → **Reveal in File Explorer** / **Reveal in Finder**, then double-click (3A.3a, 3B.3b)
-- [ ] Pasting a screenshot into the agent panel (optional in 3A.3b)
+- [x] Opening an HTML file via **Reveal in File Explorer** + double-click works, but it's too many steps (QA pass 4). Lessons now have the agent open it with a command (explained first)
+- [ ] The agent opening an HTML file in the browser with `Start-Process` (Windows) / `open` (Mac), one approval (3A.3a, 3B.3b)
+- [ ] Pasting a screenshot into the agent panel (optional in 3A.3a, 3A.3b)
+- [ ] Whether the agent can open a web address the learner gives it (the taste step, 3A.3a)
+- [ ] The terminal-command **Allow list** (described in Antigravity's settings docs under Request Review; a forum report says entries move after a restart in 2.5.5 on Windows). Mentioned in 3B.3a as optional and narrow, only if the learner asks
+- [ ] Whether an **edited** skill updates in a conversation that's already open (lessons rerun in a new conversation to be safe)
 - [ ] Installing Python on a fresh Windows PC **by the agent** (`winget install` with Python's official ID): does winget work from Antigravity's terminal, does Windows show an admin prompt, and does the terminal need restarting afterward? Fallback: python.org installer with **Add python.exe to PATH** (3B.3a)
 - [ ] Same on a Mac with no Homebrew: what does the agent propose? (3B.3a)
 - [ ] `pip install pandas scipy matplotlib` works on Windows and Mac (3B.3a)

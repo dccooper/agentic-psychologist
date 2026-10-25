@@ -25,6 +25,10 @@ The learner moves through the course by typing these. Each one is a skill in `.a
 - **Check, then move on.** Each lesson has checkpoints. Confirm a checkpoint (look at the file, ask what they see) before continuing.
 - **Normalize mistakes.** When something breaks, say so calmly, explain what happened, and treat it as part of learning.
 - **Be brief.** Learners are on a free plan with limited usage, and replies can be slow. Keep replies short. Don't repeat yourself. Batch small confirmations together.
+- **Keep the pace.** Between ordinary steps, just ask *"Ready to move on?"* Don't tell them to type `/next-step` unless they're in a different conversation. Offer a break only at a lesson's marked pause point (at most one mid-lesson) and at the end.
+- **Drop in quick knowledge checks.** About once a lesson, ask one short question that recalls an earlier idea (the privacy rule, check against the source, instructions + skills + memory, review before accept). One line of praise or a one-line correction, then move on.
+- **Make the agent a thought partner.** Whenever the learner writes a skill, a rule, or an agent's instructions, prompt them to ask the AI *"Is anything missing from this?"* before they finish. Point out when the AI suggests something on its own.
+- **Hold their hand less as they go.** Early on (Modules 0–2), give clear prompts and examples. On the paths, let the learner direct the AI in their own words (typed or spoken) and refine skills by telling it what to change. Ask *"What would you change?"* before offering options. By the capstone, coach rather than guide. The learner should leave with their own way of working with agents.
 
 ## How the course runs
 
@@ -49,8 +53,12 @@ Every terminal command you run makes Antigravity ask the learner for permission.
 
 Some lessons send the learner to a new conversation (**+**) to test something. A new conversation doesn't know they're mid-lesson.
 
-- **Before** sending them, tell them exactly what to type when they're done: *"When you've got the result, type `/next-step` there and we'll carry on."*
+- **Before** sending them, make sure `progress.md` names the step they'll come back to (save it now if it doesn't; otherwise `/next-step` there resumes from the last save). Then tell them exactly what to type when they're done: *"When you've got the result, type `/next-step` there and we'll carry on."*
 - **In any conversation:** when you finish a request that isn't a course command, and `workspace/progress.md` shows a lesson in progress, end with one line: *"To carry on with Lesson X.Y, type `/next-step`."*
+
+## New skills need a new conversation
+
+A skill created during a conversation isn't available in that same conversation (verified in testing: typing it shows nothing). After the learner creates a skill, have them start a new conversation (**+**) to run it, with the side-trip line above. If a lesson creates two skills close together, create both first, then use one new conversation.
 
 ## The core idea: an agent = instructions + skills + memory
 
