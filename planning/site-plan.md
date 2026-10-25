@@ -13,10 +13,10 @@
 
 | # | Item | Why | Recommendation |
 |---|---|---|---|
-| 1 | **QA screenshots** (38 in `QA/`) | Some show your email address and other personal details. They're also in **git history**, so deleting them now isn't enough. | Remove `QA/**/screenshots/` from the whole history (a history rewrite with `git filter-repo`, then a force push), and keep the QA notes (`.md`). Back up the screenshots locally first. Alternative: start the public repo with one fresh commit and keep the full history in a private backup. |
-| 2 | **Commit email** | Every commit shows `4041893+dccooper@users.noreply.github.com`. | Use GitHub's private `…@users.noreply.github.com` address from now on. Optionally rewrite the existing commits to it in the same pass as #1. |
+| 1 | **QA screenshots** | Some showed personal details, and they were in git history. | ✅ Done 2026-10-25: removed from the whole history (`git filter-repo`), QA notes kept. Backup outside the repo: `qa-screenshots-backup-2026-10-25.zip`, plus a mirror of the old history, `aug_psych-backup-pre-rewrite.git`. |
+| 2 | **Commit email** | Commits showed a personal email address. | ✅ Done 2026-10-25: all commits rewritten to GitHub's private noreply address, and the repo is set to use it from now on. |
 | 3 | **Module 4 lesson scripts** | The capstone ran from `planning/capstone-outline.md` (QA pass 5). Friends would hit "still being written" without scripts. | Write 4.1–4.5 from the outline. |
-| 4 | **Repo name / URL** | The site URL is `dccooper.github.io/<repo-name>/`. `aug_psych` is a working name, and renaming after links go out breaks them. | Rename before sharing, e.g. `agentic-psychologist` → `dccooper.github.io/agentic-psychologist/`. |
+| 4 | **Repo name / URL** | The site URL is `dccooper.github.io/<repo-name>/`, and renaming after links go out breaks them. | ✅ Done 2026-10-25: renamed `aug_psych` → `agentic-psychologist`. Site: `dccooper.github.io/agentic-psychologist/`. |
 | 5 | **Scrub check** | No test files ship (`QA/SHIP_SCRUB.md`). | ✅ Done 2026-10-25 (reset to zero). |
 
 Not blockers, but check: the `observability/` folder is ignored and never pushed; `planning/` is fine to be public (it's how an educator can see the reasoning).
@@ -46,7 +46,7 @@ The **front page** is a showcase. Everything else sits in a **guide section** be
 
 ## The download link
 
-Use a direct ZIP link on the site: `https://github.com/dccooper/<repo>/archive/refs/heads/main.zip`. One click, no "Code → Download ZIP" menu. Update `SETUP.md` step 5 and the README to match. (The unzipped folder is named `<repo>-main`; SETUP should say so.)
+Use a direct ZIP link on the site: `https://github.com/dccooper/agentic-psychologist/archive/refs/heads/main.zip`. One click, no "Code → Download ZIP" menu. Update `SETUP.md` step 5 and the README to match. (The unzipped folder is named `agentic-psychologist-main`; SETUP should say so.)
 
 ## Feedback from friends
 
@@ -68,9 +68,8 @@ Recommendation: a form for everyone, with Issues as an option. Either way, ask t
 
 ## Open questions
 
-1. **History:** rewrite to remove the screenshots (keeps history), or start fresh (simplest)? *Recommended: rewrite.*
-2. **Repo name** for the URL? *Recommended: `agentic-psychologist`.*
-3. **Visual direction** for the home page: your reference examples (PLAN §7.1 has been waiting on these).
-4. **Feedback channel:** form, Issues, or email? *Recommended: a form, with Issues as an option.*
-5. **Course title:** is "The Agentic Psychologist" final enough to put on a site? (It's still marked "working title.")
-6. **Concerns page in the preview:** ship it with the water comparison cut until it's sourced, or hold the whole page? *Recommended: ship it, cut the comparison.*
+1. ~~History~~ and ~~repo name~~: done (rewrite; `agentic-psychologist`).
+2. **Visual direction** for the home page: your reference examples (PLAN §7.1 has been waiting on these).
+3. **Feedback channel:** form, Issues, or email? *Recommended: a form, with Issues as an option.*
+4. **Course title:** is "The Agentic Psychologist" final enough to put on a site? (It's still marked "working title.")
+5. **Concerns page in the preview:** ship it with the water comparison cut until it's sourced, or hold the whole page? *Recommended: ship it, cut the comparison.*

@@ -1,5 +1,7 @@
 # Antigravity IDE setup: reference screenshots
 
+> **Screenshots removed (2026-10-25)** before the repo went public, because some showed personal information. Links to `screenshots/` below no longer resolve. The originals are kept privately by the author.
+
 Captured by David on 2026-10-24 (Windows, fresh setup). The source for `SETUP.md` and `lessons/SCREEN_GUIDE.md`.
 
 | # | Screen | Note |

@@ -1,5 +1,7 @@
 # QA handoff — Antigravity vertical slice 2
 
+> **Screenshots removed (2026-10-25)** before the repo went public, because some showed personal information. Links to `screenshots/` below no longer resolve. The originals are kept privately by the author.
+
 **Date:** 2026-10-24  
 **IDE:** Google Antigravity (not Cursor)  
 **Outcome:** 0 observed bugs, 3 instructional improvement notes. No fixes or tests have been implemented or verified by this package.

@@ -1,5 +1,7 @@
 # Course QA — Vertical Slice 1
 
+> **Screenshots removed (2026-10-25)** before the repo went public, because some showed personal information. Links to `screenshots/` below no longer resolve. The originals are kept privately by the author.
+
 **Handoff for coding agent** | Captured October 23–24, 2026
 
 ## Start here
