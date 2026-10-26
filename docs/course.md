@@ -81,7 +81,7 @@ Real, openly licensed research data and papers.
 | 4.4 Build it | Build it in 20-minute chunks. Your agent remembers where you left off. |
 | 4.5 Show it | Show someone, check it before anything goes public, and look back. |
 
-## Graduation (optional, coming later)
+## Graduation (optional, coming after 1.0)
 
 Version control with GitHub, publishing what's meant to be public, and where to go next.
 
