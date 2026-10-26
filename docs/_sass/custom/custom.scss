@@ -15,3 +15,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible, input:focus-visibl
 .main-content footer .text-grey-dk-100 {
   color: $nav-child-link-color !important;
 }
+// Sidebar theme credit: the theme's pale grey fails contrast in light mode (2.82:1).
+.side-bar .site-footer {
+  color: $nav-child-link-color;
+}
