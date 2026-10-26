@@ -6,7 +6,7 @@ description: Who made this, licenses, and credits.
 
 # About & credits
 
-**The Agentic Psychologist** is a free, open course that teaches psychologists the basics of AI agents by doing real work inside an AI-powered editor. It's made by David Cooper.
+**The Agentic Psychologist** is a free, open course that teaches psychologists the basics of AI agents by doing real work inside an AI-powered editor. It's made by [David Cooper, PsyD](https://www.linkedin.com/in/drdccooper/). You can read more of his writing and thoughts at [Something Better](https://somethingbetter.cc/).
 
 ## Licenses
 
