@@ -40,7 +40,7 @@ Many psychologists are wary of AI, often for good reasons. This page takes those
 
 **What's true.** It's a real and growing cost, and it's fair to weigh it.
 
-**Where we're still working.** We want to put the course's own footprint in proportion, with current, citable figures. We'd rather say nothing than stretch a number, so this section will be filled in once we've checked the sources.
+**Putting it in proportion.** Google [reports about 0.24 Wh of energy and 0.26 mL of water](https://cloud.google.com/blog/products/infrastructure/measuring-the-environmental-impact-of-ai-inference) per typical Gemini chat prompt. An agent like the one in this course does more work per message: it reads your files and carries the whole conversation, so [each message costs many times more](https://epoch.ai/gradient-updates/how-much-energy-does-chatgpt-use) ([one estimate for coding agents](https://simonpcouch.com/blog/2026-01-20-cc-impact/), [another](https://the-decoder.com/ai-agents-use-roughly-600-times-more-energy-than-a-simple-chat-prompt/)). Our rough estimate for the whole course is a few kilowatt-hours at most, in the same range as [streaming a season or two of TV](https://www.carbonbrief.org/factcheck-what-is-the-carbon-footprint-of-streaming-video-on-netflix/), and a few liters of cooling water, less than [one short shower](https://www.epa.gov/sites/default/files/2017-01/documents/ws-products-support-statement-showerheads.pdf). That estimate leaves out the water used to generate the electricity, and we'll replace it with real numbers once we've measured how many messages learners actually send.
 
 ### "Opting out" versus not knowing
 
