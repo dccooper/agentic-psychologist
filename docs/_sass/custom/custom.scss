@@ -10,3 +10,8 @@ a:focus-visible, button:focus-visible, summary:focus-visible, input:focus-visibl
   outline: 3px solid var(--uot-accent);
   outline-offset: 2px;
 }
+// Footer license line: the theme's grey fails contrast on Harbor dark (2.56:1). Use the nav grey,
+// which is the same grey in light mode and a readable one in dark.
+.main-content footer .text-grey-dk-100 {
+  color: $nav-child-link-color !important;
+}
