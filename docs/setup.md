@@ -37,7 +37,7 @@ Programmers use IDEs to write software, but you don't need to be a programmer to
 
 ## 1. Download the right app
 
-1. Go to **https://antigravity.google/download**.
+1. Go to **[antigravity.google/download](https://antigravity.google/download)**.
 2. Near the top, make sure your kind of computer is selected (**macOS**, **Windows**, …). It's usually picked for you.
 3. ⚠️ **The first download on the page is the wrong one.** It's called **Antigravity App**, and it's a different product. **Don't click its buttons. Scroll down.**
 
