@@ -1,0 +1,11 @@
+{%- comment -%}
+  A responsive YouTube player. youtube-nocookie.com is YouTube's privacy-enhanced mode:
+  no tracking cookies until the visitor presses play (the site uses no analytics).
+  Usage: {% include youtube.html id="VIDEO_ID" title="What the video is" %}
+{%- endcomment -%}
+<div class="video-embed">
+  <iframe src="https://www.youtube-nocookie.com/embed/{{ include.id }}?rel=0&cc_load_policy=1"
+    title="{{ include.title | escape }}" loading="lazy"
+    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>

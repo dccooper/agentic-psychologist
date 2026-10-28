@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480">
+  <!-- Stand-in for the narrator's photo (assets/author.jpg, kept out of the repo). -->
+  <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#DCEAF0"/><stop offset="1" stop-color="#A9C5D2"/></linearGradient></defs>
+  <rect width="640" height="480" fill="url(#g)"/>
+  <circle cx="320" cy="190" r="78" fill="#1F5F7A" opacity=".55"/>
+  <path d="M170 480c0-95 67-160 150-160s150 65 150 160z" fill="#1F5F7A" opacity=".55"/>
+</svg>

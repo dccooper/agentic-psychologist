@@ -18,6 +18,12 @@ You'll install a free app called **Antigravity IDE** (what's an IDE? see below),
 
 > **You don't need any technical experience.** If something here doesn't match your screen, that's normal (apps update often). Take your best guess, and once the tutor is running, tell it what happened.
 
+## Watch first: the orientation video (6 minutes)
+
+{% include youtube.html id="331ytCc_slY" title="New Student Orientation: installing Antigravity IDE and starting The Agentic Psychologist" %}
+
+The video walks through every step on this page, with captions. Prefer reading? The written steps below cover the same ground, and they're handy to keep open while you install. *(Curious how the video was made? See [How the video was made]({{ '/video/' | relative_url }}).)*
+
 ## First: what's an "IDE"?
 
 **IDE** stands for **integrated development environment**. That's a technical name for a simple idea: **one app that keeps everything for a project in one window.** You get a list of your files, a place to read and edit them, and (in newer IDEs) an **AI assistant that can work on those files with you**.

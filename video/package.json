@@ -1,0 +1,14 @@
+{
+  "name": "agentic-psychologist-video",
+  "private": true,
+  "description": "Renders the orientation video from orientation.html. See README.md.",
+  "type": "module",
+  "scripts": {
+    "preview": "node render.mjs --preview",
+    "render": "node render.mjs",
+    "stills": "node render.mjs --stills"
+  },
+  "dependencies": {
+    "playwright-core": "^1.49.1"
+  }
+}

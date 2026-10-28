@@ -15,3 +15,12 @@ QA/
 planning/
 docs/_design/
 lessons/OUTLINE.md
+
+# Orientation video: dependencies, renders, and the author's own media stay local.
+# The generated cue sheet and captions are kept so others can restyle without the audio.
+video/node_modules/
+video/build/*/*
+!video/build/*/cues.js
+!video/build/*/captions.srt
+video/assets/author.jpg
+video/media/

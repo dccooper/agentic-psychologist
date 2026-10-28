@@ -1,0 +1,6 @@
+{
+  "_about": "Hand corrections to take timings, in seconds within that line's own recording. Use when a flub and its retake were transcribed as one take, or the transcript's timing is wrong (check by listening, or with ffmpeg silencedetect). Re-recording a line? Delete its entry.",
+  "2":  { "start": 23.25, "why": "Flubbed first take (18.7-21.4s); the clean retake starts after the pause at 23.3s" },
+  "23": { "start": 95.05, "why": "False start 'To begin, click in the message box and' (91.1-93.2s); the retake starts at 95.1s" },
+  "30": { "start": 202.92, "why": "Whisper wrote a hallucinated repeat of line 29 over the word 'Welcome' (202.92-203.5s)" }
+}

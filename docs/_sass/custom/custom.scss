@@ -15,6 +15,23 @@ a:focus-visible, button:focus-visible, summary:focus-visible, input:focus-visibl
 .main-content footer .text-grey-dk-100 {
   color: $nav-child-link-color !important;
 }
+// Embedded video (_includes/youtube.html): full width, 16:9, rounded like the site's cards.
+.video-embed {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  max-width: 100%;
+  margin: 1rem 0 1.5rem;
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--uot-surface, #EEF3F5);
+}
+.video-embed iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
 // Sidebar theme credit: the theme's pale grey fails contrast in light mode (2.82:1).
 .side-bar .site-footer {
   color: $nav-child-link-color;

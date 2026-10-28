@@ -1,0 +1,379 @@
+1
+00:00:01,550 --> 00:00:04,530
+Welcome to the University of Tomorrow,
+
+2
+00:00:04,530 --> 00:00:07,850
+Department of Experimental Theoretical Psychology.
+
+3
+00:00:07,850 --> 00:00:13,330
+This is your orientation video. It replaces the orientation seminar,
+
+4
+00:00:13,330 --> 00:00:17,370
+which was cancelled when nobody could find the room.
+
+5
+00:00:17,690 --> 00:00:22,920
+I'm M. Pending, Acting Deputy Assistant Registrar. Provisionally.
+
+6
+00:00:22,920 --> 00:00:26,480
+In the next five minutes, we'll get you set up with your tutor.
+
+7
+00:00:26,480 --> 00:00:28,800
+You certainly don't need a technical background.
+
+8
+00:00:28,800 --> 00:00:31,480
+The department certainly doesn't have one.
+
+9
+00:00:32,350 --> 00:00:35,150
+Step one. Download the right app.
+
+10
+00:00:35,150 --> 00:00:38,270
+Google makes several things called Antigravity,
+
+11
+00:00:38,270 --> 00:00:42,430
+because naming things is hard, even for Google.
+
+12
+00:00:42,750 --> 00:00:45,730
+Go to Antigravity.google.com.
+
+13
+00:00:45,730 --> 00:00:50,410
+To the first thing on the page is called the Antigravity app.
+
+14
+00:00:50,410 --> 00:00:54,130
+This is not the one. Scroll past it. Keep scrolling.
+
+15
+00:00:54,130 --> 00:00:57,590
+Near the very bottom, in the smallest heading on the page,
+
+16
+00:00:57,590 --> 00:01:02,990
+is Antigravity IDE, Standalone. That's the one.
+
+17
+00:01:02,990 --> 00:01:06,010
+We filed a complaint about the font size.
+
+18
+00:01:06,330 --> 00:01:07,490
+Choose your kind of computer.
+
+19
+00:01:07,490 --> 00:01:11,630
+On Windows, the x64 button suits most everyone.
+
+20
+00:01:11,630 --> 00:01:13,650
+On a Mac, choose Apple Silicon.
+
+21
+00:01:13,650 --> 00:01:17,430
+If your Mac has an M-series chip, and Intel if it's older.
+
+22
+00:01:17,430 --> 00:01:22,000
+The written guide shows you how to check, if you're not sure.
+
+23
+00:01:22,870 --> 00:01:26,580
+On Windows, open the installer and click next until it stops asking.
+
+24
+00:01:26,580 --> 00:01:32,830
+One exception. Tick “Create a desktop icon”, so you can find it again.
+
+25
+00:01:33,150 --> 00:01:38,340
+On a Mac, open the file and drag Antigravity IDE into your Applications folder.
+
+26
+00:01:38,340 --> 00:01:42,600
+The first time you open it, your Mac may ask whether you're sure,
+
+27
+00:01:42,600 --> 00:01:47,190
+since it came from the internet. You are. Click open.
+
+28
+00:01:47,510 --> 00:01:48,260
+And that's the installation.
+
+29
+00:01:48,260 --> 00:01:52,840
+In point of fact, the department's own building project,
+
+30
+00:01:52,840 --> 00:01:55,920
+Procrastination Hall, has been installing for 11 years.
+
+31
+00:01:55,920 --> 00:01:58,670
+Opening next semester, they say.
+
+32
+00:01:59,540 --> 00:02:01,500
+Antigravity will ask you to sign in with Google.
+
+33
+00:02:01,500 --> 00:02:04,160
+A personal account is simplest.
+
+34
+00:02:04,160 --> 00:02:09,540
+University accounts sometimes block new apps, as university accounts do.
+
+35
+00:02:09,860 --> 00:02:13,900
+Then come a few setup screens. choose “Start fresh”.
+
+36
+00:02:13,900 --> 00:02:16,020
+Pick any theme you like.
+
+37
+00:02:16,020 --> 00:02:21,780
+And when it asks how you want to use the agent, choose Review-driven development.
+
+38
+00:02:21,780 --> 00:02:24,260
+That means the AI asks before it changes anything.
+
+39
+00:02:24,260 --> 00:02:27,820
+Which is more than this office does.
+
+40
+00:02:28,690 --> 00:02:32,250
+A quick step out of character. Hi, I'm David Cooper.
+
+41
+00:02:32,250 --> 00:02:34,970
+I'm a psychologist and I made this course.
+
+42
+00:02:34,970 --> 00:02:38,700
+Before we continue, a few things deserve a straight answer.
+
+43
+00:02:39,020 --> 00:02:43,230
+During setup, you'll see a security notice. In plain terms,
+
+44
+00:02:43,230 --> 00:02:52,670
+it says that an AI agent can read and change files and can make mistakes or be tricked into sending information somewhere it shouldn't.
+
+45
+00:02:52,670 --> 00:02:55,730
+That's true of every tool like this.
+
+46
+00:02:55,730 --> 00:02:58,930
+It's also why this course has one rule.
+
+47
+00:02:58,930 --> 00:03:03,330
+Never put real patient or research-participant data into this
+
+48
+00:03:03,330 --> 00:03:09,370
+course or into any AI tool your institution hasn't approved.
+
+49
+00:03:09,370 --> 00:03:15,140
+Everything in this course is either fictional or publicly available information.
+
+50
+00:03:15,460 --> 00:03:19,240
+The same screen asks whether Google can use your
+
+51
+00:03:19,240 --> 00:03:23,640
+interactions to improve its That box is checked by default.
+
+52
+00:03:23,640 --> 00:03:26,750
+It's your choice. Uncheck it if you prefer.
+
+53
+00:03:27,070 --> 00:03:30,730
+This course is free. Antigravity's free plan has usage limits.
+
+54
+00:03:30,730 --> 00:03:36,590
+So if you hit one, pause a lesson and pick up where you left off,
+
+55
+00:03:36,590 --> 00:03:43,120
+or feel free to try and change to another model that you might have available to you.
+
+56
+00:03:43,990 --> 00:03:48,490
+Ahem, okay, picking up where we left off.
+
+57
+00:03:49,360 --> 00:03:52,870
+Next, download the course itself. The link is on the setup page.
+
+58
+00:03:52,870 --> 00:03:58,170
+On Windows, you right-click the zip file, choose “Extract All”.
+
+59
+00:03:58,170 --> 00:04:01,990
+Don't just open it, the files won't work from inside the zip.
+
+60
+00:04:01,990 --> 00:04:04,820
+On a Mac, just double-click it.
+
+61
+00:04:05,140 --> 00:04:05,150
+In Antigravity,
+
+62
+00:04:05,150 --> 00:04:12,610
+choose Open Folder and pick the folder called “agentic-psychologist-main”.
+
+63
+00:04:12,930 --> 00:04:16,150
+It will ask whether or not you trust the author of these files.
+
+64
+00:04:16,150 --> 00:04:20,740
+Choose Yes. The tutor needs that permission to do its job.
+
+65
+00:04:21,610 --> 00:04:26,990
+And here it is. It only looks like the cockpit of a small aircraft.
+
+66
+00:04:26,990 --> 00:04:30,870
+Don't panic, you really only need three parts of it.
+
+67
+00:04:31,190 --> 00:04:35,980
+On the right, is the Agent Panel. This is where you talk to your tutor.
+
+68
+00:04:36,300 --> 00:04:38,980
+On the left, is the Explorer.
+
+69
+00:04:38,980 --> 00:04:42,220
+It's the course's filing cabinet, so to speak.
+
+70
+00:04:42,220 --> 00:04:46,580
+Unlike the department’s, however, everything is where it says it is.
+
+71
+00:04:46,900 --> 00:04:51,620
+In the middle is the Editor. A file opens here when you click on it.
+
+72
+00:04:51,940 --> 00:04:56,470
+Everything else for right now you can safely ignore. I know we do.
+
+73
+00:04:56,790 --> 00:04:59,840
+To begin, click in message box and type a forward slash,
+
+74
+00:04:59,840 --> 00:05:03,220
+and then the letters s, t, a.
+
+75
+00:05:03,540 --> 00:05:06,560
+You can press Tab to fill in the rest. This matters.
+
+76
+00:05:06,560 --> 00:05:09,700
+On some computers, typing the whole thing doesn't work.
+
+77
+00:05:09,700 --> 00:05:12,410
+But then go ahead and press Enter.
+
+78
+00:05:12,730 --> 00:05:17,780
+Now, we wait. On the free plan, replies can take a minute or two.
+
+79
+00:05:17,780 --> 00:05:23,200
+That's normal, and you'll see it working. No need to refresh.
+
+80
+00:05:23,200 --> 00:05:25,910
+Refreshing is how we broke the coffee machine.
+
+81
+00:05:26,780 --> 00:05:29,510
+When your tutor wants to change a file in the course,
+
+82
+00:05:29,510 --> 00:05:32,490
+it shows you exactly what it plans to change and asks.
+
+83
+00:05:32,490 --> 00:05:39,610
+Accept lets it make that change and reject means no and nothing happens.
+
+84
+00:05:39,610 --> 00:05:42,950
+Saying no is always safe if you're unsure.
+
+85
+00:05:43,270 --> 00:05:46,070
+It's like reviewing a trainee's note before you sign it.
+
+86
+00:05:46,070 --> 00:05:48,970
+Read first and then decide.
+
+87
+00:05:49,840 --> 00:05:51,000
+And that's your orientation.
+
+88
+00:05:51,000 --> 00:05:55,040
+From here your tutor takes you through it one step at a time.
+
+89
+00:05:55,040 --> 00:05:56,940
+About 20 minutes a lesson.
+
+90
+00:05:56,940 --> 00:05:59,660
+That's roughly how long the kettle takes now that
+
+91
+00:05:59,660 --> 00:06:03,790
+the coffee machine is temporarily still out of order.
+
+92
+00:06:04,110 --> 00:06:06,340
+If you get stuck type /im-stuck.
+
+93
+00:06:06,340 --> 00:06:11,190
+To see where you are you can type /my-progress.
+
+94
+00:06:11,510 --> 00:06:15,730
+Welcome to the department. We're glad you're here.
+
+95
+00:06:15,730 --> 00:06:17,350
+Provisionally at least.
