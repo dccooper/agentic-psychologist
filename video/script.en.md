@@ -21,7 +21,7 @@
 
 **1.** Welcome to the University of Tomorrow, Department of Experimental Theoretical Psychology. This is your orientation video. It replaces the orientation seminar, which was cancelled when nobody could find the room.
 
-**2.** I'm M. Pending, Acting Deputy Assistant Registrar. Provisionally. In the next five minutes, we'll get you set up with your tutor. You don't need any technical background. The department certainly doesn't have one.
+**2.** I'm M. Pending, Acting Deputy Assistant Registrar. Provisionally. In the next five minutes, we'll get you set up with your professor. You don't need any technical background. The department certainly doesn't have one.
 
 ### 1. Download the right app
 
@@ -77,7 +77,7 @@
 
 **16.** In Antigravity, choose "Open Folder," and pick the folder called "agentic-psychologist-main."
 
-**17.** [STRAIGHT] It will ask whether you trust the authors of these files. Choose "Yes." The tutor needs that permission to do its job.
+**17.** [STRAIGHT] It will ask whether you trust the authors of these files. Choose "Yes." Your professor needs that permission to do its job.
 
 ### 6. Your first look *(the prototype scene)*
 
@@ -85,7 +85,7 @@
 
 **18.** And here it is. It looks like the cockpit of a small aircraft. Don't panic. You only need three parts of it.
 
-**19.** On the right, the agent panel. That's where you talk to your tutor.
+**19.** On the right, the agent panel. That's where you talk to your professor.
 
 **20.** On the left, the Explorer. It's the course's filing cabinet. Unlike the department's, everything in it is where it says it is.
 
@@ -111,15 +111,15 @@
 
 *[on screen: a mock change card: the highlighted change, with Accept and Reject buttons]*
 
-**26.** When your tutor wants to change a file, it shows you exactly what it plans to change, and asks. "Accept" lets it make that one change. "Reject" means no, and nothing happens. Saying no is always safe.
+**26.** When your professor wants to change a file, it shows you exactly what it plans to change, and asks. "Accept" lets it make that one change. "Reject" means no, and nothing happens. Saying no is always safe.
 
-**27.** It's like reviewing a trainee's note before you sign it. Read first. Then decide.
+**27.** It's like reviewing a student's note before you sign it. Read first. Then decide.
 
 ### Close: end card
 
-*[on screen: crest; "From here, the tutor takes over."; the site address; /im-stuck and /my-progress]*
+*[on screen: crest; "From here, the professor takes over."; the site address; /im-stuck and /my-progress]*
 
-**28.** That's orientation. From here, your tutor takes you through it one step at a time, about twenty minutes a lesson. That's roughly how long the kettle takes, now that the coffee machine is temporarily out of order.
+**28.** That's orientation. From here, your professor takes you through it one step at a time, about twenty minutes a lesson. That's roughly how long the kettle takes, now that the coffee machine is temporarily out of order.
 
 **29.** If you get stuck, type slash im-stuck. To see where you are, slash my-progress.
 

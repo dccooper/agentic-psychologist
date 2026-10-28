@@ -91,7 +91,7 @@ window.STRINGS = {
     accept:        [26, "accept"],
     reject:        [26, "reject"],
     safe:          [26, "saying"],
-    trainee:       [27, "trainee"],
+    student:       [27, "student"],
     decide:        [27, "decide"],
     kettle:        [28, "kettle"],
     coffee:        [28, "temporarily"],
@@ -197,7 +197,7 @@ window.STRINGS = {
     trustQ: "Do you trust the authors of the files in this folder?",
     trustYes: "Yes, I trust the authors",
     trustNo: "No, I don’t trust the authors",
-    trustWhy: "The tutor needs this to do its job",
+    trustWhy: "The professor needs this to do its job",
 
     // First look
     windowTitle: "agentic-psychologist-main — Antigravity",
@@ -211,14 +211,14 @@ window.STRINGS = {
     command: "start-course",
     commandHint: "Start or resume the course",
     cockpit: "Don’t panic. You need three parts.",
-    areas: [["Agent panel", "talk to the tutor"], ["Explorer", "the course’s filing cabinet"], ["Editor", "where files open"]],
+    areas: [["Agent panel", "talk to the professor"], ["Explorer", "the course’s filing cabinet"], ["Editor", "where files open"]],
     ignore: "IGNORE FOR NOW",
     working: "Working",
     noRefresh: "No need to refresh",
     coffeeNote: "Coffee machine: out of order",
 
     // Accept or reject
-    sectionReview: "When the tutor wants to change a file",
+    sectionReview: "When the professor wants to change a file",
     changeFile: "workspace/progress.md",
     changeLines: [["ctx", "# Progress"], ["add", "Name: Sam"], ["add", "Current lesson: 0.1"], ["ctx", ""]],
     acceptBtn: "Accept", rejectBtn: "Reject",
@@ -229,7 +229,7 @@ window.STRINGS = {
     readFirst: "Read first. Then decide.",
 
     // End
-    takesOver: "From here, the tutor takes over.",
+    takesOver: "From here, the professor takes over.",
     perLesson: "~20 minutes a lesson",
     kettle: "About one kettle",
     commands: [["/im-stuck", "if you’re stuck"], ["/my-progress", "where you are"]],

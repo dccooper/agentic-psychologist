@@ -87,6 +87,15 @@ def align(script, rec, ids):
         found = matches(words, cursor, target) or matches(words, cursor, target, anchor=None)
         if not found:
             print(f"line {n}: no take found in {rec}", file=sys.stderr); continue
+        # A weaker match in the middle of a continuous take is the line repeating a word
+        # ("That's orientation… That's roughly how long"), not a retake.
+        kept = [found[0]]
+        for i in found[1:]:
+            p = kept[-1]
+            if i <= take_end(words, p, len(words)) and score(words, i, target) < score(words, p, target) - 0.15:
+                continue
+            kept.append(i)
+        found = kept
         first = found[0]
         nxt = len(words)
         if k + 1 < len(ids):
@@ -120,6 +129,8 @@ if __name__ == "__main__":
         result += align(script, rec, ids)
     for r in result:                                   # hand corrections where the transcript's timing is wrong
         o = overrides.get(r["line"], {})
+        if "rec" in o and os.path.basename(r["rec"]).replace(".json", "") != o["rec"]:
+            o = {}                                     # the fix belongs to another recording of this line
         if "start" in o:                               # words timed before the new start move up to it
             r["start"] = o["start"]
             for w in r["words"]:

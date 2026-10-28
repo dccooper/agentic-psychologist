@@ -1,0 +1,924 @@
+[
+ {
+  "start": 1.3400000000000003,
+  "end": 6.76,
+  "text": "I'm M. Pending, Acting Deputy Assistant Registrar, provisionally.",
+  "words": [
+   [
+    1.3400000000000003,
+    1.98,
+    " I'm"
+   ],
+   [
+    1.98,
+    2.3,
+    " M."
+   ],
+   [
+    2.32,
+    2.78,
+    " Pending,"
+   ],
+   [
+    2.98,
+    3.82,
+    " Acting"
+   ],
+   [
+    3.82,
+    4.2,
+    " Deputy"
+   ],
+   [
+    4.2,
+    4.84,
+    " Assistant"
+   ],
+   [
+    4.84,
+    5.6,
+    " Registrar,"
+   ],
+   [
+    5.76,
+    6.76,
+    " provisionally."
+   ]
+  ]
+ },
+ {
+  "start": 6.94,
+  "end": 10.2,
+  "text": "In the next five minutes, we'll get you set up with your professor.",
+  "words": [
+   [
+    6.94,
+    7.58,
+    " In"
+   ],
+   [
+    7.58,
+    7.8,
+    " the"
+   ],
+   [
+    7.8,
+    7.98,
+    " next"
+   ],
+   [
+    7.98,
+    8.2,
+    " five"
+   ],
+   [
+    8.2,
+    8.56,
+    " minutes,"
+   ],
+   [
+    8.64,
+    8.82,
+    " we'll"
+   ],
+   [
+    8.82,
+    8.94,
+    " get"
+   ],
+   [
+    8.94,
+    9.1,
+    " you"
+   ],
+   [
+    9.1,
+    9.34,
+    " set"
+   ],
+   [
+    9.34,
+    9.46,
+    " up"
+   ],
+   [
+    9.46,
+    9.62,
+    " with"
+   ],
+   [
+    9.62,
+    9.78,
+    " your"
+   ],
+   [
+    9.78,
+    10.2,
+    " professor."
+   ]
+  ]
+ },
+ {
+  "start": 10.98,
+  "end": 12.88,
+  "text": "You don't need any technical background.",
+  "words": [
+   [
+    10.76,
+    11.08,
+    " You"
+   ],
+   [
+    11.08,
+    11.66,
+    " don't"
+   ],
+   [
+    11.66,
+    11.8,
+    " need"
+   ],
+   [
+    11.8,
+    11.98,
+    " any"
+   ],
+   [
+    11.98,
+    12.34,
+    " technical"
+   ],
+   [
+    12.34,
+    12.88,
+    " background."
+   ]
+  ]
+ },
+ {
+  "start": 13.22,
+  "end": 15.58,
+  "text": "The department certainly doesn't have one.",
+  "words": [
+   [
+    13.22,
+    13.86,
+    " The"
+   ],
+   [
+    13.86,
+    14.24,
+    " department"
+   ],
+   [
+    14.24,
+    14.66,
+    " certainly"
+   ],
+   [
+    14.66,
+    15.18,
+    " doesn't"
+   ],
+   [
+    15.18,
+    15.36,
+    " have"
+   ],
+   [
+    15.36,
+    15.58,
+    " one."
+   ]
+  ]
+ },
+ {
+  "start": 18.54,
+  "end": 22.22,
+  "text": "It will ask whether you trust the author of these files.",
+  "words": [
+   [
+    18.54,
+    19.18,
+    " It"
+   ],
+   [
+    19.18,
+    19.38,
+    " will"
+   ],
+   [
+    19.38,
+    19.78,
+    " ask"
+   ],
+   [
+    19.78,
+    20.12,
+    " whether"
+   ],
+   [
+    20.12,
+    20.38,
+    " you"
+   ],
+   [
+    20.38,
+    20.7,
+    " trust"
+   ],
+   [
+    20.7,
+    20.94,
+    " the"
+   ],
+   [
+    20.94,
+    21.32,
+    " author"
+   ],
+   [
+    21.32,
+    21.62,
+    " of"
+   ],
+   [
+    21.62,
+    21.8,
+    " these"
+   ],
+   [
+    21.8,
+    22.22,
+    " files."
+   ]
+  ]
+ },
+ {
+  "start": 22.64,
+  "end": 23.76,
+  "text": "Choose yes.",
+  "words": [
+   [
+    22.64,
+    23.28,
+    " Choose"
+   ],
+   [
+    23.28,
+    23.76,
+    " yes."
+   ]
+  ]
+ },
+ {
+  "start": 24.66,
+  "end": 27.1,
+  "text": "Your professor needs that permission to do its job.",
+  "words": [
+   [
+    24.44,
+    24.76,
+    " Your"
+   ],
+   [
+    24.76,
+    25.2,
+    " professor"
+   ],
+   [
+    25.2,
+    25.62,
+    " needs"
+   ],
+   [
+    25.62,
+    25.9,
+    " that"
+   ],
+   [
+    25.9,
+    26.22,
+    " permission"
+   ],
+   [
+    26.22,
+    26.5,
+    " to"
+   ],
+   [
+    26.5,
+    26.64,
+    " do"
+   ],
+   [
+    26.64,
+    26.82,
+    " its"
+   ],
+   [
+    26.82,
+    27.1,
+    " job."
+   ]
+  ]
+ },
+ {
+  "start": 30.24,
+  "end": 32.58,
+  "text": "On the right, the agent panel.",
+  "words": [
+   [
+    30.24,
+    30.88,
+    " On"
+   ],
+   [
+    30.88,
+    31.06,
+    " the"
+   ],
+   [
+    31.06,
+    31.42,
+    " right,"
+   ],
+   [
+    31.46,
+    31.78,
+    " the"
+   ],
+   [
+    31.78,
+    32.26,
+    " agent"
+   ],
+   [
+    32.26,
+    32.58,
+    " panel."
+   ]
+  ]
+ },
+ {
+  "start": 32.94,
+  "end": 34.94,
+  "text": "That's where you talk to your professor.",
+  "words": [
+   [
+    32.94,
+    33.58,
+    " That's"
+   ],
+   [
+    33.58,
+    33.74,
+    " where"
+   ],
+   [
+    33.74,
+    33.9,
+    " you"
+   ],
+   [
+    33.9,
+    34.2,
+    " talk"
+   ],
+   [
+    34.2,
+    34.42,
+    " to"
+   ],
+   [
+    34.42,
+    34.6,
+    " your"
+   ],
+   [
+    34.6,
+    34.94,
+    " professor."
+   ]
+  ]
+ },
+ {
+  "start": 39.28,
+  "end": 41.7,
+  "text": "When your professor wants to change a file,",
+  "words": [
+   [
+    39.28,
+    39.92,
+    " When"
+   ],
+   [
+    39.92,
+    40.16,
+    " your"
+   ],
+   [
+    40.16,
+    40.48,
+    " professor"
+   ],
+   [
+    40.48,
+    40.8,
+    " wants"
+   ],
+   [
+    40.8,
+    41.0,
+    " to"
+   ],
+   [
+    41.0,
+    41.26,
+    " change"
+   ],
+   [
+    41.26,
+    41.4,
+    " a"
+   ],
+   [
+    41.4,
+    41.7,
+    " file,"
+   ]
+  ]
+ },
+ {
+  "start": 41.82,
+  "end": 45.66,
+  "text": "it shows you exactly what it plans to change and asks.",
+  "words": [
+   [
+    41.82,
+    42.28,
+    " it"
+   ],
+   [
+    42.28,
+    42.62,
+    " shows"
+   ],
+   [
+    42.62,
+    42.94,
+    " you"
+   ],
+   [
+    42.94,
+    43.46,
+    " exactly"
+   ],
+   [
+    43.46,
+    43.9,
+    " what"
+   ],
+   [
+    43.9,
+    44.02,
+    " it"
+   ],
+   [
+    44.02,
+    44.32,
+    " plans"
+   ],
+   [
+    44.32,
+    44.54,
+    " to"
+   ],
+   [
+    44.54,
+    44.92,
+    " change"
+   ],
+   [
+    44.92,
+    45.12,
+    " and"
+   ],
+   [
+    45.12,
+    45.66,
+    " asks."
+   ]
+  ]
+ },
+ {
+  "start": 46.46,
+  "end": 48.76,
+  "text": "Accept lets it make that one change.",
+  "words": [
+   [
+    46.46,
+    47.1,
+    " Accept"
+   ],
+   [
+    47.28,
+    47.66,
+    " lets"
+   ],
+   [
+    47.66,
+    47.82,
+    " it"
+   ],
+   [
+    47.82,
+    48.02,
+    " make"
+   ],
+   [
+    48.02,
+    48.22,
+    " that"
+   ],
+   [
+    48.22,
+    48.38,
+    " one"
+   ],
+   [
+    48.38,
+    48.76,
+    " change."
+   ]
+  ],
+  "_note": "Whisper heard 'Except,' for 'Accept' (line 26); corrected by hand"
+ },
+ {
+  "start": 49.06,
+  "end": 51.68,
+  "text": "Reject means no, and nothing happens.",
+  "words": [
+   [
+    49.06,
+    49.7,
+    " Reject"
+   ],
+   [
+    49.7,
+    50.06,
+    " means"
+   ],
+   [
+    50.06,
+    50.48,
+    " no,"
+   ],
+   [
+    50.66,
+    51.02,
+    " and"
+   ],
+   [
+    51.02,
+    51.24,
+    " nothing"
+   ],
+   [
+    51.24,
+    51.68,
+    " happens."
+   ]
+  ]
+ },
+ {
+  "start": 52.08,
+  "end": 54.2,
+  "text": "Saying no is always safe.",
+  "words": [
+   [
+    52.08,
+    52.72,
+    " Saying"
+   ],
+   [
+    52.72,
+    52.98,
+    " no"
+   ],
+   [
+    52.98,
+    53.28,
+    " is"
+   ],
+   [
+    53.28,
+    53.68,
+    " always"
+   ],
+   [
+    53.68,
+    54.2,
+    " safe."
+   ]
+  ]
+ },
+ {
+  "start": 57.2,
+  "end": 63.06,
+  "text": "It's like reviewing a student's note before you sign it. Read first, then decide.",
+  "words": [
+   [
+    57.2,
+    57.5,
+    " It's"
+   ],
+   [
+    57.5,
+    57.7,
+    " like"
+   ],
+   [
+    57.7,
+    58.28,
+    " reviewing"
+   ],
+   [
+    58.28,
+    58.56,
+    " a"
+   ],
+   [
+    58.56,
+    59.2,
+    " student's"
+   ],
+   [
+    59.2,
+    59.48,
+    " note"
+   ],
+   [
+    59.48,
+    59.88,
+    " before"
+   ],
+   [
+    59.88,
+    60.12,
+    " you"
+   ],
+   [
+    60.12,
+    60.44,
+    " sign"
+   ],
+   [
+    60.44,
+    60.66,
+    " it."
+   ],
+   [
+    60.94,
+    61.58,
+    " Read"
+   ],
+   [
+    61.58,
+    62.04,
+    " first,"
+   ],
+   [
+    62.18,
+    62.7,
+    " then"
+   ],
+   [
+    62.7,
+    63.06,
+    " decide."
+   ]
+  ],
+  "_note": "Re-transcribed from a clip (56.5-64 s): the full-file pass invented 'before reading it. Or' with zero-length words; first word's start set to where the waveform begins (57.2 s)"
+ },
+ {
+  "start": 66.08,
+  "end": 66.94,
+  "text": "That's orientation.",
+  "words": [
+   [
+    66.08,
+    66.62,
+    " That's"
+   ],
+   [
+    66.62,
+    66.94,
+    " orientation."
+   ]
+  ]
+ },
+ {
+  "start": 67.62,
+  "end": 71.7,
+  "text": "From here, your professor takes you through it one step at a time.",
+  "words": [
+   [
+    67.62,
+    68.16,
+    " From"
+   ],
+   [
+    68.16,
+    68.6,
+    " here,"
+   ],
+   [
+    68.68,
+    68.84,
+    " your"
+   ],
+   [
+    68.84,
+    69.28,
+    " professor"
+   ],
+   [
+    69.28,
+    69.76,
+    " takes"
+   ],
+   [
+    69.76,
+    69.98,
+    " you"
+   ],
+   [
+    69.98,
+    70.26,
+    " through"
+   ],
+   [
+    70.26,
+    70.44,
+    " it"
+   ],
+   [
+    70.44,
+    70.68,
+    " one"
+   ],
+   [
+    70.68,
+    71.04,
+    " step"
+   ],
+   [
+    71.04,
+    71.24,
+    " at"
+   ],
+   [
+    71.24,
+    71.34,
+    " a"
+   ],
+   [
+    71.34,
+    71.7,
+    " time."
+   ]
+  ]
+ },
+ {
+  "start": 71.84,
+  "end": 73.68,
+  "text": "About twenty minutes a lesson.",
+  "words": [
+   [
+    71.84,
+    72.32,
+    " About"
+   ],
+   [
+    72.32,
+    72.78,
+    " twenty"
+   ],
+   [
+    72.78,
+    73.22,
+    " minutes"
+   ],
+   [
+    73.22,
+    73.4,
+    " a"
+   ],
+   [
+    73.4,
+    73.68,
+    " lesson."
+   ]
+  ]
+ },
+ {
+  "start": 74.32,
+  "end": 76.26,
+  "text": "That's roughly how long the kettle takes,",
+  "words": [
+   [
+    74.32,
+    74.86,
+    " That's"
+   ],
+   [
+    74.86,
+    75.1,
+    " roughly"
+   ],
+   [
+    75.1,
+    75.36,
+    " how"
+   ],
+   [
+    75.36,
+    75.56,
+    " long"
+   ],
+   [
+    75.56,
+    75.74,
+    " the"
+   ],
+   [
+    75.74,
+    75.94,
+    " kettle"
+   ],
+   [
+    75.94,
+    76.26,
+    " takes,"
+   ]
+  ]
+ },
+ {
+  "start": 76.46,
+  "end": 79.26,
+  "text": "now that the coffee machine is temporarily out of order.",
+  "words": [
+   [
+    76.46,
+    76.84,
+    " now"
+   ],
+   [
+    76.84,
+    77.08,
+    " that"
+   ],
+   [
+    77.08,
+    77.18,
+    " the"
+   ],
+   [
+    77.18,
+    77.44,
+    " coffee"
+   ],
+   [
+    77.44,
+    77.76,
+    " machine"
+   ],
+   [
+    77.76,
+    78.02,
+    " is"
+   ],
+   [
+    78.02,
+    78.42,
+    " temporarily"
+   ],
+   [
+    78.42,
+    78.88,
+    " out"
+   ],
+   [
+    78.88,
+    79.0,
+    " of"
+   ],
+   [
+    79.0,
+    79.26,
+    " order."
+   ]
+  ]
+ }
+]

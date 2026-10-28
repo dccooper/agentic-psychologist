@@ -71,14 +71,14 @@ Design tokens (colors, fonts, corner radius, shadows) are CSS variables at the t
 | Pickup | 14a | M. Pending returns; a tracker shows steps 1–3 done and step 4 next |
 | Get the course | 15–17 | Extract the ZIP (Windows) or double-click (Mac), Open Folder, trust the authors |
 | First look | 18–25 | The Antigravity window; agent panel, Explorer and editor in turn; typing `/sta`, Tab, Enter; waiting |
-| Accept or reject | 26–27 | A proposed change with Accept and Reject; a trainee's note being signed |
-| End | 28–30 | "From here, the tutor takes over", `/im-stuck`, `/my-progress`, the site address, the music credit |
+| Accept or reject | 26–27 | A proposed change with Accept and Reject; a student's note being signed |
+| End | 28–30 | "From here, the professor takes over", `/im-stuck`, `/my-progress`, the site address, the music credit |
 
 ## Sound
 
 ### Voice
 
-The narration was recorded as four WAV files, read line by line with a pause between lines, plus one pickup recorded later. The pipeline then:
+The narration was recorded as four WAV files, read line by line with a pause between lines, plus two pickup files recorded later: the "picking up where we left off" line (14a), and six lines re-read when the course's AI guide was renamed from "tutor" to "professor". The pipeline then:
 
 1. **Transcribes** each file with word timestamps (faster-whisper, `large-v3` model, run locally).
 2. **Matches every script line to its take.** When a line was read twice, the last good take wins. When a flub and its retake were heard as one take, a hand correction in [`pipeline/overrides.json`](https://github.com/dccooper/agentic-psychologist/blob/main/video/pipeline/overrides.json) moves the start, with a note saying why.
@@ -116,10 +116,12 @@ node render.mjs --stills 12,95,240
 # Rebuild from recordings (put your WAVs in media/en/):
 python pipeline/transcribe.py transcripts/en media/en/*.wav
 python pipeline/align.py script.en.md pipeline/aligned.json \
-  transcripts/en/overview_video_lines_1-10.json:1-10 \
-  transcripts/en/straight_interjection_lines11-14.json:11-14 \
-  transcripts/en/Picking_up.json:14a \
-  transcripts/en/overview_video_lines_15-30.json:15-30
+  transcripts/en/overview_video_lines_1-10.json:1-10 transcripts/en/pickups_professor.json:2 \
+  transcripts/en/straight_interjection_lines11-14.json:11-14 transcripts/en/Picking_up.json:14a \
+  transcripts/en/overview_video_lines_15-30.json:15-30 \
+  transcripts/en/pickups_professor.json:17 transcripts/en/pickups_professor.json:19 \
+  transcripts/en/pickups_professor.json:26 transcripts/en/pickups_professor.json:27 \
+  transcripts/en/pickups_professor.json:28
 python pipeline/build_audio.py pipeline/aligned.json pipeline/scenes.json media/en build/en --music media/Wholesome.mp3
 
 node render.mjs --preview                    # quick: 960×540, 24 fps, ~3 minutes
@@ -134,7 +136,9 @@ node render.mjs                              # final: 1920×1080, 30 fps → bui
 
 **Fix a caption.** Captions come from what was said. To correct the speech-to-text's spelling, add a rule to `captionFixes` in `strings.en.js`; for example, it heard "golf machine" for "coffee machine".
 
-**Re-record a line.** Record it alone, transcribe it, and pass it to `align.py` as `pickup.json:17`, after the recording it replaces. Delete any entry for that line in `overrides.json`.
+**Re-record a line.** Record it alone (several lines can share one file), transcribe it, and pass it to `align.py` once per line, as `pickup.json:17`, after the recording it replaces; the last take wins. Each entry in `overrides.json` names the recording it fixes (`"rec"`), so it won't move the new take. The build command above does this for the "professor" pickups (lines 2, 17, 19, 26, 27 and 28).
+
+If speech-to-text garbles a stretch (it invented "before reading it. Or" in line 27), transcribe just that stretch as its own clip and paste its words into the transcript, shifted to the clip's start; the transcript entry carries a `_note` saying so.
 
 **Move an animation.** Visual beats are pinned to spoken words in `anchors` (in `strings.en.js`). For example, `intel: [5, "intel"]` means "when *Intel* is said in line 5". Change the word, or add seconds as a third value.
 

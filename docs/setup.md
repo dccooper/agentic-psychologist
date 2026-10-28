@@ -20,7 +20,7 @@ You'll install a free app called **Antigravity IDE** (what's an IDE? see below),
 
 ## Watch first: the orientation video (6 minutes)
 
-{% include youtube.html id="331ytCc_slY" title="New Student Orientation: installing Antigravity IDE and starting The Agentic Psychologist" %}
+{% include youtube.html id="KRvJdiSAlo8" title="New Student Orientation: Installing Antigravity IDE for The Agentic Psychologist" %}
 
 The video walks through every step on this page, with captions. Prefer reading? The written steps below cover the same ground, and they're handy to keep open while you install. *(Curious how the video was made? See [How the video was made]({{ '/video/' | relative_url }}).)*
 
