@@ -98,7 +98,14 @@ The app opens to an empty window. On the right, the agent panel shows a warning:
 | **How do you want to use the Antigravity IDE Agent?** | **Review-driven development** (marked *Recommended*). The AI checks with you before changing things, and reviewing its work is a big part of this course. |
 | **Configure Your Editor** | Leave **Normal** and **Recommended** selected. Click **Next**. |
 | **Build with Google** | Leave everything **unchecked**. You won't need these. Click **Next**. |
-| **Security Notice & Data Use** | Read it. The first box (letting Google use your interactions to improve the product) **is checked by default, and it's your choice.** Uncheck it if you prefer. The email box is optional. Click **Next**. |
+| **Security Notice & Data Use** | Read it (there's more about it just below). The first box (letting Google use your interactions to improve the product) **is checked by default, and it's your choice.** Uncheck it if you prefer. The email box is optional. Click **Next**. |
+
+> **About the security notice.** It warns that AI agents carry risks, including **data exfiltration**: data being sent somewhere you didn't intend. That sounds alarming, and it's meant to make you pause. Here's why the risk exists: an agent can read your files, run commands, and open web pages. A file or web page could contain hidden instructions that trick it into sending your data somewhere. **In this course:**
+>
+> - Every file is **fictional**. There's nothing real to leak. That's also why the course has one rule: no real patient or research data, ever.
+> - The agent **asks before it changes a file or runs a command**, and you can say no. The course shows you how to read those requests.
+>
+> The warning is honest, and it's a good one to remember if you use agents on real work later. It isn't a reason to stop here.
 
 You'll land on a start screen with two big buttons: **Open Folder** and **Clone Repository**. Leave it open, and get the course next.
 
@@ -132,15 +139,18 @@ If you can't find these, skip this step and tell the tutor. It isn't required.
 ## 8. Start the course
 
 1. Find the **agent panel**. It's usually already open on the right, with a message box that says *"Ask anything, @ to mention, / for actions"*. If it isn't, press **Ctrl+L** (Windows) or **Cmd+L** (Mac).
-2. Type:
+2. Type **`/sta`**, then press **Tab**. Antigravity fills in the rest, and you'll see a small **start-course** tag in the message box.
+3. Press **Enter**.
 
-   ```
-   /start-course
-   ```
+> **Use Tab for every course command.** Typing a command out in full doesn't always work (testers on a Mac found `/start-course` did nothing until they used Tab). Type the slash and the first few letters, then press **Tab**. If you do type it out and nothing happens, the tutor should still understand *"start the course"* in plain words.
 
-   It turns into a small **start-course** tag as you type. **Shortcut:** type the first few letters (`/sta`) and press **Tab** to fill in the rest. Then press **Enter**.
+The tutor takes it from here. 🎓
 
-The tutor takes it from here. Replies can take a few seconds, so be patient. 🎓
+### Two things to know before you start
+
+**Replies can take a minute or two.** That's normal, especially on the free plan and on older computers. While the AI is working, the agent panel shows its activity: a **Working…** line, or lines like *"Analyzed README.md"*. As long as you see that, wait. **Don't refresh, close the window, or send the message again.** If nothing has changed for five minutes, see [If something goes wrong](#if-something-goes-wrong).
+
+**The AI asks before it changes anything.** When it wants to edit a file, buttons appear: **Accept** and **Reject** (or **Accept all** / **Reject all** above the message box). **Accept** keeps that one change, to the file named right there. **Reject** undoes it. Neither one gives the AI permission for anything else, and it's always safe to say no. If you're unsure, ask the tutor *"What exactly would I be accepting?"* The first lesson walks you through it.
 
 ## If something goes wrong
 
@@ -149,3 +159,10 @@ The tutor takes it from here. Replies can take a few seconds, so be patient. �
 - **The browser didn't switch back to the app after signing in:** click **Open Antigravity IDE** in the browser's pop-up, or **Click here** on the "successfully authenticated" page.
 - **I can't find the app after installing:** on Windows, press the Windows key and type *Antigravity IDE*. (Make sure it says **IDE**. Plain "Antigravity" is the other app.)
 - **The tutor doesn't seem to know about the course:** make sure you opened the course folder itself (step 6.2), not the ZIP or a folder above it.
+- **Typing `/start-course` does nothing:** delete it, type `/sta`, and press **Tab**. Or just type *start the course* and press **Enter**.
+- **A reply is taking forever:** a minute or two is normal. If the agent panel hasn't changed in five minutes, start a new conversation (the **+** at the top of the agent panel) and type `/sta` + **Tab** again. Your place in the course is saved in a file, so nothing is lost.
+- **A skill you just made doesn't show up when you type `/`:** new skills only appear in a **new conversation** (the **+**). If it still isn't there, close Antigravity completely (on a Mac, **Antigravity → Quit**, or Cmd+Q) and open it again. If the course folder doesn't reopen, use **File → Open Recent**.
+- **The AI stops replying, or says you've reached a limit:** the free plan has a usage limit that resets weekly. Your progress is saved, so you can:
+  - **Wait for the reset** and pick up where you left off with `/sta` + **Tab**.
+  - **Try another model.** The model's name is shown in the message box (for example *Gemini … Flash*). Click it to see what else your plan offers. A different model may still have room.
+  - **Upgrade**: a paid Google plan raises the limit. The course doesn't require it.

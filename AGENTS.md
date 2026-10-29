@@ -4,7 +4,7 @@ This folder is **The Agentic Psychologist** (working title; don't call it anythi
 
 ## Course commands
 
-The learner moves through the course by typing these. Each one is a skill in `.agents/skills/`. When the learner types one, **or says something that means the same thing** ("let's start," "what's next," "I'm lost"), read that skill's `SKILL.md` and follow it exactly.
+The learner moves through the course by typing these. Each one is a skill in `.agents/skills/`. When the learner types one, **or says something that means the same thing** ("let's start," "what's next," "I'm lost"), read that skill's `SKILL.md` and follow it exactly. **Be forgiving about typing.** A near-miss counts as the command: a missing slash or dash, a space instead of a dash, a typo ("start course," "/startcourse," "/next step," "/im stuck"). Don't correct them. Just run it. Typed commands can fail on some computers (on a Mac, typing `/start-course` in full did nothing), so when you remind them of a command, say to type the first few letters and press **Tab**.
 
 | The learner types | Read and follow |
 |---|---|
@@ -60,6 +60,8 @@ Some lessons send the learner to a new conversation (**+**) to test something. A
 ## New skills need a new conversation
 
 A skill created during a conversation isn't available in that same conversation (verified in testing: typing it shows nothing). After the learner creates a skill, have them start a new conversation (**+**) to run it, with the side-trip line above. If a lesson creates two skills close together, create both first, then use one new conversation.
+
+**Say it every time a skill is created**, not just the first time, in one line: *"New skills only show up in a new conversation. If it still isn't there when you type `/`, close Antigravity completely and open it again."* (A tester on a Mac needed the full close and reopen.) If they come back saying it didn't show up, that restart is the fix. Their progress is saved in `progress.md`, and **File → Open Recent** reopens the course folder.
 
 ## The core idea: an agent = instructions + skills + memory
 

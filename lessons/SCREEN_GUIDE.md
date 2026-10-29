@@ -68,7 +68,7 @@ During setup the learner chose one of: **Strict Mode**, **Review-driven developm
 **Rules and skills (files the learner creates)** ⚠️
 - A **rule** is a `.md` file in `.agents/rules/` (Lesson 2.1). ✅ *QA pass 3:* with a rule file open, Antigravity shows an **Activation Mode** setting at the top: **Manual**, **Always On**, **Model Decision**, **Glob**. Use it instead of typing the `trigger:` header (typing both makes a duplicate). A rule with no mode is silently ignored. The file on disk then starts with `---` / `trigger: always_on` / `---`.
 - A **skill** is a folder in `.agents/skills/` with a `SKILL.md` inside, starting with `name` and `description` frontmatter (Lesson 2.3).
-- ✅ *QA pass 4:* a **new skill isn't available in the conversation that created it** (typing `/wrap-up` there showed nothing). Start a new conversation (**+**) to run it. ⚠️ Still unverified for rules; lessons use a new conversation to be safe.
+- ✅ *QA pass 4:* a **new skill isn't available in the conversation that created it** (typing `/wrap-up` there showed nothing). Start a new conversation (**+**) to run it. *Tester feedback (2026-10-27, Mac):* a new conversation wasn't always enough; closing Antigravity completely and reopening it worked. ⚠️ Still unverified for rules; lessons use a new conversation to be safe.
 
 **The terminal** ⚠️ **Terminal → New Terminal** in the top menu, or **Ctrl+`** (Mac: **Ctrl+`** too). It opens as a panel, usually along the bottom. On Windows it's PowerShell by default. `pwd`, `ls`, and `clear` work on both Windows and Mac. The trash-can icon on the panel closes it.
 
