@@ -86,7 +86,7 @@
 /* Why learn this (plain voice, out of character) */
 .uot-home .why-lead { display: grid; gap: 0 3rem; align-items: start; }
 .uot-home .why-lead h2 { margin-top: 0; }
-.uot-home .why-outcomes .outcomes { grid-template-columns: 1fr; margin: 0; padding-top: 1.5rem; gap: 1.75rem; font-size: 1.0625rem; }
+.uot-home .why-outcomes .outcomes { grid-template-columns: 1fr; margin: 0; padding-top: 1.5rem; gap: 2.25rem; font-size: 1.25rem; line-height: 1.55; }
 @media (min-width: 56rem) {
   .uot-home .why-lead { grid-template-columns: 1fr 1fr; }
   .uot-home .why-lead .author-note { margin-bottom: 0; }
