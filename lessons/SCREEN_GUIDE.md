@@ -83,8 +83,9 @@ During setup the learner chose one of: **Strict Mode**, **Review-driven developm
 - [x] Reviewing an AI edit: the Review card, per-change Accept/Reject, the Accept Changes bar, Files With Changes / Accept all (QA pass 2)
 - [ ] Whether a pending (unaccepted) edit is already saved to the file, and what Reject does
 - [ ] The microphone: dictation vs. voice chat; Windows/Mac permission prompts
-- [ ] Exact settings location for the Tab features (Autocomplete, Supercomplete, Tab-to-Jump, Tab-to-Import)
-- [ ] Where to change the review setting after setup
+- [ ] Exact settings location for the Tab features (Autocomplete, Supercomplete, Tab-to-Jump, Tab-to-Import). *Tester, 2026-10-30, Apple Silicon Mac:* no **Tab** section in Antigravity - Settings at all.
+- [ ] Where to change the review setting after setup. ⚠️ *Tester, 2026-10-30, Apple Silicon Mac:* **none of the step 4 setup screens appeared** (sign-in went straight to the start screen), so that learner never chose **Review-driven development** or saw the data-use box. Which review mode is the default then? If a Mac learner's edits are applied without an Accept/Reject prompt, the 0.1 and 1.1 review steps won't match their screen: ask what they see and adapt.
+- [ ] *Tester, 2026-10-30, Mac:* the course ZIP arrived already unzipped (Safari's default). Setup now says so.
 - [x] New Folder / New File and typing in Markdown worked (QA pass 2: the learner created `workspace/my-notes/first-week.md` by hand)
 - [ ] Free-plan usage limits view, and response times on the default model
 

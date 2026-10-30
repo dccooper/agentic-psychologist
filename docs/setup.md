@@ -111,6 +111,8 @@ The app opens to an empty window. On the right, the agent panel shows a warning:
 
 ## Step 4 of 8: The setup screens (7 short screens)
 
+> **You might not see these screens, especially on a Mac.** A tester on an Apple Silicon Mac went straight from signing in to the start screen. If you already see **Open Folder** and **Clone Repository**, you're done with this step: skip to [step 5](#step-5-of-8-get-the-course).
+
 | Screen | What to choose |
 |---|---|
 | **Welcome to Antigravity IDE** | Click **Next**. |
@@ -139,7 +141,7 @@ You'll land on a start screen with two big buttons: **Open Folder** and **Clone 
 1. **[Download the course (ZIP)](https://github.com/dccooper/agentic-psychologist/archive/refs/heads/main.zip).** (Or, on the course's [GitHub page](https://github.com/dccooper/agentic-psychologist), click the green **Code** button, then **Download ZIP**.)
 2. **Unzip it.**
    - **Windows:** right-click the ZIP and choose **Extract All…** → **Extract**. (Don't just double-click it. Opening files from inside a ZIP doesn't work.)
-   - **Mac:** double-click the ZIP. It unzips into a folder.
+   - **Mac:** your browser may have unzipped it for you (Safari does this by default). Look in **Downloads** for a folder called `agentic-psychologist-main`. If you see a `.zip` file instead, double-click it.
 3. Optionally, move the unzipped folder somewhere easy to find, like **Documents**.
 
 > **Already use Git?** You can skip the ZIP: click **Clone Repository** on the start screen, paste the course's GitHub address (`https://github.com/dccooper/agentic-psychologist`), and choose where to save it. This needs Git installed on your computer, and Antigravity doesn't include it. If you don't know what Git is, use the ZIP. You'll meet Git at the end of the course.
@@ -167,7 +169,7 @@ Antigravity can suggest text *while you type* in a file, shown as grey text you 
 2. Find the **Tab** section and turn **off**: **Autocomplete**, **Supercomplete**, **Tab-to-Jump**, and **Tab-to-Import**. ⚠️
 3. You can turn them back on any time after the course.
 
-If you can't find these, skip this step and tell the professor. It isn't required.
+**No Tab section?** Some versions don't have one (a tester on a Mac didn't). If you can't find these settings, skip this step. It isn't required, and you can tell the professor.
 
 **✅ Done when:** the four **Tab** settings are off (or you've skipped this step, which is fine).
 
