@@ -86,8 +86,14 @@
 /* Why learn this (plain voice, out of character) */
 .uot-home .why-intro, .uot-home .why-close { max-width: 44rem; font-size: 1.0625rem; }
 .uot-home .why h3 { margin-top: 2rem; }
+.uot-home .why-lead { display: grid; gap: 0 2.5rem; align-items: center; margin-top: 1.5rem; }
+@media (min-width: 56rem) {
+  .uot-home .why-lead { grid-template-columns: 1.6fr 1fr; }
+  .uot-home .why-lead .author-note { margin-bottom: 0; }
+  .uot-home .why-lead .why-intro { margin: 0; font-size: 1.1875rem; }
+}
 .uot-home .author-note {
-  max-width: 46rem; margin: 1.5rem 0 2rem; padding: 1.5rem 1.5rem 1.25rem;
+  margin: 0 0 1.5rem; padding: 1.5rem 1.5rem 1.25rem;
   background: var(--uot-surface); border: 1px solid var(--uot-border); border-left: 6px solid var(--uot-accent);
   border-radius: 6px;
 }
