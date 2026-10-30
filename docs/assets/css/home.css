@@ -88,7 +88,9 @@
 .uot-home .why-lead h2 { margin-top: 0; }
 .uot-home .why-outcomes .outcomes { grid-template-columns: 1fr; margin: 0; padding-top: 1.5rem; gap: 2.25rem; font-size: 1.25rem; line-height: 1.55; }
 @media (min-width: 56rem) {
-  .uot-home .why-lead { grid-template-columns: 1fr 1fr; }
+  .uot-home .why-lead { grid-template-columns: 1fr 1fr; align-items: stretch; }
+  .uot-home .why-outcomes { display: flex; flex-direction: column; }
+  .uot-home .why-outcomes .outcomes { flex: 1; align-content: space-between; padding-block: 1.5rem; }
   .uot-home .why-lead .author-note { margin-bottom: 0; }
 }
 .uot-home .author-note {
