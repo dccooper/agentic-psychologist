@@ -49,4 +49,4 @@ The content is **CC BY-SA 4.0** and the code is **MIT**. You can fork the [repos
 
 ## Tell us
 
-Using it, or thinking about it? We'd love to hear. *(Contact details coming soon.)*
+Using it, or thinking about it? We'd love to hear. **[Use the feedback form](https://docs.google.com/forms/d/e/1FAIpQLScOa7OC-TLVinv5Ljma0d_PRYZFlxe_HaswHk-rMUKGWFmj3w/viewform)**, and leave an email address if you'd like a reply.

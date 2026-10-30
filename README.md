@@ -17,6 +17,10 @@ A free, hands-on course where psychology students, clinicians, and researchers l
 
 The app looks technical. You don't need to be: you'll use three parts of it, and the professor shows you which.
 
+## Feedback
+
+Tried it? **[Tell us how it went](https://docs.google.com/forms/d/e/1FAIpQLScOa7OC-TLVinv5Ljma0d_PRYZFlxe_HaswHk-rMUKGWFmj3w/viewform)** (a short form; every question is optional).
+
 ## The one rule
 
 **Never put real patient or research-participant data into this course, or into any AI tool your institution hasn't approved.** Everything here is fictional or openly licensed public data.

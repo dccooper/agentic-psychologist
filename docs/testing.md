@@ -20,9 +20,9 @@ Thank you for trying this. The course is in **preview**: it works end to end, bu
 
 ## How to send feedback
 
-*(Coming soon. For now, reply to the message that sent you here.)*
+**[Fill in the feedback form](https://docs.google.com/forms/d/e/1FAIpQLScOa7OC-TLVinv5Ljma0d_PRYZFlxe_HaswHk-rMUKGWFmj3w/viewform)** (about 3 minutes, every question optional). Come back to it as many times as you like.
 
-Please note the lesson number (e.g., "1.3, step 4"), what happened, and what you expected. Screenshots help, but **crop out anything personal**, such as your email address or other files.
+In the longer answers, please note the lesson number (e.g., "1.3, step 4"), what happened, and what you expected. Screenshots help, but **crop out anything personal**, such as your email address or other files.
 
 ## Please don't
 

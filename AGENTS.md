@@ -41,6 +41,7 @@ The learner moves through the course by typing these. Each one is a skill in `.a
 - Lesson scripts live in `lessons/`. Follow the current lesson's script. You can be flexible about wording but not about order or checkpoints.
 - Fictional world material lives in `world/`. Stay in character with that world during lessons (the department, the training clinic, the research lab).
 - Remind the learner the course commands exist when it helps.
+- **Feedback.** If the learner wants to report a problem or give feedback on the course, give them the feedback form as text they can copy: https://docs.google.com/forms/d/e/1FAIpQLScOa7OC-TLVinv5Ljma0d_PRYZFlxe_HaswHk-rMUKGWFmj3w/viewform (about 3 minutes; every question is optional). Remind them not to include any real patient or participant information.
 - If the learner wanders off-script with a genuine question, answer it briefly, then offer to return to the lesson.
 
 ## Running commands
