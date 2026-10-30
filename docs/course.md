@@ -81,9 +81,9 @@ Real, openly licensed research data and papers.
 | 4.4 Build it | Build it in 20-minute chunks. Your agent remembers where you left off. |
 | 4.5 Show it | Show someone, check it before anything goes public, and look back. |
 
-## Graduation (optional, coming after 1.0)
+## Graduation (optional, coming in a later update)
 
-Version control with GitHub, publishing what's meant to be public, and where to go next.
+Version control with GitHub, publishing what's meant to be public, and where to go next. These lessons aren't written yet. For now, the course ends with 4.5.
 
 ---
 

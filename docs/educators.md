@@ -7,7 +7,7 @@ description: Using and adapting the course in your program.
 # For educators
 {: .no_toc }
 
-The course is free and openly licensed, so you can use it as it is or adapt it for your program. This is a short guide. A fuller one, with rubrics and facilitation tips from testing, is planned.
+The course is free and openly licensed, so you can use it as it is or adapt it for your program. This is a short guide. If a fuller one (rubrics, facilitation tips) would help your program, [tell us in the feedback form](https://docs.google.com/forms/d/e/1FAIpQLScOa7OC-TLVinv5Ljma0d_PRYZFlxe_HaswHk-rMUKGWFmj3w/viewform).
 
 <details open markdown="block">
   <summary>On this page</summary>

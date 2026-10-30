@@ -79,5 +79,5 @@ The course is free and openly licensed (CC BY-SA content, MIT code). It runs on 
 <details markdown="block">
 <summary><strong>What we still don't know</strong></summary>
 
-A lot: how these tools will be regulated, how reliable they'll become, and their long-term effects on work and learning. We'll add pointers to good further reading here.
+A lot: how these tools will be regulated, how reliable they'll become, and their long-term effects on work and learning. This page reflects what's known as of October 2026.
 </details>
