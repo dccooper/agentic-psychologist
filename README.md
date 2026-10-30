@@ -4,9 +4,9 @@
 
 A free, hands-on course where psychology students, clinicians, and researchers learn to use AI tools **inside the tool itself**. You'll work through practical exercises in Google Antigravity IDE, a free app that puts your files, an editor, and an AI agent in one window (IDE = "integrated development environment"; [what that means](https://dccooper.github.io/agentic-psychologist/setup/#first-whats-an-ide)), set in a fictional university psychology department, and finish by building your own reusable skills, an agent, and a small project.
 
-> 🚧 **Preview.** Shared with a few testers before a wider release. Course website: **https://dccooper.github.io/agentic-psychologist/**
+**Course website: https://dccooper.github.io/agentic-psychologist/**
 
-## Quick start (draft)
+## Quick start
 
 **Full step-by-step instructions: [the setup guide](https://dccooper.github.io/agentic-psychologist/setup/).** The short version:
 

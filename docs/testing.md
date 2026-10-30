@@ -1,30 +1,22 @@
 ---
-title: Testing the preview
+title: Feedback
 nav_order: 6
-description: For friends trying the preview. What to do, and how to tell us what broke.
+description: Tried the course? Tell us where you got stuck and what helped.
 ---
 
-# Testing the preview
+# Feedback
 
-Thank you for trying this. The course is in **preview**: it works end to end, but it hasn't been through many hands yet. Every place you get stuck is useful.
+Thank you for trying the course. Every place you got stuck is useful: it tells us what to fix next.
 
-## What to do
+**[Fill in the feedback form](https://docs.google.com/forms/d/e/1FAIpQLScOa7OC-TLVinv5Ljma0d_PRYZFlxe_HaswHk-rMUKGWFmj3w/viewform)** (about 3 minutes; every question is optional). Come back to it as often as you like, whether you did one lesson or the whole course.
 
-1. **Follow the [setup guide]({{ '/setup/' | relative_url }}) from the start**, on your own computer, as if you'd never seen this. Setup is where most people get stuck.
-2. **Type `/start-course` and go as far as you like.** Even one or two lessons helps. Modules 0–2 take about three hours in total, at your own pace.
-3. **Write down what happens as you go**, especially:
-   - anywhere you weren't sure what to do next;
-   - anywhere your screen didn't match what you were told;
-   - anything the professor got wrong, or did for you that you should have done;
-   - roughly how long each lesson took, and how long the professor took to reply.
+## What helps most
 
-## How to send feedback
-
-**[Fill in the feedback form](https://docs.google.com/forms/d/e/1FAIpQLScOa7OC-TLVinv5Ljma0d_PRYZFlxe_HaswHk-rMUKGWFmj3w/viewform)** (about 3 minutes, every question optional). Come back to it as many times as you like.
-
-In the longer answers, please note the lesson number (e.g., "1.3, step 4"), what happened, and what you expected. Screenshots help, but **crop out anything personal**, such as your email address or other files.
+- **Where you got stuck:** the lesson number (e.g., "1.3, step 4"), what happened, and what you expected.
+- **Where your screen didn't match** what the setup guide or the professor told you. Apps update often.
+- **Anything the professor got wrong**, or did for you that you should have done yourself.
+- **How long things took:** a lesson, or a reply from the professor.
 
 ## Please don't
 
-- Put any real patient, client, or research-participant information into the course. Everything you need is provided.
-- Share this link widely yet. It's a preview for friends.
+- Put any real patient, client, or research-participant information into the course, or into the form. Everything you need is provided.
