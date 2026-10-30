@@ -16,6 +16,8 @@ description: Install Antigravity IDE, sign in, open the course, and start. About
 
 You'll install a free app called **Antigravity IDE** (what's an IDE? see below), sign in with a Google account, and open the course in it. After that, the course teaches itself: an AI tutor inside the app takes over.
 
+**There are 8 steps.** Take them one at a time. Each step ends with a **✅ Done when** line, so you know it worked before you move on.
+
 > **You don't need any technical experience.** If something here doesn't match your screen, that's normal (apps update often). Take your best guess, and once the tutor is running, tell it what happened.
 
 ## Watch first: the orientation video (6 minutes)
@@ -30,18 +32,25 @@ The video walks through every step on this page, with captions. Prefer reading? 
 
 Programmers use IDEs to write software, but you don't need to be a programmer to use one. Picture a word processor and a filing cabinet in the same window, with a capable assistant beside you who can read your documents and make changes you approve.
 
-**Why use an IDE for this course, instead of a chat website like Gemini or ChatGPT?**
+**Fair warning: it's going to look technical.** Antigravity is built for programmers, so the first time you open it you'll see a lot of panels, icons, and file names that look like code. **That's normal, and you won't need most of it.** You'll use three parts:
 
-- A chat website only sees what you paste into it. In an IDE, the AI can **open your files, create new ones, and edit them**, with you reviewing each change.
-- It can **remember things by writing them down** in files, so your work doesn't vanish when the chat ends.
-- That's the difference between a chatbot that *talks* and an **agent** that *does work*. Learning to direct and check an agent is what this course is about.
-- It's also how the course teaches itself. The tutor is an AI agent that reads the lesson files and saves your progress.
+- **The agent panel:** where you talk to the tutor. You'll spend most of your time here.
+- **The Explorer:** the list of files, like a filing cabinet.
+- **The editor:** where a file opens when you click it, like a word processor.
+
+You can ignore everything else (the icons along the edge, the bar at the bottom, most of the menus). The tutor will point out anything else when you need it.
+
+**Why put up with an unfamiliar app instead of using a chat website like Gemini or ChatGPT?** Because this is where AI stops just *talking* and starts *doing work*. On a chat website, the AI only sees what you paste in, and its answers disappear when you close the tab. Here, it can open your files, draft new ones, and make changes **that you review and approve first**. It can also keep notes in files, so your work is still there tomorrow. That's what an **agent** is, and learning to direct and check one is the point of this course. (It's also how the course teaches itself: the tutor is an agent that reads the lesson files and saves your progress.)
+
+**Think of your first day with an electronic health record.** It looked overwhelming then too, and within a week you only noticed the five things you actually use.
 
 **Antigravity IDE** is Google's free IDE with a built-in AI agent. Google makes several products called "Antigravity," which is why step 1 is careful about which one to download.
 
 *(Curious for more? Wikipedia has a short overview: [Integrated development environment](https://en.wikipedia.org/wiki/Integrated_development_environment). You don't need it for the course.)*
 
-## 1. Download the right app
+---
+
+## Step 1 of 8: Download the right app
 
 1. Go to **[antigravity.google/download](https://antigravity.google/download)**.
 2. Near the top, make sure your kind of computer is selected (**macOS**, **Windows**, …). It's usually picked for you.
@@ -58,7 +67,11 @@ Programmers use IDEs to write software, but you don't need to be a programmer to
    - **Windows:** **Download for x64** works for almost all Windows PCs. Choose **ARM64** only if your laptop has a Snapdragon / ARM chip. To check, go to **Settings → System → About → System type**.
    - **Mac:** **Download for Apple Silicon** if your Mac has an M1, M2, M3 or newer chip. Choose **Download for Intel** for older Macs. To check, open **Apple menu → About This Mac → Chip / Processor**.
 
-## 2. Install it
+**✅ Done when:** the installer file is in your **Downloads** folder.
+
+---
+
+## Step 2 of 8: Install it
 
 Open the file you downloaded (usually in your **Downloads** folder).
 
@@ -75,7 +88,11 @@ Open the file you downloaded (usually in your **Downloads** folder).
 
 **Mac:** open the `.dmg` file and drag **Antigravity IDE** into **Applications**. Then open it from Applications.
 
-## 3. Sign in with Google
+**✅ Done when:** Antigravity IDE is open on your screen.
+
+---
+
+## Step 3 of 8: Sign in with Google
 
 The app opens to an empty window. On the right, the agent panel shows a warning: *"To use the agent, please login here."*
 
@@ -88,7 +105,11 @@ The app opens to an empty window. On the right, the agent panel shows a warning:
 
 > If a box called **Migrate Settings, Keybindings, and Extensions** pops up, click **Cancel**. It's only for people who used an older version of Antigravity.
 
-## 4. The setup screens (7 short steps)
+**✅ Done when:** the app says **Success**, and you've clicked **Next**.
+
+---
+
+## Step 4 of 8: The setup screens (7 short screens)
 
 | Screen | What to choose |
 |---|---|
@@ -109,7 +130,11 @@ The app opens to an empty window. On the right, the agent panel shows a warning:
 
 You'll land on a start screen with two big buttons: **Open Folder** and **Clone Repository**. Leave it open, and get the course next.
 
-## 5. Get the course
+**✅ Done when:** you see the start screen with **Open Folder** and **Clone Repository**.
+
+---
+
+## Step 5 of 8: Get the course
 
 1. **[Download the course (ZIP)](https://github.com/dccooper/agentic-psychologist/archive/refs/heads/main.zip).** (Or, on the course's [GitHub page](https://github.com/dccooper/agentic-psychologist), click the green **Code** button, then **Download ZIP**.)
 2. **Unzip it.**
@@ -119,14 +144,22 @@ You'll land on a start screen with two big buttons: **Open Folder** and **Clone 
 
 > **Already use Git?** You can skip the ZIP: click **Clone Repository** on the start screen, paste the course's GitHub address (`https://github.com/dccooper/agentic-psychologist`), and choose where to save it. This needs Git installed on your computer, and Antigravity doesn't include it. If you don't know what Git is, use the ZIP. You'll meet Git at the end of the course.
 
-## 6. Open the course in Antigravity
+**✅ Done when:** you have an unzipped folder called `agentic-psychologist-main`.
+
+---
+
+## Step 6 of 8: Open the course in Antigravity
 
 1. On the start screen, click **Open Folder** (or use the menu: **File → Open Folder…**).
 2. Choose the unzipped course folder, **`agentic-psychologist-main`**. It's the one that contains `README.md`, `lessons`, and `world`. (If you see just one folder inside another with the same name, go into it.)
 3. Antigravity asks whether you trust the authors of the files. Choose **Yes, I trust the authors**. The course needs this so the tutor can work.
 4. You should see the course's folders listed in the **Explorer** panel.
 
-## 7. Turn off typing suggestions (recommended, 2 minutes)
+**✅ Done when:** the **Explorer** lists the course's folders, including `lessons` and `world`.
+
+---
+
+## Step 7 of 8: Turn off typing suggestions (recommended, 2 minutes)
 
 Antigravity can suggest text *while you type* in a file, shown as grey text you accept with **Tab**. That's useful for programmers, but in this course it muddies a key question: *what did you write, and what did the AI write?* Turn it off for now. The AI tutor still works normally.
 
@@ -136,7 +169,11 @@ Antigravity can suggest text *while you type* in a file, shown as grey text you 
 
 If you can't find these, skip this step and tell the tutor. It isn't required.
 
-## 8. Start the course
+**✅ Done when:** the four **Tab** settings are off (or you've skipped this step, which is fine).
+
+---
+
+## Step 8 of 8: Start the course
 
 1. Find the **agent panel**. It's usually already open on the right, with a message box that says *"Ask anything, @ to mention, / for actions"*. If it isn't, press **Ctrl+L** (Windows) or **Cmd+L** (Mac).
 2. Type **`/sta`**, then press **Tab**. Antigravity fills in the rest, and you'll see a small **start-course** tag in the message box.
@@ -144,13 +181,15 @@ If you can't find these, skip this step and tell the tutor. It isn't required.
 
 > **Use Tab for every course command.** Typing a command out in full doesn't always work (testers on a Mac found `/start-course` did nothing until they used Tab). Type the slash and the first few letters, then press **Tab**. If you do type it out and nothing happens, the tutor should still understand *"start the course"* in plain words.
 
-The tutor takes it from here. 🎓
+**✅ Done when:** the tutor welcomes you. That's setup finished, and the tutor takes it from here. 🎓
 
 ### Two things to know before you start
 
 **Replies can take a minute or two.** That's normal, especially on the free plan and on older computers. While the AI is working, the agent panel shows its activity: a **Working…** line, or lines like *"Analyzed README.md"*. As long as you see that, wait. **Don't refresh, close the window, or send the message again.** If nothing has changed for five minutes, see [If something goes wrong](#if-something-goes-wrong).
 
 **The AI asks before it changes anything.** When it wants to edit a file, buttons appear: **Accept** and **Reject** (or **Accept all** / **Reject all** above the message box). **Accept** keeps that one change, to the file named right there. **Reject** undoes it. Neither one gives the AI permission for anything else, and it's always safe to say no. If you're unsure, ask the tutor *"What exactly would I be accepting?"* The first lesson walks you through it.
+
+---
 
 ## If something goes wrong
 
