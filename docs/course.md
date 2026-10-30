@@ -58,8 +58,8 @@ No client information, ever. These are projects you could use in your own practi
 | Lesson | What you do |
 |---|---|
 | 3A.1 Meet the clinic director | Turn a rambling voice memo into a project brief. Build a `/tidy-up` skill. |
-| 3A.2a–b Build a chief of staff | An agent that plans the director's week, preps meetings, and leaves itself handoff notes. |
-| 3A.3a–b Vibe code a clinic website | Build a one-page site by describing it, then check it for accuracy, professional ethics, accessibility, and who it leaves out. |
+| 3A.2–3A.3 Build a chief of staff | An agent that plans the director's week, preps meetings, and leaves itself handoff notes. |
+| 3A.4–3A.5 Vibe code a clinic website | Build a one-page site by describing it, then check it for accuracy, professional ethics, accessibility, and who it leaves out. |
 
 ### Lab path (the Foresight Lab)
 
@@ -68,8 +68,8 @@ Real, openly licensed research data and papers.
 | Lesson | What you do |
 |---|---|
 | 3B.1 Meet the lab | Turn vague requests into projects with a clear question each. Build a `/tidy-up` skill. |
-| 3B.2a–b Build a lab agent | An agent that builds a literature matrix and cites only what it was given. Then the "five more references" trap. |
-| 3B.3a–b Vibe code an analysis | Set the question first, check who's in the sample, run the analysis in Python, then compare it with the published, peer-reviewed version. |
+| 3B.2–3B.3 Build a lab agent | An agent that builds a literature matrix and cites only what it was given. Then the "five more references" trap. |
+| 3B.4–3B.5 Vibe code an analysis | Set the question first, check who's in the sample, run the analysis in Python, then compare it with the published, peer-reviewed version. |
 
 ## Module 4: Capstone
 

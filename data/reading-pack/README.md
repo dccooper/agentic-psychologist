@@ -1,4 +1,4 @@
-# Reading pack (Lab path, Lessons 3B.2a–b)
+# Reading pack (Lab path, Lessons 3B.2–3B.3)
 
 Five **real** published papers on future thinking, given to the lab agent for Dr. Lund's lit review. Each file holds the paper's title, authors, journal, DOI, and **abstract only**. Abstracts keep the pack small enough for the free plan, and they also make a point: **an abstract isn't the paper.** Before citing a finding for real, read the full article (every DOI link is free to read).
 
@@ -14,4 +14,4 @@ Five **real** published papers on future thinking, given to the lab agent for Dr
 
 **The rule for the lab agent:** it may cite **only** papers in this folder. If it wants to mention any other paper, it says so and asks you to find and add it.
 
-*For course maintainers:* this pack deliberately leaves out the paper that goes with the dataset in `data/` and its follow-ups, so the comparison in 3B.3b stays blind. Don't add them.
+*For course maintainers:* this pack deliberately leaves out the paper that goes with the dataset in `data/` and its follow-ups, so the comparison in 3B.5 stays blind. Don't add them.

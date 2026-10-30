@@ -1,6 +1,6 @@
 # Data
 
-This folder holds the **real, openly licensed public dataset** used on the Lab path (Lessons 3B.3a and 3B.3b). It is not fictional, and it contains no names or contact details: each row is an anonymous online participant, identified only by a random survey code.
+This folder holds the **real, openly licensed public dataset** used on the Lab path (Lessons 3B.4 and 3B.5). It is not fictional, and it contains no names or contact details: each row is an anonymous online participant, identified only by a random survey code.
 
 In the course story, Dr. Bello "puts it in the `data/` folder when we get to the analysis." Please don't open it before then. Deciding the question before looking at the data is part of the lesson.
 
@@ -21,4 +21,4 @@ In the course story, Dr. Bello "puts it in the `data/` folder when we get to the
 
 ## Why the rest of the OSF project isn't here
 
-The OSF project also contains the authors' own analysis scripts, and the data goes with a published, peer-reviewed paper. **Those are left out on purpose.** In 3B.3a you'll analyze the data with an AI agent without seeing the authors' work. In 3B.3b you'll fetch their paper and scripts and compare the two. Looking them up early spoils the experiment, so please wait.
+The OSF project also contains the authors' own analysis scripts, and the data goes with a published, peer-reviewed paper. **Those are left out on purpose.** In 3B.4 you'll analyze the data with an AI agent without seeing the authors' work. In 3B.5 you'll fetch their paper and scripts and compare the two. Looking them up early spoils the experiment, so please wait.

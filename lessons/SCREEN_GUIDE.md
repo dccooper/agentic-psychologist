@@ -2,7 +2,7 @@
 
 <!-- The professor reads this whenever it gives on-screen directions. Lessons point here instead of describing the screen themselves, so when Antigravity changes, this is the one file to update. -->
 
-- **Last verified:** 2026-10-24, Windows, Antigravity IDE (Standalone), from David's setup screenshots. **Antigravity IDE v2.5.5.**
+- **Last verified:** 2026-10-24, Windows, Antigravity IDE (Standalone), from the author's setup screenshots. **Antigravity IDE v2.5.5.**
 - **Status key:** ✅ seen in a test screenshot · ⚠️ inferred (usually from standard VS Code behavior; Antigravity is built on VS Code), not yet confirmed
 - **Setup** (download, Google sign-in, first-run screens) is in `docs/setup.md` (the course website's setup page). Learners do it before the professor exists.
 
@@ -53,7 +53,7 @@ During setup the learner chose one of: **Strict Mode**, **Review-driven developm
 
 **`progress.md` updates** appear in the same list, so the professor saves progress only at pause points and lesson ends (see `AGENTS.md`).
 
-**Model** ✅ The model picker sits in the message box. A fresh install (2026-10-24) defaulted to **Gemini 3.8 Flash High**. David has also seen Medium. Before sign-in it shows **No Model Selected**. Learners don't need to change it. ⚠️ Whether the Free plan allows other models is unknown. Never suggest switching models as a fix.
+**Model** ✅ The model picker sits in the message box. A fresh install (2026-10-24) defaulted to **Gemini 3.8 Flash High**. Medium has also been seen. Before sign-in it shows **No Model Selected**. Learners don't need to change it. ⚠️ Whether the Free plan allows other models is unknown. Never suggest switching models as a fix.
 
 **Voice input** ✅ (icon) / ⚠️ (behavior) A **microphone** icon sits in the message box, next to send. It presumably dictates into the box so you can read and edit before sending. Permission prompts are untested.
 
@@ -78,7 +78,7 @@ During setup the learner chose one of: **Strict Mode**, **Review-driven developm
 
 - [x] Google sign-in screens, installer screens, start screen (captured 2026-10-24, in `docs/setup.md`)
 - [x] Version: Antigravity IDE 2.5.5
-- [x] The trust prompt appears when opening the course folder (David, first install). Exact wording not captured
+- [x] The trust prompt appears when opening the course folder (the author's first install). Exact wording not captured
 - [x] Typing `/start-course` is recognized as a skill: it turns into a **start-course** chip in the message box (2026-10-24). *Still to confirm:* the professor then follows the skill correctly.
 - [x] Reviewing an AI edit: the Review card, per-change Accept/Reject, the Accept Changes bar, Files With Changes / Accept all (QA pass 2)
 - [ ] Whether a pending (unaccepted) edit is already saved to the file, and what Reject does
@@ -100,10 +100,10 @@ During setup the learner chose one of: **Strict Mode**, **Review-driven developm
 
 **Added for Slice 3 (paths):**
 - [x] Opening an HTML file via **Reveal in File Explorer** + double-click works, but it's too many steps (QA pass 4). Lessons now have the agent open it with a command (explained first)
-- [ ] The agent opening an HTML file in the browser with `Start-Process` (Windows) / `open` (Mac), one approval (3A.3a, 3B.3b)
-- [ ] Pasting a screenshot into the agent panel (optional in 3A.3a, 3A.3b)
-- [ ] Whether the agent can open a web address the learner gives it (the taste step, 3A.3a)
-- [ ] The terminal-command **Allow list** (described in Antigravity's settings docs under Request Review; a forum report says entries move after a restart in 2.5.5 on Windows). Mentioned in 3B.3a as optional and narrow, only if the learner asks
+- [ ] The agent opening an HTML file in the browser with `Start-Process` (Windows) / `open` (Mac), one approval (3A.4, 3B.5)
+- [ ] Pasting a screenshot into the agent panel (optional in 3A.4, 3A.5)
+- [ ] Whether the agent can open a web address the learner gives it (the taste step, 3A.4)
+- [ ] The terminal-command **Allow list** (described in Antigravity's settings docs under Request Review; a forum report says entries move after a restart in 2.5.5 on Windows). Mentioned in 3B.4 as optional and narrow, only if the learner asks
 - [ ] Whether an **edited** skill updates in a conversation that's already open (lessons rerun in a new conversation to be safe)
 
 **Added for Slice 4 (capstone):**
@@ -113,8 +113,8 @@ During setup the learner chose one of: **Strict Mode**, **Review-driven developm
 - [ ] Switching between two Antigravity windows on Windows and Mac (4.1–4.4)
 - [ ] Where the **data-use setting** lives after setup, and its wording (4.2 go-live checklist)
 - [ ] If an agent folder sits *inside* the course folder, does the course's `AGENTS.md` also apply? (4.1 warns against it)
-- [ ] Installing Python on a fresh Windows PC **by the agent** (`winget install` with Python's official ID): does winget work from Antigravity's terminal, does Windows show an admin prompt, and does the terminal need restarting afterward? Fallback: python.org installer with **Add python.exe to PATH** (3B.3a)
-- [ ] Same on a Mac with no Homebrew: what does the agent propose? (3B.3a)
-- [ ] `pip install pandas scipy matplotlib` works on Windows and Mac (3B.3a)
-- [ ] The agent can download from journals.plos.org and osf.io (3B.3b)
-- [ ] With several skills starting `/week` or `/meet`, Tab completes to which one? (3A.2, 3B.2)
+- [ ] Installing Python on a fresh Windows PC **by the agent** (`winget install` with Python's official ID): does winget work from Antigravity's terminal, does Windows show an admin prompt, and does the terminal need restarting afterward? Fallback: python.org installer with **Add python.exe to PATH** (3B.4)
+- [ ] Same on a Mac with no Homebrew: what does the agent propose? (3B.4)
+- [ ] `pip install pandas scipy matplotlib` works on Windows and Mac (3B.4)
+- [ ] The agent can download from journals.plos.org and osf.io (3B.5)
+- [ ] With several skills starting `/week` or `/meet`, Tab completes to which one? (3A.2–3A.3, 3B.2–3B.3)
