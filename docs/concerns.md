@@ -61,7 +61,7 @@ AI reflects the data it was trained on, and so does research. The course builds 
 <details markdown="block">
 <summary><strong>Losing skills</strong></summary>
 
-If the AI does the work, do you stop being able to? The course is built so it doesn't: the tutor never does your work for you, and you write, edit and decide throughout. The AI drafts; you judge.
+If the AI does the work, do you stop being able to? The course is built so it doesn't: the professor never does your work for you, and you write, edit and decide throughout. The AI drafts; you judge.
 </details>
 
 <details markdown="block">

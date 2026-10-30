@@ -1,10 +1,10 @@
-# Screen Guide: Antigravity IDE (tutor reference)
+# Screen Guide: Antigravity IDE (professor reference)
 
-<!-- The tutor reads this whenever it gives on-screen directions. Lessons point here instead of describing the screen themselves, so when Antigravity changes, this is the one file to update. -->
+<!-- The professor reads this whenever it gives on-screen directions. Lessons point here instead of describing the screen themselves, so when Antigravity changes, this is the one file to update. -->
 
 - **Last verified:** 2026-10-24, Windows, Antigravity IDE (Standalone), from David's setup screenshots. **Antigravity IDE v2.5.5.**
 - **Status key:** ✅ seen in a test screenshot · ⚠️ inferred (usually from standard VS Code behavior; Antigravity is built on VS Code), not yet confirmed
-- **Setup** (download, Google sign-in, first-run screens) is in `docs/setup.md` (the course website's setup page). Learners do it before the tutor exists.
+- **Setup** (download, Google sign-in, first-run screens) is in `docs/setup.md` (the course website's setup page). Learners do it before the professor exists.
 
 ## The rule for giving directions
 
@@ -17,7 +17,7 @@
 | **Explorer** | Heading **EXPLORER**, the course folder's name, then folders: `data`, `docs`, `lessons`, `planning`, `QA`, `workspace`, `world` … Usually on the left. | Finding and opening files |
 | **Activity bar** | A thin strip of icons along the edge of the window. The top icon (stacked pages) opens the Explorer. Others: Search, Source Control, Run, Extensions. | Switching what the side panel shows |
 | **Editor** | The large middle area. With nothing open it shows **Antigravity IDE — Code with Agent (Ctrl+L)**. Open files appear here as tabs. | Reading and editing files |
-| **Agent panel** | The conversation title at the top (e.g. "Start Course"), with **+** (new conversation), a clock icon (history), **…** and **×**. The message box at the bottom says *"Ask anything, @ to mention, / for actions"*. Usually on the right. | Talking to the tutor |
+| **Agent panel** | The conversation title at the top (e.g. "Start Course"), with **+** (new conversation), a clock icon (history), **…** and **×**. The message box at the bottom says *"Ask anything, @ to mention, / for actions"*. Usually on the right. | Talking to the professor |
 | **Status bar** | The thin bar at the very bottom (e.g. `main*`, `0 ⚠ 0`, **Antigravity - Settings**) | Ignore it for now |
 
 While the agent works, the agent panel shows its activity (e.g. *"Exploring 1 file, 1 folder"*, *"Analyzed README.md"*, *"Working…"*). Replies can take several seconds on the default model.
@@ -51,7 +51,7 @@ During setup the learner chose one of: **Strict Mode**, **Review-driven developm
 
 ⚠️ *Inferred, not confirmed:* the change is already written to the file while it's pending (the file on disk showed it), so **Reject** reverts it and **Accept** keeps it. If so, progress saves even before the learner accepts, unless they reject it.
 
-**`progress.md` updates** appear in the same list, so the tutor saves progress only at pause points and lesson ends (see `AGENTS.md`).
+**`progress.md` updates** appear in the same list, so the professor saves progress only at pause points and lesson ends (see `AGENTS.md`).
 
 **Model** ✅ The model picker sits in the message box. A fresh install (2026-10-24) defaulted to **Gemini 3.8 Flash High**. David has also seen Medium. Before sign-in it shows **No Model Selected**. Learners don't need to change it. ⚠️ Whether the Free plan allows other models is unknown. Never suggest switching models as a fix.
 
@@ -79,7 +79,7 @@ During setup the learner chose one of: **Strict Mode**, **Review-driven developm
 - [x] Google sign-in screens, installer screens, start screen (captured 2026-10-24, in `docs/setup.md`)
 - [x] Version: Antigravity IDE 2.5.5
 - [x] The trust prompt appears when opening the course folder (David, first install). Exact wording not captured
-- [x] Typing `/start-course` is recognized as a skill: it turns into a **start-course** chip in the message box (2026-10-24). *Still to confirm:* the tutor then follows the skill correctly.
+- [x] Typing `/start-course` is recognized as a skill: it turns into a **start-course** chip in the message box (2026-10-24). *Still to confirm:* the professor then follows the skill correctly.
 - [x] Reviewing an AI edit: the Review card, per-change Accept/Reject, the Accept Changes bar, Files With Changes / Accept all (QA pass 2)
 - [ ] Whether a pending (unaccepted) edit is already saved to the file, and what Reject does
 - [ ] The microphone: dictation vs. voice chat; Windows/Mac permission prompts
@@ -107,7 +107,7 @@ During setup the learner chose one of: **Strict Mode**, **Review-driven developm
 - [ ] Whether an **edited** skill updates in a conversation that's already open (lessons rerun in a new conversation to be safe)
 
 **Added for Slice 4 (capstone):**
-- [x] The tutor can copy files to a folder **outside** the course folder (a small script, one approval; QA pass 5)
+- [x] The professor can copy files to a folder **outside** the course folder (a small script, one approval; QA pass 5)
 - [ ] **File → New Window**, then **Open Folder**: labels, and whether Open Folder replaces the current window if no new window was opened first (4.1)
 - [ ] A second folder's `AGENTS.md` is read as always-on, and `/` finds its `.agents/skills/` with Tab completion (4.1)
 - [ ] Switching between two Antigravity windows on Windows and Mac (4.1–4.4)

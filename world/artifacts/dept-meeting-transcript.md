@@ -2,11 +2,11 @@
 
 *Department of Experimental Theoretical Psychology. Monday the 3rd, 3:00 pm, Seminar Room B (the one with the clock that runs eleven minutes fast, which has never once made a meeting end early). Auto-transcribed. Fictional.*
 
-**Present:** Dr. Miriam Okafor (Chair), Dr. Sam Reyes, Priya Nair, Dr. Henrik Lund, Dr. Aisha Bello, Jordan Kim, the new trainees.
+**Present:** Dr. Miriam Okafor (Chair), Dr. Sam Reyes, Priya Nair, Dr. Henrik Lund, Dr. Aisha Bello, Jordan Kim, the new students.
 
 ---
 
-**OKAFOR:** Right. Welcome, everyone, and a special welcome to our new trainees. This meeting is scheduled for ninety minutes, which I've always felt was optimistic in the wrong direction. Let's be efficient.
+**OKAFOR:** Right. Welcome, everyone, and a special welcome to our new students. This meeting is scheduled for ninety minutes, which I've always felt was optimistic in the wrong direction. Let's be efficient.
 
 **LUND:** Can I say something quickly about the grant?
 
@@ -36,7 +36,7 @@
 
 **PRIYA:** I'm aware. Several people who came on a Saturday are also aware. I'll fix the sign by Monday.
 
-**OKAFOR:** Wonderful. Jordan, the orientation schedule for the new trainees?
+**OKAFOR:** Wonderful. Jordan, the orientation schedule for the new students?
 
 **JORDAN:** Yep, it's basically done. I'll send it to them by Friday. It has a map. The map is mostly accurate.
 
@@ -58,7 +58,7 @@
 
 *[Pause of eight seconds. Nobody volunteers. The coffee machine, in the corner, makes a noise the software transcribes as "no."]*
 
-**OKAFOR:** Moving on. Last item. A few of you have asked about using AI tools for department work. I think we should revisit our guidance on that. Perhaps one of our new trainees could take a first look at what other departments do? No rush.
+**OKAFOR:** Moving on. Last item. A few of you have asked about using AI tools for department work. I think we should revisit our guidance on that. Perhaps one of our new students could take a first look at what other departments do? No rush.
 
 **JORDAN:** "No rush" in this department means "by yesterday, but kindly."
 

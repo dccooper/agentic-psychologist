@@ -18,7 +18,7 @@ About 25 short lessons, each around 20 minutes. Everyone takes Modules 0–2 tog
 
 ## How it works
 
-You work inside **Antigravity IDE**, a free app with your files, an editor, and an AI agent in one window. An **AI tutor** lives inside the course folder. Type `/start-course` and it guides you one step at a time, checks your work, and saves your place. You do the typing and clicking yourself, because doing it is how you learn it.
+You work inside **Antigravity IDE**, a free app with your files, an editor, and an AI agent in one window. An **AI professor** lives inside the course folder. Type `/start-course` and it guides you one step at a time, checks your work, and saves your place. You do the typing and clicking yourself, because doing it is how you learn it.
 
 Everything happens at a fictional place: the **University of Tomorrow's Department of Experimental Theoretical Psychology**. The emails, meetings and messy shared drives are made up, so you can practice without risk.
 
@@ -28,7 +28,7 @@ Everything happens at a fictional place: the **University of Tomorrow's Departme
 
 | Lesson | What you do |
 |---|---|
-| 0.1 Welcome to the department | Meet your tutor, find your way around, and make your first AI edit. |
+| 0.1 Welcome to the department | Meet your professor, find your way around, and make your first AI edit. |
 | 0.2 What never goes into an AI tool | Sort real-world scenarios: what's safe to paste, and what never is. |
 
 ## Module 1: Foundations
@@ -45,7 +45,7 @@ Everything happens at a fictional place: the **University of Tomorrow's Departme
 | Lesson | What you do |
 |---|---|
 | 2.1 Templates and rules | Save your format, and write a rule the AI follows every time. |
-| 2.2 Open the hood | Open the files that run your tutor, change its voice, and see why it remembers you. |
+| 2.2 Open the hood | Open the files that run your professor, change its voice, and see why it remembers you. |
 | 2.3 Build your first skill | Build `/meeting-to-actions`: your own procedure, run on command. |
 | 2.4 When the AI asks to run a command | Read a command before you approve it. |
 

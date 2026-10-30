@@ -4,7 +4,7 @@
 
 ---
 
-Okay, hi, it's Sam. New trainee, welcome, sorry this is a voice memo, I'm walking, I'm always walking.
+Okay, hi, it's Sam. New student, welcome, sorry this is a voice memo, I'm walking, I'm always walking.
 
 So. Things. The website. The clinic website is from 2017. It still says we have a "new" evening group. The group is not new. The group has ended. The trainee who made the website graduated, moved to Portugal, and I believe is very happy. Nobody else knows the password. Priya thinks it's written on a sticky note in the blue binder. The other blue binder.
 

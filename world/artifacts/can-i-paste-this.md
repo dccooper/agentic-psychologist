@@ -1,10 +1,10 @@
 **From:** Office of Research Compliance (Ward, Locke & Key), University of Tomorrow
-**To:** Incoming Trainees, Department of Experimental Theoretical Psychology
+**To:** Incoming Students, Department of Experimental Theoretical Psychology
 **Subject:** REQUIRED: AI Tools Data-Handling Exercise (complete before first use)
 
-Dear Trainee,
+Dear Student,
 
-Welcome to the University of Tomorrow. Before you use any AI tool for university work, the Office of Research Compliance asks every new trainee to complete the short exercise below.
+Welcome to the University of Tomorrow. Before you use any AI tool for university work, the Office of Research Compliance asks every new student to complete the short exercise below.
 
 **Why this matters.** AI tools send whatever you type or upload to a company's servers to be processed. Unless the University has approved a tool for a specific kind of information, putting that information into it may count as disclosing it. For clinical information this can violate HIPAA. For research data it can violate your IRB protocol and the consent participants gave.
 

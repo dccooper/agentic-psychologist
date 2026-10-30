@@ -1,5 +1,5 @@
 **From:** Dr. Aisha Bello, Postdoc / Lab Manager, Foresight Lab
-**To:** New Trainee
+**To:** New Student
 **Subject:** The dataset (and the rules)
 
 Hi,

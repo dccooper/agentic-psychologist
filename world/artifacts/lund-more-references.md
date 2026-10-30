@@ -1,5 +1,5 @@
 **From:** Dr. Henrik Lund, PI, Foresight Lab
-**To:** New Trainee
+**To:** New Student
 **Cc:** Dr. Aisha Bello
 **Subject:** RE: lit matrix!!
 
@@ -14,7 +14,7 @@ Henrik
 ---
 
 **From:** Dr. Aisha Bello
-**To:** New Trainee
+**To:** New Student
 **Subject:** RE: RE: lit matrix!!
 
 Translation, for your records: if a reference isn't in the reading pack, nobody has read it, including the agent. Check every citation against a real paper before it goes anywhere near the grant.

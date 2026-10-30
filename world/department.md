@@ -18,7 +18,7 @@ Like most departments, it's under-staffed and over-scheduled, and it has lots of
 
 ### You
 
-You're a **new first-year trainee** starting this week. You'll spend time in both the clinic and the lab before choosing where to focus. Your peer mentor, Jordan, has promised to "show you the ropes," which mostly means forwarding you a lot of messy files.
+You're a **new first-year student** starting this week. You'll spend time in both the clinic and the lab before choosing where to focus. Your peer mentor, Jordan, has promised to "show you the ropes," which mostly means forwarding you a lot of messy files.
 
 ### The people
 
@@ -40,9 +40,9 @@ The Pratchett side also makes the humor travel better. It leans less on American
 
 **Write in the style, never borrow the material.** No quotes, character names, places, or catchphrases from Pratchett's books (or from the Marx Brothers' scripts). Our jokes are our own.
 
-¹ *Footnotes are allowed in world artifacts. They are not allowed in tutor instructions, which stay plain.*
+¹ *Footnotes are allowed in world artifacts. They are not allowed in professor instructions, which stay plain.*
 
-- **The humor lives in the world** (emails, transcripts, signage, characters). **Tutor instructions stay clear and plain.** A nervous learner should never have to decode a joke to find out what to do next.
+- **The humor lives in the world** (emails, transcripts, signage, characters). **Professor instructions stay clear and plain.** A nervous learner should never have to decode a joke to find out what to do next.
 - **Punch at institutions, never at clients, patients, or mental illness.** The joke is bureaucracy, deadlines, and the coffee machine, never the people being served.
 - A light touch: about one gag per artifact. It seasons the material, it isn't the meal.
 

@@ -1,5 +1,5 @@
 **From:** Dr. Henrik Lund, PI, Foresight Lab
-**To:** New Trainee
+**To:** New Student
 **Cc:** Dr. Aisha Bello
 **Subject:** quick lit review (+ dashboard + grant)
 
@@ -18,7 +18,7 @@ Henrik
 ---
 
 **From:** Dr. Aisha Bello, Postdoc / Lab Manager, Foresight Lab
-**To:** New Trainee
+**To:** New Student
 **Subject:** RE: quick lit review (+ dashboard + grant)
 
 Hi, and welcome.

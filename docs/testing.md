@@ -15,8 +15,8 @@ Thank you for trying this. The course is in **preview**: it works end to end, bu
 3. **Write down what happens as you go**, especially:
    - anywhere you weren't sure what to do next;
    - anywhere your screen didn't match what you were told;
-   - anything the tutor got wrong, or did for you that you should have done;
-   - roughly how long each lesson took, and how long the tutor took to reply.
+   - anything the professor got wrong, or did for you that you should have done;
+   - roughly how long each lesson took, and how long the professor took to reply.
 
 ## How to send feedback
 

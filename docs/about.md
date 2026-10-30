@@ -11,7 +11,7 @@ description: Who made this, licenses, and credits.
 ## Licenses
 
 - **Course content:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Adapt it, credit the original, and share your changes alike.
-- **Code** (the tutor's instructions, skills, scripts): [MIT](https://github.com/dccooper/agentic-psychologist/blob/main/LICENSE-CODE).
+- **Code** (the professor's instructions, skills, scripts): [MIT](https://github.com/dccooper/agentic-psychologist/blob/main/LICENSE-CODE).
 
 ## Credits
 

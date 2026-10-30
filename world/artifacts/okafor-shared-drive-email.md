@@ -1,8 +1,8 @@
 **From:** Dr. Miriam Okafor, Chair
-**To:** Incoming Trainees
+**To:** Incoming Students
 **Subject:** The shared drive
 
-Dear Trainees,
+Dear Students,
 
 It has come to my attention that the shared drive has three folders named `FINAL`, `FINAL_actual`, and `USE THIS ONE`, and that none of them is final, actual, or the one to use.
 

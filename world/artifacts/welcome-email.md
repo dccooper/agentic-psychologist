@@ -1,8 +1,8 @@
 **From:** Dr. Miriam Okafor, Chair, Department of Experimental Theoretical Psychology
-**To:** Incoming Trainees
+**To:** Incoming Students
 **Subject:** Welcome to Tomorrow (Re: Re: Fwd: Welcome to Tomorrow DRAFT v3 FINAL)
 
-Dear New Trainees,
+Dear New Students,
 
 Welcome to the University of Tomorrow! We are delighted you chose us, and only slightly surprised.
 
@@ -10,7 +10,7 @@ A few things to know as you settle in:
 
 1. **Orientation** is Thursday at 9:00 a.m. in Room 101 of Procrastination Hall. Procrastination Hall is not yet open, so orientation will actually be in the Annex, Room 3B, which is the room next to the room that used to be 3B.
 
-2. **Your peer mentor** is Jordan Kim, a second-year trainee who works in both the Daybreak Clinic and the Foresight Lab. Jordan will send you a "survival guide." Please read it with an open mind and a grain of salt.
+2. **Your peer mentor** is Jordan Kim, a second-year student who works in both the Daybreak Clinic and the Foresight Lab. Jordan will send you a "survival guide." Please read it with an open mind and a grain of salt.
 
 3. **The Daybreak Clinic** (Dr. Sam Reyes, Director) and **the Foresight Lab** (Dr. Henrik Lund, PI) will both host you during your first weeks before you choose where to focus.
 

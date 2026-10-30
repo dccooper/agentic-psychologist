@@ -2,7 +2,7 @@
 
 *A hands-on AI course for psychologists, taught inside the tool. (Working title.)*
 
-A free, hands-on course where psychology trainees, clinicians, and researchers learn to use AI tools **inside the tool itself**. You'll work through practical exercises in Google Antigravity IDE, a free app that puts your files, an editor, and an AI agent in one window (IDE = "integrated development environment"; [what that means](https://dccooper.github.io/agentic-psychologist/setup/#first-whats-an-ide)), set in a fictional university psychology department, and finish by building your own reusable skills, an agent, and a small project.
+A free, hands-on course where psychology students, clinicians, and researchers learn to use AI tools **inside the tool itself**. You'll work through practical exercises in Google Antigravity IDE, a free app that puts your files, an editor, and an AI agent in one window (IDE = "integrated development environment"; [what that means](https://dccooper.github.io/agentic-psychologist/setup/#first-whats-an-ide)), set in a fictional university psychology department, and finish by building your own reusable skills, an agent, and a small project.
 
 > 🚧 **Preview.** Shared with a few testers before a wider release. Course website: **https://dccooper.github.io/agentic-psychologist/**
 
@@ -15,7 +15,7 @@ A free, hands-on course where psychology trainees, clinicians, and researchers l
 3. In Antigravity: **File → Open Folder** → choose the unzipped folder (`agentic-psychologist-main`).
 4. Open the agent panel (**Ctrl+L** / **Cmd+L**), type `/sta`, press **Tab**, then **Enter**. Replies can take a minute or two.
 
-The app looks technical. You don't need to be: you'll use three parts of it, and the tutor shows you which.
+The app looks technical. You don't need to be: you'll use three parts of it, and the professor shows you which.
 
 ## The one rule
 

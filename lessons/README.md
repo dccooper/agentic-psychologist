@@ -1,6 +1,6 @@
 # Lesson Order
 
-The tutor follows this order. Slice 1 lessons are marked **[S1]**, Slice 2 **[S2]**, Slice 3 **[S3]**, Slice 4 **[S4]**. Titles are working drafts.
+The professor follows this order. Slice 1 lessons are marked **[S1]**, Slice 2 **[S2]**, Slice 3 **[S3]**, Slice 4 **[S4]**. Titles are working drafts.
 
 **While the course is being built:** lessons without a script file are skipped (see the `/next-step` skill). With Slices 1–4 written, Modules 0–4 are in place: 0.1 → … → 2.4 → path choice → all of 3A or all of 3B → 4.1 … 4.5. Graduation comes after 1.0. Learners who skipped a lesson before it was written are offered it when they return (see `/start-course`).
 
