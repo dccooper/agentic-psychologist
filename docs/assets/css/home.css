@@ -86,9 +86,14 @@
 /* Why learn this (plain voice, out of character) */
 .uot-home .why-intro, .uot-home .why-close { max-width: 44rem; font-size: 1.0625rem; }
 .uot-home .why h3 { margin-top: 2rem; }
-.uot-home .author-note { max-width: 44rem; margin: 1.25rem 0 1.75rem; padding-left: 1.25rem; border-left: 4px solid var(--uot-accent); }
-.uot-home .author-note blockquote { margin: 0; font-size: 1.125rem; }
-.uot-home .author-note figcaption { font-weight: 700; }
+.uot-home .author-note {
+  max-width: 46rem; margin: 1.5rem 0 2rem; padding: 1.5rem 1.5rem 1.25rem;
+  background: var(--uot-surface); border: 1px solid var(--uot-border); border-left: 6px solid var(--uot-accent);
+  border-radius: 6px;
+}
+@media (min-width: 48rem) { .uot-home .author-note { padding: 2rem 2.25rem 1.5rem; } }
+.uot-home .author-note blockquote { margin: 0; font-size: 1.25rem; line-height: 1.55; color: var(--uot-text); }
+.uot-home .author-note figcaption { font-weight: 700; margin-top: .25rem; }
 .uot-home .outcomes { margin-bottom: 1.75rem; }
 
 /* The memo (hero visual). Paper stays light in dark mode. */
