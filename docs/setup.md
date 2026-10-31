@@ -187,7 +187,7 @@ Antigravity can suggest text *while you type* in a file, shown as grey text you 
 
 ### Two things to know before you start
 
-**Replies can take a minute or two.** That's normal, especially on the free plan and on older computers. While the AI is working, the agent panel shows its activity: a **Working…** line, or lines like *"Analyzed README.md"*. As long as you see that, wait. **Don't refresh, close the window, or send the message again.** If nothing has changed for five minutes, see [If something goes wrong](#if-something-goes-wrong).
+**Replies can take a minute or two.** That's normal, especially on the free plan and on older computers. While the AI is working, the agent panel shows its activity: a **Working…** line, or lines like *"Analyzed README.md"*. As long as you see that, wait. **Don't refresh, close the window, or send the message again.** It's fine to switch to your email while you wait. On the free plan, Module 1's four lessons can take over an hour, mostly waiting, so it's worth doing a lesson or two at a time. If nothing has changed for five minutes, see [If something goes wrong](#if-something-goes-wrong).
 
 **The AI asks before it changes anything.** When it wants to edit a file, buttons appear: **Accept** and **Reject** (or **Accept all** / **Reject all** above the message box). **Accept** keeps that one change, to the file named right there. **Reject** undoes it. Neither one gives the AI permission for anything else, and it's always safe to say no. If you're unsure, ask the professor *"What exactly would I be accepting?"* The first lesson walks you through it.
 

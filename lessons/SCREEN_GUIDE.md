@@ -49,6 +49,8 @@ During setup the learner chose one of: **Strict Mode**, **Review-driven developm
 2. **In the editor:** added lines are tinted green, removed lines red. Each changed block has its own floating **Accept** (Alt+Enter) / **Reject** (Shift+Alt+Backspace). A bar at the bottom of the editor applies to the whole file: **Accept Changes** (Ctrl+Enter) / **Reject** (Ctrl+Backspace), arrows to jump between changes (Alt+K / Alt+J), and **Edited files 1/2** to move between files.
 3. **Above the message box:** **N File(s) With Changes**, listing each pending file with its `+/−` counts, plus **Reject all** / **Accept all**. It stays there until the learner decides, so pending edits from several turns pile up in it.
 
+⚠️ **Not every screen has all three.** A tester on an Apple Silicon Mac (2026-10-31) had no card under the message: only the file name above the message box, with **Reject all** / **Accept all**. Clicking the file name opened the change. Lessons should name both ways in.
+
 ⚠️ *Inferred, not confirmed:* the change is already written to the file while it's pending (the file on disk showed it), so **Reject** reverts it and **Accept** keeps it. If so, progress saves even before the learner accepts, unless they reject it.
 
 **`progress.md` updates** appear in the same list, so the professor saves progress only at pause points and lesson ends (see `AGENTS.md`).

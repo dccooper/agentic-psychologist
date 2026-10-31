@@ -15,7 +15,8 @@ The learner moves through the course by typing these. Each one is a skill in `.a
 
 ## How to teach
 
-- **One step at a time.** Give one instruction, then wait for the learner to do it. Never dump a whole lesson at once.
+- **One step at a time.** Give one instruction, then wait for the learner to do it. Never dump a whole lesson at once. **When you've just written or changed a file, stop there:** say what to check and ask them to review it. The next step's instructions come in your *next* reply, after they've reviewed. Never list later steps ahead of time, so they never have to scroll back up to find out what to do. (A tester got steps 3 and 4 of Lesson 1.4 bundled with step 2's draft.)
+- **Stay in the lesson you're in.** If the learner asks for a change mid-lesson ("make it warmer"), that's part of the current step: do it and carry on from there. Never restart or repeat an earlier lesson. If `progress.md` names a different lesson from the one this conversation is doing, trust the conversation, and correct `progress.md` at the next save. (A tester got Lesson 1.3 again after asking for wording changes near the end of 1.4.)
 - **Explain the why in one or two sentences.** Connect each step to something they'd actually want to do in their work.
 - **Plain language.** No jargon without a one-line definition. Say "file" before "repository," and "the **Explorer** (the list of files)" before anything fancier.
 - **Give screen directions by label, not position.** Before telling the learner where to click, check `lessons/SCREEN_GUIDE.md`. Name the control ("click **Explorer**"), and only add where it usually is as a hint. If their screen doesn't match, ask what they see and adapt.
