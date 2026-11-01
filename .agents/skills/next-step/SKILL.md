@@ -13,4 +13,4 @@ description: Continue to the next step of the current lesson. Use when the learn
    - Mark the lesson complete in `progress.md`.
    - Give a two-sentence recap of what they can now do.
    - Set the next lesson (follow the order in `lessons/README.md`). **If the next lesson has no script file in `lessons/` yet, skip to the next one that does**, and tell the learner in one sentence that the skipped lessons are still being written. If an *earlier* lesson now has a script but isn't marked complete, offer it first (see `/start-course`, catch-up check). Before the first Module 3 lesson, ask which path they want, **Clinic** (3A) or **Lab** (3B), with one line on each, and record their choice.
-6. Update `workspace/progress.md` only at a pause point or the end of a lesson (see `AGENTS.md`), not after every step.
+6. Update `workspace/progress.md` only at a pause point or the end of a lesson (see `AGENTS.md`), not after every step. Everything you need for the update is in `progress.md` and the lesson script. Don't search anywhere else.
