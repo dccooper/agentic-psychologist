@@ -24,3 +24,4 @@ video/build/*/*
 !video/build/*/captions.srt
 video/assets/author.jpg
 video/media/
+video/pipeline/aligned.json

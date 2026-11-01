@@ -205,5 +205,5 @@ Antigravity can suggest text *while you type* in a file, shown as grey text you 
 - **A skill you just made doesn't show up when you type `/`:** new skills only appear in a **new conversation** (the **+**). If it still isn't there, close Antigravity completely (on a Mac, **Antigravity → Quit**, or Cmd+Q) and open it again. If the course folder doesn't reopen, use **File → Open Recent**.
 - **The AI stops replying, or says you've reached a limit:** the free plan has a usage limit that resets weekly. Your progress is saved, so you can:
   - **Wait for the reset** and pick up where you left off with `/sta` + **Tab**.
-  - **Try another model.** The model's name is shown in the message box (for example *Gemini … Flash*). Click it to see what else your plan offers. A different model may still have room.
+  - **Check for another model (paid plans).** On the free plan, Gemini Flash is usually the only model, so waiting is the way forward. On a paid plan, click the model's name in the message box (for example *Gemini … Flash*) to see what else it offers. A different model may still have room.
   - **Upgrade**: a paid Google plan raises the limit. The course doesn't require it.
