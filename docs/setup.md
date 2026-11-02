@@ -14,7 +14,7 @@ description: Install Antigravity IDE, sign in, open the course, and start. About
 {:toc}
 </details>
 
-You'll install a free app called **Antigravity IDE** (what's an IDE? see below), sign in with a Google account, and open the course in it. After that, the course teaches itself: an AI professor inside the app takes over.
+You'll install a free app called **Antigravity IDE** (what's an IDE? see below), sign in with a Google account, and open the course in it. After that, the course teaches itself: an AI "professor" inside the app takes over.
 
 **There are 8 steps.** Take them one at a time. Each step ends with a **✅ Done when** line, so you know it worked before you move on.
 
@@ -41,6 +41,8 @@ Programmers use IDEs to write software, but you don't need to be a programmer to
 You can ignore everything else (the icons along the edge, the bar at the bottom, most of the menus). The professor will point out anything else when you need it.
 
 **Why put up with an unfamiliar app instead of using a chat website like Gemini or ChatGPT?** Because this is where AI stops just *talking* and starts *doing work*. On a chat website, the AI only sees what you paste in, and its answers disappear when you close the tab. Here, it can open your files, draft new ones, and make changes **that you review and approve first**. It can also keep notes in files, so your work is still there tomorrow. That's what an **agent** is, and learning to direct and check one is the point of this course. (It's also how the course teaches itself: the professor is an agent that reads the lesson files and saves your progress.)
+
+**Why an IDE, and not something else?** Other tools can do agent work too, like Claude Code, Claude Cowork or a Gemini Gem. See [why the course uses Antigravity]({{ '/#why-antigravity' | relative_url }}) in the FAQ.
 
 **Think of your first day with an electronic health record.** It looked overwhelming then too, and within a week you only noticed the five things you actually use.
 

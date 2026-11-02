@@ -13,7 +13,7 @@ Thank you for trying the course. Every place you got stuck is useful: it tells u
 ## What helps most
 
 - **Where you got stuck:** the lesson number (e.g., "1.3, step 4"), what happened, and what you expected.
-- **Where your screen didn't match** what the setup guide or the professor told you. Apps update often.
+- **Where your screen didn't match** what the setup guide or the AI "professor" told you. Apps update often.
 - **Anything the professor got wrong**, or did for you that you should have done yourself.
 - **How long things took:** a lesson, or a reply from the professor.
 

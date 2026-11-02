@@ -12,7 +12,7 @@ tagline: AI agents for psychologists, in 20-minute lessons
     <div class="hero-text">
       <p class="eyebrow">For psychologists who don't know where to start with AI</p>
       <h1>Learn the basics of AI agents in 20-minute lessons. No coding required.</h1>
-      <p class="subhead">A free course for students, clinicians and researchers. You'll learn to hand an AI agent real work and to check what it gives back. A professor inside the tool walks you through it one step at a time.</p>
+      <p class="subhead">A free course for students, clinicians and researchers. You'll learn to hand an AI agent real work and to check what it gives back. Everyone learns the basics together, then picks a path: <strong>Clinic</strong>, for running a practice, or <strong>Lab</strong>, for research. An AI "professor" inside the tool walks you through it one step at a time.</p>
       <p class="actions">
         <a class="button" href="{{ '/setup/' | relative_url }}">Get started</a>
         <a class="secondary" href="#why">Why learn this?</a>
@@ -171,6 +171,13 @@ tagline: AI agents for psychologists, in 20-minute lessons
         <summary>I've never used a code editor. Can I do this?</summary>
         <p>Yes. That's who it's for. You won't write code. The setup guide shows every screen, and the first lessons are about finding your way around: where the files are, and how to talk to the professor. The professor gives one step at a time and checks your work before moving on.</p>
       </details>
+      <details id="why-antigravity">
+        <summary>Why Antigravity, and not a Gemini Gem, Claude Cowork or Claude Code?</summary>
+        <p>Fair question, especially since Antigravity looks technical. There are three reasons.</p>
+        <p><strong>Chat tools can't do the work this course teaches.</strong> A Gemini Gem, a custom GPT or a Claude Project is a chatbot with saved instructions. It only works with what you give it in the chat. It can't open the files in a folder on your computer, draft new ones, or keep its own notes there for tomorrow. Directing an agent that does those things, and checking what it did, is what the course is about.</p>
+        <p><strong>The tools that can do it are more intimidating, cost money, or both.</strong> Claude Code and tools like it were built for programmers, and many run in a terminal: a window of typed commands with no buttons. Claude Cowork is friendlier, but it needs a paid plan, like most of the others. Antigravity is free, and you'll only use three parts of it. The setup guide shows every screen.</p>
+        <p><strong>Could you use something else?</strong> Probably. The course is made of plain text files, so another agent tool could likely run it, but we've only tested it in Antigravity. If you try it elsewhere, <a href="{{ '/testing/' | relative_url }}">tell us how it went</a>.</p>
+      </details>
       <details>
         <summary>What happens to what I type?</summary>
         <p>What you type, and the files the AI reads, are sent to Google's AI models so they can reply. During setup, Antigravity may ask whether Google may use your interactions to improve its products. That box is checked by default, and you can uncheck it. (Some Mac users don't see that screen.) Either way, this is why the course has one firm rule: never put real patient or research-participant data into it. Everything you practice on is fictional or openly licensed.</p>
@@ -185,5 +192,16 @@ tagline: AI agents for psychologists, in 20-minute lessons
       </details>
     </div>
     <p class="after-faq"><a href="{{ '/concerns/' | relative_url }}">All real concerns</a></p>
+    <script>
+      // A link to one question (/#why-antigravity) opens that question.
+      (function () {
+        function openFromHash() {
+          var el = location.hash && document.getElementById(location.hash.slice(1));
+          if (el && el.tagName === 'DETAILS') { el.open = true; el.scrollIntoView(); }
+        }
+        openFromHash();
+        window.addEventListener('hashchange', openFromHash);
+      })();
+    </script>
   </div>
 </section>

@@ -18,7 +18,7 @@ About 25 short lessons, each around 20 minutes. Everyone takes Modules 0–2 tog
 
 ## How it works
 
-You work inside **Antigravity IDE**, a free app with your files, an editor, and an AI agent in one window. An **AI professor** lives inside the course folder. Type `/start-course` and it guides you one step at a time, checks your work, and saves your place. You do the typing and clicking yourself, because doing it is how you learn it.
+You work inside **Antigravity IDE**, a free app with your files, an editor, and an AI agent in one window. An **AI "professor"** lives inside the course folder. Type `/start-course` and it guides you one step at a time, checks your work, and saves your place. You do the typing and clicking yourself, because doing it is how you learn it.
 
 Everything happens at a fictional place: the **University of Tomorrow's Department of Experimental Theoretical Psychology**. The emails, meetings and messy shared drives are made up, so you can practice without risk.
 
